@@ -723,20 +723,51 @@ end
 
 -- ==================== COMPARTILHAMENTO COM OUTROS SCRIPTS LUA ====================
 
+-- Função auxiliar para obter ambiente compartilhado (compatibilidade com diferentes executores)
+local function getSharedEnv()
+    -- Tentar getgenv primeiro (mais comum)
+    if getgenv then
+        return getgenv()
+    end
+    -- Fallback para shared
+    if shared then
+        return shared
+    end
+    -- Último recurso: criar uma tabela global
+    if _G then
+        if not _G.BrainrotHunterShared then
+            _G.BrainrotHunterShared = {}
+        end
+        return _G.BrainrotHunterShared
+    end
+    return nil
+end
+
 -- Inicializar estrutura compartilhada para comunicação com outros scripts
-if not shared.BrainrotHunter then
-    shared.BrainrotHunter = {
-        brainrots = {},      -- Lista de todos os brainrots encontrados (10M+)
-        lastUpdate = 0,       -- Timestamp da última atualização
-        jobId = "",           -- JobId do servidor onde foram encontrados
-        version = 1           -- Versão da estrutura (para compatibilidade futura)
-    }
-    print("✅ Estrutura compartilhada BrainrotHunter inicializada!")
+local sharedEnv = getSharedEnv()
+if sharedEnv then
+    if not sharedEnv.BrainrotHunter then
+        sharedEnv.BrainrotHunter = {
+            brainrots = {},      -- Lista de todos os brainrots encontrados (10M+)
+            lastUpdate = 0,       -- Timestamp da última atualização
+            jobId = "",           -- JobId do servidor onde foram encontrados
+            version = 1           -- Versão da estrutura (para compatibilidade futura)
+        }
+        print("✅ Estrutura compartilhada BrainrotHunter inicializada!")
+    end
+else
+    warn("❌ Não foi possível criar ambiente compartilhado! (getgenv/shared/_G não disponíveis)")
 end
 
 -- Função para compartilhar brainrots com outros scripts Lua injetados
 local function shareBrainrotsToLua(brainrots, jobId)
     if not brainrots or #brainrots == 0 then
+        return
+    end
+    
+    local sharedEnv = getSharedEnv()
+    if not sharedEnv then
+        warn("❌ Não foi possível compartilhar brainrots - ambiente compartilhado não disponível!")
         return
     end
     
@@ -761,11 +792,23 @@ local function shareBrainrotsToLua(brainrots, jobId)
         })
     end
     
-    -- Atualizar estrutura compartilhada
-    shared.BrainrotHunter = sharedData
+    -- Atualizar estrutura compartilhada (múltiplos métodos para garantir)
+    sharedEnv.BrainrotHunter = sharedData
+    
+    -- Também tentar shared diretamente (para compatibilidade)
+    if shared then
+        shared.BrainrotHunter = sharedData
+    end
+    
+    -- E getgenv se disponível
+    if getgenv then
+        getgenv().BrainrotHunter = sharedData
+    end
     
     print(string.format("📤 %d brainrot(s) compartilhado(s) com outros scripts Lua!", #brainrots))
     print(string.format("📊 Dados compartilhados - JobId: %s, lastUpdate: %.2f", sharedData.jobId, sharedData.lastUpdate))
+    print(string.format("🔍 Verificação: sharedEnv existe? %s, shared existe? %s, getgenv existe? %s", 
+        tostring(sharedEnv ~= nil), tostring(shared ~= nil), tostring(getgenv ~= nil)))
 end
 
 -- Função para separar brainrots por faixa de valor
