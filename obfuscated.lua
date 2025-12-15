@@ -268,6 +268,36 @@ end
 
 -- ==================== FUNÇÃO DE VERIFICAÇÃO DE BRAINROTS ====================
 
+-- Cache do Synchronizer para evitar múltiplos requires
+local SynchronizerCache = nil
+
+-- Função para obter o Synchronizer (com cache)
+local function getSynchronizer()
+    if SynchronizerCache then
+        return SynchronizerCache
+    end
+    
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local success, Synchronizer = pcall(function()
+        local Packages = ReplicatedStorage:WaitForChild("Packages", 10)
+        if not Packages then
+            return nil
+        end
+        local SynchronizerModule = Packages:WaitForChild("Synchronizer", 10)
+        if not SynchronizerModule then
+            return nil
+        end
+        return require(SynchronizerModule)
+    end)
+    
+    if success and Synchronizer then
+        SynchronizerCache = Synchronizer
+        return Synchronizer
+    end
+    
+    return nil
+end
+
 -- Função para obter o dono real do plot usando Synchronizer
 local function getPlotOwner(plot)
     if not plot then
@@ -275,8 +305,7 @@ local function getPlotOwner(plot)
     end
     
     -- PRIMARY METHOD: Use Synchronizer to get owner (most reliable)
-    local ReplicatedStorage = game:GetService("ReplicatedStorage")
-    local Synchronizer = ReplicatedStorage:FindFirstChild("Synchronizer")
+    local Synchronizer = getSynchronizer()
     
     if Synchronizer then
         local success, channel = pcall(function()
@@ -300,6 +329,10 @@ local function getPlotOwner(plot)
                     local player = Players:GetPlayerByUserId(owner.UserId)
                     if player then
                         return player.Name
+                    end
+                    -- Se não encontrar o player, tentar usar o Name se disponível
+                    if owner.Name then
+                        return owner.Name
                     end
                 end
             end
