@@ -1,3 +1,1081 @@
--- This file was protected using Luraph Obfuscator v14.4.2 [https://lura.ph/]
+-- Brainrot Hunter - Script Autônomo (SEM DEPENDÊNCIA DE PYTHON)
+-- Verifica brainrots de 10M+ e teleporta automaticamente entre servidores
+-- Usa método HOPPER IMBATÍVEL 2025 (TeleportToPlaceInstance com JobId vazio/forçado)
 
-return({Cb=function(o,o,B)o=B[8099];return o;end,Hb=function(o,o,B,f)o=(B-f)/0X8;return o;end,t5=bit32.lshift,nb=function(o,o)return{o};end,q=function(o,B,f,K)K[29]=(function(_)local t={K};o:g(_,t);end);if not(not f[0X4f85])then B=f[0X4f85];else B=o:t(f,B);end;return B;end,jb=function(o,o,B,f)if B==46 then o=f[0X1][37]();B=0X35;else if B~=0X35 then else if o>=f[0X01][0X24]then return{o-f[0X1][0B10110]},B,o;end;return 43252,B,o;end;end;return nil,B,o;end,Sb=function(o,B,f,K,_,t,m,G,l,T,O,g,k,Q,y,z,P)local e;for a=0X4e,0X0_014a,0B1111110 do if a==204 then t=((B-k)/8);elseif a==78 then T=((P-y)/0X8);else if a==330 then e=o:kb(O,f,G);if e==nil then else return T,g,{o.l(e)},t;end;end;end;end;z[_]=t;g=0B101_010;while true do e,g=o:Eb(_,Q,T,l,m,O,g,K);if e==0xdd28 then break;end;end;return T,g,nil,t;end,zb=function(o,o,B,f)(f)[B]=B+o;end,ob=function(o,o,B,f)o,f=B[0B01][1]("<d",B[1][0X1b],B[0B1][0x5]);return o,f;end,Pb=function(o,o,B,f)o[B]=f-f%0x1;end,G5=bit32.bor,b={31568,3471911642,2466094207,1792367590,3017849718,430817079,2381872577,1155716578,3030150736},B=type,db=function(o,B,f)f=(-805306360+(o.H5((o.k5((o.I5((B[0X7152]>B[11419]and o.b[0x2]or B[0x316E])-B[20357]))+B[24713],B[0X2b2c],B[0X698b])),(B[5250]))));B[0x1fa3]=f;return f;end,rb=function(o,o,B)o[1][0X06],B=o[1][0X25],o[0B001][0b11111];return B;end,Y=function(o,B,f,K)local _;while true do _,B=o:D(K,f,B);if _==0xB131 then break;else if _~=0X429a then else continue;end;end;end;f[0X6]=o.S5;f[0X7]=nil;f[0X8]=(nil);(f)[0X9]=nil;B=0B1101_100;return B;end,qb=function(o,o)return{-o[0X1][0X20]};end,J5=function(o,B,f)f=(0B10+(o.G5((o.a5((o.W5((o.E5(B[26685]-o.b[0B111_]+B[0X2B2_C])),(B[31379]))))),B[0x1fcd],B[0X68__3D])));B[0x750E]=(f);return f;end,d5=function(o,o)o=nil;return o;end,g5=setmetatable,q5=string.packsize,V5=function(o,B,f,K,_)local t,m;for G=18,274,0x40 do if G==0B0_10_10010 then m=_[0B1][0B11__11](B);elseif G==0x12 then B=_[0B1][0X25]();continue;elseif G==0X0_112 then f[2]=_[0x1][0B10010__1]();elseif G==146 then f[0X8]=m;continue;else if G~=0XD2 then else t=o:R5(m,_,K,B);if t~=nil then return{o.l(t)},B;end;end;end;end;return{f},B;end,Q=bit32.lrotate,b5=function(o,B,f,K)for _=0X70,136,24 do o:fb(B,K,_,f);end;end,lb=function(o,o)(o[0B1])[44],o[0X1][6]=-(-0x0),o[0X1][12];end,y=unpack,S=function(o,B,f,K)K[23]=pcall;if not(not B[25975])then f=(B[0x6577]);else f=o:E(f,B);end;return f;end,T5=function(o,o,B,f)if f then if B[0B10_]==B[0X1][0X19]then else local f=(0X3C);repeat if f>0B111100 then(B[0x1__][25])[0X4]=(o);break;else if not(f<0X6b)then else f=0B1101011;(B[0X1][0B11001])[0x1]=(B[0B1][0X4]);end;end;until false;end;end;end,M5=function(o,B,f,K,_)local t,m=(K[0X1][0x25]());if not(K[0x01__][0X18][t])then m=o:p5(K,B,f,t,_);if m==nil then else return{o.l(m)};end;else B[f]=(K[0X1][0X18][t]);end;return nil;end,r=function(o,o)(o)[0X1a]=({});end,Mb=function(o,o,B)o=(0B0);B=1;return o,B;end,R=coroutine,F5=function(o,B,f,K)local _;if K==68 then(B)[0X20_]=B[0B1__10];K=(0X53);else if K~=0X53 then else repeat _=o:P5(B,f);return{o.l(_)},K;until false;return 13631,K;end;end;return nil,K;end,ub=function(o,B,f)f=(0X3);if B[0B1][0X13]~=B[0x1][0x16]then else o:lb(B);end;return f;end,i5=function(o,B,f,K,_,t)local m,G=(126);repeat G,_,m=o:c5(t,_,m,f,K);if G==0XC8a0 then break;end;until false;t=nil;for f=41,0X131,0x58 do if f==305 then K[0X1][0B11110]=(nil);K[0X1][24]=nil;elseif f==0B1010_01 then o:T5(_,K,B);continue;elseif f==0B11011001 then(K[0X1])[4]=o.p;continue;else if f==129 then t=(_[K[1][37]()]);continue;end;end;end;return{t},_;end,yb=function(o,o,B,f)f+=((B>0X7f and B-0X8_0 or B)*o);return f;end,p5=function(o,B,f,K,_,t)local m,G,l=(_/0X4);for T=0x55,0X156,86 do if T==85 then G,l=o:y5(m,B,l,_,t);if G==nil then else return{o.l(G)};end;elseif T==0x101 then f[K]=(l);break;else if T==0B10101011 then o:h5(B,_,l);continue;end;end;end;return nil;end,F=function(o,B,f)f=(0x1f+(o.k5((o.k5((o.E5((o.a5(o.b[3]+o.b[0X9]>=o.b[3]and o.b[0B1]or o.b[0x3])))))),f)));B[0x698b]=f;return f;end,e5=string.gsub,Ib=function(o,o,B,f,K,_,t,m)if not(_>0X68)then o=f[1][0X4][m];B=#o;elseif _>120 then o[B+0x2]=(t);else o[B+0X1]=(K);end;return B,o;end,E5=bit32.countlz,l5=function(o,o)o={};return o;end,kb=function(o,o,B,f)if f[1][0B1100]==B then return{o};end;return nil;end,I=function(o,B,f)f[0xc78]=0X27+(o.X5((o.E5((o.G5(f[0x3ED__6]+o.b[0b111]-f[5250]+o.b[0B100],o.b[0X3],o.b[0X1])))),(f[0X006b04])));B=(-2615423290+((o.H5((o.G5(f[12654]-B-o.b[0B10],f[0x1482],f[0X7EF]))+o.b[0X4],(f[0x7a93])))+f[21200]));(f)[26685]=B;return B;end,Rb=function(o,B)local f,K,_;for t=103,0xf6,0B1100001 do if t>103 then repeat local m,G=0X5D;repeat if m<0X17 then K=o:yb(_,G,K);break;else if m<0b1100__0 and m>0XA__ then m=0b1010;if B[0x1][0X010]~=B[0X1][0B100100]then else if B[0X1][0B11010]-0B101101 then B[1][0X10]=-(-48);end;while 0B101_0100>(0X71>0B11100011)do return{B[1][19]and 0B10110};end;end;else if m>24 then m=(24);else if m<93 and m>23 then G,m=o:hb(m,G,B);end;end;end;end;until false;m=(0x19);while true do m,f,_=o:pb(m,_,B);if f==0XD649 then continue;else if f~=3602 then else break;end;end;end;until G<0X80__;return{K};else if t<0B11001000 then K,_=o:Mb(K,_);continue;end;end;end;return nil;end,Tb=function(o,o,B,f)while B>f do return{o[0X1][0x6]};end;return 0Xc341;end,N5=function(o,B,f,K,_,t,m,G)local l;m[0x019][11]=o.w;G=(0B1110110);while true do if G>93 then(m[25])[0B101__0]=(o.m.bnot);m[0x19][0B10010]=o.c.pi;if not(not t[29611])then G=(t[29611]);else G=(-0X6fF_fffa3+(o.t5((o.X5((o.W5(t[21383],(t[8099])))+t[12654]-t[12654],(t[0X7A93])))-t[28756],(t[5250]))));(t)[0X73aB]=G;end;else if G<0X0_076 then o:Y5(m);break;end;end;end;G=(86);repeat if not(G>86)then l,G=o:O5(t,m,G);if l~=0xaC3f then else continue;end;else if G==120 then m[0X19][0X15]=o.Q;if not t[30576]then(t)[9231]=-0b1000000+((o.X5((o.X5(t[0X52D0]-t[0x73fF],(t[0X6b04])))-t[8099]+t[2031],(t[24713])))<=t[31520]and t[0X7152]or t[31520]);G=-2381872490+((o.a5((o.W5((o.H5(t[0x2C9B]+t[27019]+t[29611],(t[0X1Fa3]))),(t[31379])))))+o.b[7]);t[0X7770_]=G;else G=o:A5(t,G);end;else B=m[0b10__1_011](B,f)(K,o.s,m[44],_,m[0B100010],m[0B111_11],m[0B100000],o.b,m[29],m[0X2B]);break;end;end;until false;return{m[0b101011](B,f)},B,G;end,L5=(function(o)local B,f,K,_={};_,K=o:P(B,_,K);_=o:Y(_,B,K);local t;_,t=o:K(B,t,_,K);_=o:O(K,B,_);_=o:X(B,_,K);_=o:k(B,_);_=o:e(B,_,K);_=o:vb(t,B,K,_);o:Vb(B);_=o:mb(_,K,B);local t,m,G,l;m,t,G,_,l=o:u5(K,G,m,t,l,_,B);f,_=o:D5(l,K,B,_);if f~=nil then return o.l(f);end;f,G,_=o:N5(G,l,t,m,K,B,_);return o.l(f);end),Gb=function(o,o,B)o[B+0X3]=0X007;end,o=string.unpack,A5=function(o,o,B)B=(o[0X77_70]);return B;end,gb=function(o,o,B,f,K)local _,t=0b10100;repeat if _==0B1_0100 then t=#o[0x01][0x1__E__];_=(0B11000_11);continue;else if _==0B11000_11 then o[0x1][30][t+0B1]=(B);_=(0B1100110);(o[0X1][0X1e__])[t+0X2]=(f);continue;else if _==0B11__00110 then o[0x1][0X1e][t+3]=K;break;end;end;end;until false;end,P5=function(o,o,B)(o)[0b01001_00],o[32]=o[0X2_A],161;return{B};end,S5=string.sub,vb=function(o,B,f,K,_)f[30]=nil;_=(0B10101_);while true do if not(_>21)then if _~=0B10101 then _=o:q(_,K,f);continue;else for t=0X0,0Xff,0X1 do f[0B10010][t]=B(t);end;if not K[11419]then _=0X10+(o.r5((o.E5((o.G5((o.k5(K[21200]+o.b[5]-o.b[0X7],K[27396])))))),K[0x2b2C],K[5250]));K[0X2c9b]=(_);else _=K[11419];end;end;else if not(_<0X70)then(f)[0B0011011]=(function(B)local t=({f});B=t[0X1_][14](B,'z','\!\u{021}\x21!!');return t[0X1][14](B,".\z  .\x2E\.\.",t[0x1][0X11]({},{__index=function(B,m)local G,l,T,O,g=t[0B1][0x2_](m,0X1,5);local k=((g-33)+(O-0B100001)*0B1010101+(T-0X21)*7225+(l-0X21)*614125+(G-0B100001)*52200625);l=t[1][0B10100]("\z >\u{049}4",k);(B)[m]=(l);return l;end}));end)(f[6]([=[LPH~V1JaKZO-[4z!#Yi;8>H4czn3@il72Z2JAT/LfF//d9!!%P3aZp^I?XIbjG8UHL8>H4c!!!!QGsE5MB6/3))$*SP!EC!?E+*6lU]:Ap!!!#g5I1Imz!!!l<CIf<D65]fJ)$+iTz!!"-,)$Oth@;K`t!b=itzz)$*#@!a%u2!dI6R!GNDQE_%&KFVt3j)$4JB)$3T)ZN:+,z!#Yf/)$+Lj#'4m,Bl7Q$!D]Ejz!(fEn!b+]rz!8qc\)$+4b#'>-0AT)1Vz?mFu&)$+?Fz!!##E)$*hW!D9-f!5N_,,j.H2!_Q"Zz!!$t')$*bU!DjX>FDl5BEbTE(ZR#SOz!#Yf:ZO$U3z!#Yi48/VG()$*C+z!!"i@)$3?")$Y>)@ps1i)$tM*Ebf`8@:Njd"CcXuAJkMl)$G&,E+Kmg/jC3SDA`IL)$*DK!H/hVBGghZZNgI1z!#YiU8/VP>G].U?!Eg9D@VKp?1)U+/)$*)B"`nQ`DJu<Nz!"_C5#'Fg&@:O'j!bFn?!APc!ZNC1-z!4)k0z!!!l<D+Lu=z!!!!:!c^aK"a"0^Ch9CBz!:W8l!Cdq-Go6Zj8/VJD8/VG,ZN1%+z!#Yf-)$*,C!FMW&z!&-\V!Gr\T;AfO(8/VJ&8/VG@)$XGT@ps1i)$3,q)$+`Qz!!!!aZNU=/z!#Yf^U]:Ap!!!!a5T'];@;TQn!I>Ub:.Q6'@\`u(!,e<QfKgAZB5M(!@qZ_\E#A[[ZaBc5z!#Yi,8/VGC)$(kUz+q9;n)$Y.lEbTK7U]:CFl`urA6)4J\z0L-K[Eaa0)ATX^J!!'MAVP6A_(]XO9z)$aYiF`);;HDCN@zn@ohE?XI>XG,,*<!(L%1ZpCJf!!&[FUW5Y<!`qo1#'+-rF(KHh!!'h33,IM=U]:ApUNsQ"6)4J\z0LH]^9QbAaE+g,.+ED%8F`M@BF(KH*ASuZ>Ap&!$FD5Z2-n[,).3NYBFEMVA+=2(W/hSb*+D#G$/0K"FFDYT2@<>peCh5#A+Bp$9F!=m44Wl@0/g,Qn+F>5<?YOCgAU#=\+D58-An>k'-n$]#/h&4lI46Tf)$FDdDfhcTzr1?6Mz!!#5K)1,M)F`JTuF^ZD(DK]`7Df0E'DKI"3De3u4DJsV>F*2G@DfTqBCi<`m+E)9CCi<`mF*)G:DJ(LCFD,6+AS,k$AKZ8:FWb+5AKZ,5@:F%a+EVNEF`V+:9QbAaE+gV?+=BiZ87,+f?WBp'5tk9I;^W])@:O=r0!c;nz!!&ep!2-ic,N(k`!!%PL>R&bF)$4;=)>"XN+<VdL+<VdL/M112$47mu+<VdL+<VdL+<VdL+<VdL+<VdL+<VdZ5U@g3.P*2)/hSb//g)8Z+<VdZ/hS\+.PE1p,pklB/d`^D+<VdL+<VdL+<VdL+<VdL+<VdT.NfiV/2&Cr,palb5X7S"-7(&g0/"t3-n$Jg,:+QZ,:Frn.Olu#/g)8Z+<W3g0.8/"$6UH6+<VdL+<VdL+<VdL+<VdL0.J(s,sX^\5X7S"5U@s(+>,&h5X7R]-71&d-9sg]5X7R],:G#m/hSb//hSb/.O@>F5U\6-+=n`i$6UH6+<VdL+<VdL+<VdL+<W-e+>,!+5X7S"5X6eA+=JNe+<VdV-mg9+5X7S"-7(&i/1r%f+<VdL+<VdL+<VdZ/1N%m,q(6.5UIs'+=\oL+<VdL+<VdL+<VdL+<VdL,:jrj5X7S"5X6eA.OHPd/1)\s/hAY#,pjs(5X6YE-9sg]5X7S"5X7S"5U.a0/hSb//hAY&5X7S"5X7S"-m1,g$6UH6+<VdL+<VdL+<VdL,9S*R5X7S"5UnEP,p4fb,q^i!/1rJ,.P*5+.P*2'0.8;85X7S"5X7S"5X7R\5X7S"5X7S"5U.m+5X7S"5X6YK+=.@;+<VdL+<VdL+<VdL+>4i[-9sg]5X7S"5U[pD,9SH_-7U?-5X7RZ0.&qL5X6tK,q^_p5X7S"5X7R\00hcL-nHJ`/1`>)/hS7h.O@>F5U.C$$6UH6+<VdL+<VdL+<r!O/g`hK5X7S"5X7S"5V+<3,sX^\5X6PH+<VdL/1*VI,="L@.Ng>j5X7S"5UJ$7,="LZ5VFHL5U@gD5X6YE0.\Lu/0HSs$6UH6+<VdL+<W'c+<VdT5UIg),pklB5UJ-8+=oc&-pU$_5V+$#+<VdL+<Vmo5VFZ85UIU,5X7S"5V+3+,sX^\5X6_?+<VdL.R66a5X6YI,pb/d/d`^D+<VdL+<W<[+<rNj,="LZ-6jol0-`_I5VF6+5X7R]5X7R_/g)8Z+=nj)5U\670.J(e,sX^F+<VdQ5X7S"5X6V<+<VdL+<W't5UIm//hSb&-8#WJ+<VdL+<VdL0/"tD5UJ$)+=JR%5U.g&+<W=&0-Deq-9sg]5U.U@5U@X$-n$B,-7U,k5X7S"5X6YK+<s-:5U.U@5X6YB,sX^\5X7R]/2&D$5VF>h+<VdL+<VdL,pb/j5U.C(-9sg],9SX)5X7R\-9sg]-8-to+<W3g-n$_u/0H&f0.&qL5X7S"5X7S"/1Mtp/h\M95U.a*5X7R_,:G/s/hS\%,:Yr3$6UH6+<VdL+@%5*-70if-9sg]-7U,\+<W<a5X7S"5X7S"5X7S"5X7S"-9sg@0.8,35X7S"5X7S"5UJ$)+=KK?5X7S"5X7S"5X6tR5X7S"5U.m..LI:@+<VdL+<W!X/0uSb/g`%j+<Vd[5X7R_/g)8f-pU$_5X6YL-nd5,0-_kf0.&qL5X7S"5X7S"5X7S"5U[`t/1*VI5X7S"5X6YI+=KK?-7UZ6-nboM+<VdL+<VdZ,q:-)-m10.5X7R_+=]WA5X7S"0-DA[+<W-[5X7S"5X7R]/hB77+=n`g+>,!+5X7S"5U.C(,:Xud0.\>55X7Ra+<VdV5X6YL.OHVP+<VdL+<VdL+>+uo/gEVH5X7S"5V+$#+=\^'5UA$6-9sgC-nHJ`+<W3`,sWb'5X7S"5X7S"5U\67/0H&g5X7S"5X7S"5UJ$)+<VdL+=09<5X6qS$6UH6+<VdL+@%D!/gWbJ5X7S"5X6_?+<VdL+<W9Z+<W't5X7S"5X7R_+<VdL+<VdZ.OZSi5X7S"5X7S"5X7S"-7CDf+>,<".R5:&+<W=&5U@O*0+&gE+<VdL+<VdL5Umm/-9sg]5X7R]/g)8Z+<VdL+<VdL+<W9i-9sg].P<&55X7S"5X6YI+=nul/1r%f+<W9f.OZVl/gWbJ,9S9t.Nfib5X6V</0bKE+<VdL+<VdL+<VdR/0HT25X7S"5Umm!+<VdL+<VdL+<VdL+<VdL+<W9]5X7S"5X7S".P<#45X7S"-nIVK5X7S"-6Oic-nZVb+<VdL/g`h0+=n`E+<VdL+<VdL+<VdL+<W<[.R66a5X6P:+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vsq-8$ho$6UH6+<VdL+<VdL+<VdT-m1,h5X7S".NfiV+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdO5UJ*7,75P9+<VdL+<VdL+<VdL+>+un+=nj)5X6kC+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL-pT+3/0bKE+<VdL+<VdL+<VdL+<VdL+<rK]/gWbJ.NgB05VF6&+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+>5u,/hACX+<VdL+<VdL+<VdL+<VdL+<VdL/h\=i,=!P-+=09"/1`"s+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<W=&5V+N@$6UH6+<VdL+<VdL+<VdL+<VdL+<VdV-m0WW5UA$*/g)Q-5X7S",qgel+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd[5X6kQ.LI:@+<VdL+<VdL+<VdL+<VdL+<VdL+<W<j+<Vsq-7g8h5X7S"5X7S"-m0p',qgkn+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL,="LF+=IR>+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<r?Y/g`hK,;()e5X7S"-8$c55X7S"5X7R\/g)Vs/g)8Z+<VdL+<VdL+<VdL+<VdV/hSG"/g`hK/0HSQ+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL5Umm/,sX^\,qL/i0-Dl45X7S"5X7S"5V+N65X7S"5U@O*-9sg].Nfs$-8$nt5Un<7+=09<-8$Dj$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL0-DAe-9sg]5U@s(+<W-^-9sg]5UJ*+,="LZ5X6eA,="LZ,p4U$5Umm-/g)8Z00hcf5Umm)$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Woo/g)bk5X7S"5X6YE/1r%f+<VdL+<VdL+<VdL+<VdL+<VdL/hAJ#,pklB5X7R]/hSOZ+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+=8Kh+<VdZ0-rkK5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"-nZVj-jh(>+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL/0cet/g)8Z+<VdL/hS\+/1`>'/1`D+/hS7h+<VdL+<VdL/2&4T$6UH6+<VdL+C/8)/IDh-+<VdL+<Vf&z!!#h\U]:Ap!!!!95T'`:EcQ)=)%(1u@:XG$EbTE(ZR>eRz!2KSp!'m&A?pPY6?XIYgA/PS`DfT]'FJJm:J5\[Nk!9jcAJk_hEc6&.FCc<j,8g\qDf0&nF;Y1%F^c3k@q]:k)$FPcDIaUjFDl&>D.7's)$Y,&BPD(#U]:Ap!!)eT5dLSS)>sO7s8TD3o:*)e!!!!:"E%dqF;Y:(ASbpfF;Y?k?Xn"l@psJTz!!"lA)$$H4!.Z_#8aJaLh>dNUzU]:Ap0Gsk06*k$b]Lr5(s8Nr@?XIo#E+KmmAp&!$FD5Z2)$aecFCo*%Fr:Ei?Yj;Lz!2Qqd)$XemF(KB6U]:Cf_U_fT5oBoKATVNqDKZm)?XInnF*)G:DJ,aFz!!kh-!D"(:@rH7,AU&<(FEqh:U]:CF#%/D"5oBf7@;]VO!!(sIeOnddU]:Ap!!!"<5oC#:?Z'G!Bl7HmGSp`qDf9H'@;ZqkF(KH1ATV@&@:F%aU]:Ap!!!"l5oC&;?Ys@r@<>peCh4IeD..O")$OAS@:Wmd"CGMPFJJm:5R><edQsZ/!5SX7s5-,<!!!!qb.>PX)$F;RAT8Rk?XIYmCnq%2!3clkm6MTt3[c:b.k+[`%16AY$tj-nD.RftFCAWpAKh*l"^bVXF^h-H!'lMZ?fjWl"`7[i@qZ_aDKTf*ATAXn?XIMbA7^!'!HK%^@<6L$Ec`0"=3cC%z&]oJZ`rcDG2894q!t@m*,ARBS"#\C/!s8NZK)l'jEruLREs#&8;gSU(NrfCc"qsqT!<tnq`W69*A&\NR1Mau2%<DVE!#'\]22;27!rtE0!rt]@!<[.Z!s9!R"%rV]HNQ,W!s;:#EruDHHNO7`K)l'jEruLE;f`$u1'7UY4+dP9Ci][\%<DVE21bi2!rs9m!<[.Z!s9!R"%rV5HNQ,t!s8O5HNO7PK)l'jEruLREs#&mRK3Km!)%qF")N#\!tB;R9)qV3!ruh`!<[.Z!s9!R"%tLd!s9!2"!_R`;Ze*D1K?<1!s8WI"$?Mb2894q"'u?;!t>nG!rr]J""4Q>"=$\U!s:Cc!s8uO!ttYB,6K>%jod21)Zp0l!uh=O,6Jkb$S)<:#6P&V$g%RJ3ZB"_*s3bN!B'<H!s8mZ@k0Sb"%spB6N[cj"%*%r;ZeEUjoen-\,g(A<?hT=*s32.!B"ct!tbVk!t@<o.f]rE!sTuCIPiJT!t@m*3rfXe!sTuSIPmPp!s8mZ;_)tm,<H?%"#Df$!s:Cq!s8ug"!_R`1BTLl!<WEG""TN82(A\1%5S)2CBH?p2(A\1%9!?RCBIK;2,s_\*s3Iq"#VG.!t@m*,ARBS"#VG."*;WhZPn`6%8-dJCBI3328'(o!sT];`W7.`6`gGJSHArr$=sBH=a<Ff2*%3.z!!D>22(o%62(&J.*01+&'/^+!"(?W\,>/+R'6$bU")@uH"!A6Z"!Afj'+tBL"(Cm0!t.L!!t-sk!s:ai!t/Od!tum])ZqrD!s:D<!s:K?+%(Z$!Wrf\2&-2qz!!!;_I9mQh"*5F$!=M:7)\Z(E)ZrP3,9&$=V?&1P)ZqT".g$Fb,;TFD.g#lA.gm"J#6P''""OI%$`3qL:'2^C:W!^4#GVqi"Tni/TE,5<!<<*"!!!YUIPpj%!s:FL!s8WFNs#Om24jmO!tB;R'.O**"&VR0"#Z\R!s;t\"%,]`VZ\d^!s8X6IKMA83s,R7"$6TB3WfHnHNOp2"+(,<HRjG##6P&M"+1%M2>77V!so&3"#[gq!s8i3!s8u?!t,PO!u!-d'*A[_!s:Rl!ul+c!s8i3!s:EY!WrN6;ZdC:>6=sW"'Yj:@flfjG67pV;ZdC:>6=sW"'Yj:@flfo$Njlb"&f:2>6>6B@flf_"(MEBCBFZ"$Nk/j"'Yj/.pGq0RK3Km3XZ%",m.'J%9ioB%:]JB.Ka/_2$X3c%;Q%J3XZ%*,m.?R!\7JR2.$Ff9*5n:@=A:d%2/gG.K^=d@=A:t2)57956D!<@E&<M1L\Q1"$9q?"%,]`#;[@%!Wt59<<E=4EruLo"*4Q%I00Qkk5bZ@2>$tP""FD""&VR8"#V_6!s1!"Et*0m""FCo!tBSZ'/`)Y"#Z,@!s;uD!M^@(%g"8.Et*0m)\%,r'/_EF!tC.h!s:Rl",d1BHNO?O.sl=pY5n_-.Kb#"%>+Z`"$-elK)m8#Es"i="+(K0!<Wub"+pUV2/33q@E&<M;dmrQ"']2_"(Ot+:K%^\!<Wur$Nl:f,m/Jr21bl3!tBSZ$Oq^h!u!-dK)l'363@<IXT8M+*$k\c2&ZQ!%=80j.Kb#"24=RK!sBVZ+W17[!!!!0V1(;"!<WE]T)f#r65.?>rrb4""9S`8;Zd[5'3bP=94J'";Zd+P;^54(;]AXm#6P'6.k=Oa;n`>Y##eIg#;l_g"#$5J;c<Zp,6KfY!s8WR$a'RV$g.R1,;m4:!s;j;!s<TX`W6GV)Zp1"#6P&.'-dSn!s9Jj$e>D)$X+Jo27EVh"%5Ka3sIc>IRHg:9*RIVNX%sN$WBGt6W4%j'2(1f!s:\j,?%!76X(rHV?(0.>@U;`#6P&c`rZ>F%3krg!#$jb@=A;7@=A;?FTWj52(o%6-k"l9.q+GC"#D/(3tl%O"%,]`?Satu^&oSa.kC#m0:i7r.f_(E"#WsY!so&3"(D?7!rsPZ"#WRN"%!t+%6l]b!s9Mh"#DfA!s8Z.'-dK%'*C*&!s;0uB-Ui6"!]#m.god_$j/:C.K]bQ'-dT:JcPrU<i[%k#KmD[!s8W*.h`"B;?I"U!tun:Z2k%0*;'=7,;mmM!s8]="Z7`'z!"S.?289.o"#[Og!s:Ea!<WF,lOMY_q[3s>^'UqG7q2Z#"ES)H$=c\<>F#@]@fu]52>71T!t\\F"m,t">D<F/#"N/*Xp6iQ!<WE8>F#HT#"N/*edY5]>L!@A@fqGm23/"F"%Qi'[KB-3>ODM'>J::'"%Qi'rW>#b!s;k.!s:ai"'Z=@NWc3\7q2Y0!D6j+L'%ukmKK0`29uC-!t\\6$]YE]@fr#,8n2)n!];8+"%m'-ec?=d7eQt(?t09r#6P'#@p?qS&6n!!c2eJ\V@*;'29,e$"%m'-[Kf<4".fWf@p>6"7q2XU"A30.L'BNu!<WE8>G_S,$kQXW%Gh=$>Lj(_#"N/*SdS/#>;d$sc3fRA7q2Z#"?"d5!s;/*>D<@o>@.:6&6l"7h?+<nXoba.&6ni4ScL]K!s9*=`X8RF&HcMF8n2)&!>&JD%#+os>IG"?"\3&)mKuQr>ODb.>D<Qp$8puK!s;/*>J:>4@fu]5F(<2u@nL68(,^jK!s9*=G)cVo@fu]5F(=V@@nL68p'3IG!<WEo@fu]5F(<2q@nL68NWD#`!s8W:>NQ7+!CpW%Q4$;p>:'ncjp]fC&6mEhjoc6"edAhe&6ni;ecHCeSdG)m&6kG,eceQR"7?Ri@p?qX&6muuXopW\!<WE8>E0/Y"@lr(p'=9#>K-dW>P8I("uXF%!s9*=ed&Vd7q2YX!_Qs,^'7);"0M\_U&tK"7q2Yh$VFo5^'$r9",77W@p@dr&6n!#Sd%&p!s<USV?pa)@p>6'&6o,BjoI?>!WrN9>IFpr"qY!n%b:hS@fu]:8n2)6"uW[f!s9*=Sdb;n7q2Xe#YJT2Ai5PM!s;&'"-s?f@p?qT7q2Xu"Z7q8!t\\F"&;?r"7?=b@p>N7&6kG0DDdRX!s;/*>E/ju>NQC_"qY#$$D%J6>M]e>";"cirW4sG!<WE8>Fl2a#=i8+rWI:P^'\@B@p=Zh2>mUZ"%m'-h>pb`>K-^l!s;a-z!".t=2(o%62(&J.*2`f>,;jrQ""4Q>"%,fc6N^g#!t.<q!uhmu!s:Y)!s;t\"!]Z.!s8u_!s9qZV?8Uf3s,R2""OI^IKMB!!u3%XlNhk'"pkA6!t?IW'5I[p"(D?7"%5Kq3suc26T$.l!s=5X"aL(J!!!!*omJ^D!<WE]`rQ8E289.o"&C]T"(*jU"#D2Y.k<I^!s8ug!ttYB3s/oo!<Y\b1BR_:^B"E=!#n!%@AX836VfK?"(*i*1F+b,.lA[V"&CEL"(*S0$nDcC!u!Oi!s8ug!ttYJ3s/og#QmFO*<QBQ$NgJ?'*AVNIKLNtSco3@3[6-_%4_Mo!$a9%@I=F(4#Mlr!s9f).k=?s.g%=i_\ejI!sK8Oz!!_8-2+I`N2*V0F2)bU>%3kr_.K^mt%4_Mg3XZ$?3WfI'D@6OK%1<7?56D!$%3#BO2&uc$&Xs,[([D,(I>n7-z$gi@"cN++M29,_"!rttm""FCO"&TS-"#VG."(D?7!rttm")A!;"#Ueq"#V8)!t1k-UD3S+2&-2q@BKV51J]4t")tIF.g'a(1BVS]3s0Gp!CHs.+A2eo8co/c'*GB=Et^/>!#$RZ@>5$i.lD/G"*+JG"%N_$Xo`YPNW]_I8co.qz!!r"@26R#_"#ZtW!s;ZC$_%rr)E!i^!s<ZJ,9%(:!tu+o"!]ZF!s;OR!t,PG!t0)N$Nhe-h?,QB`WcN,3[4_O=9Ap5%1<7O%2/h"2$X3c56D!,@E&<M,@RGY""Q5t!s8u?!t,,;!s8u?!tu+W!uh[g!tu+g"!]3Ec3>e-`WcN$2'i>,#6Jm:=_S$oz!'T"e!B'Tu!s:FL-3F?`!s?^J;5XuK!Wt;M!s8i3!s<V.!lb?NE/4Oa!X!M=!i>u+E(I#2")p63!X!M]!i>u+2&-2q24"CI!tbXA!s:KW!s=Sp#m183F/&i7!=NTL"/>s>UB@@o$Y^gfUB:LCUB:Su1TLT[2,XMY*4GqNdfME,&H`+m#6P&7!s8W_V[`e2%J'W'.r,7Y!Wt=S&d&4nV[`e2$_J92!kSLkT+;#+22<.R"&008!Q,X\IKS%#F5$ci#7Dq)`WbB(2$X3c-mPSnlN1h]!p]pJ!`?-*irT<?T+V5.*<-]TMZYiO*s2TSo)]"MCBO/0"#\$u!s<W1!i>u+480]S!p]nF-NaGNUB0BV!s$LGlN./&!s@Qb2*(gA2>7L]"%7bD48T'\4+dY$!]?Sk!s<W!!hKH$$dT71!o!c6-NaGN,LZ\r!6YGu!Ws,="4I</3WfIAJcPrU7.UIAlN0rP'(Z/,29-:2!rsQu!s8Q#!fI-_'E\Gi"#U;c"*9A&ScT9-QQ:\\MZYhl#6P'*hZB8K"#\s<!s8Pp!W)p#CBOG8"#]NP!s8Oe!UBdh!.t@E!WrG_!rE$$56D"?"$.YGlN0qu#O;En24k0W"(BI]"/>ntH`I2M56D"o!]:2b!s!,K!WrFl!lG'A@=A=%!b'@["4I<4,6POZ4L5(k!tbXI!WtB^!Ws5p"0WZU"#\U0!s:=]k7FZq2>7[b"!joKWrh#V!361U!<WNVWrd_MWradR34C%]^&g0_!WrN)o)[;A")A"f!Wt<^!WrN2!s8W7dfKUr;)6T%"#[8"!s<6V"02M(dfQiX"&8s)!s8Pp!ODh0CBLmE"#\sJ!s8Pp!J:IVCBK1k"#]fe!s8OMdfKV?)["grF5m>1#7GV=!epmeF7THF$S^<:)ZpZSirT<AdfKWl"EV0VXof%npCOY4])ji;!s8NJZN:4/Rf^2'!u(h>ZN<!F!s:Ed!<WEG"60Hl#rU<9!s:4M"nMfe!W_fnUB1NTl2h%i0-8:<UB4ZK!i#h?!X0Xo!n.3.#6P'8irW9)!ak6p<mq+Wo)bKcb5rs\!p]pR!akO#*pWkQir\fRo)^di!s8NJZNC:0Wros9!u(h>ZNDbb"6L!V!]>Z5!s<W1!knmIF6`nq"R?+;,F/E&!];V5!so&3"(?W\dfOUF!Yu/birY5A$T1NY""5D>"8`-J,L-IF"*F\jlN/IZh?EKP,kD*'!p]n9,Gk\:![R@=lN6AR2$X3c'E\Ht![o;="mZ4cgB%HZAD71?!gX("IKSU39*<-6dfLpBQ3-(J29uI/"%7bD48T($"+p^+"#\[?!s8NJUB1MtRf]Vl!u(h>UB3cW!j2T[*&X>r!s8Pp!J:IVCBK1k"#\C/!s8Oe!V6?p!:'[_!WrGg!eURW3ZB%0!]:2b"&Xggo)]"Omg0'u1BXHWdfMBY!s8Q#!Rh,Q!5eon!s8Om"60IcCsrIg"#VG."%q#E_ZRmZF414$ZNEhK"3Ued!AuM4!s&3!dfT[Pb6-K$!s"emir]C"dfT[S28:%3!s&3!dfT[P]*$di!s"emir]C"dfT[S24=OJ"*;'VQ3X_uF2J*7!ODlLb6-T(ZNE&i!s<Vn"/Z:/"%q#E]*$%RF4162"g\:gZ2k%0;=XbZ!Wt<>"Tnj8Q3@B."*;Wfjou39"!b,S?/#Fe"1&(e#6P'L]*$Uf$Zj2fV?%&c.iY5c;.lX+"#W">!so&3!s"McUB:SuMZ^!^!s#A&ZNC;N]*%a/$T3M:!s:F4&H`+k"8<"p"#W[Q"&[qao)]"Oo`kR$E0p[4!s8P0"02M+28oe&!s%ondfKVe"4I;R289V'"#/IEUD9gEEq9Kf'%7&&lN37WWriY1!s8PH!n.2QCBN#e"(B1M"4I<[Sco5N!]:2b"(?W\irVjUpBB"I$hjq%!m:X&`t8CU@E&<MMZ[D5!X"Vg@=A<J"#U;c"%ra`!fI.T,6NQ#!.tBK!X!<=$\JPQ"#W[Q!so&3"&dSL!s:"TdfKVmgB,(i$V_!2K*)++"2b0B2-L(a-mRRPlN1;N!oj@J!Yb_=gB'5;!s9qrc3<50>MB56!oj>1,F/Dk![Qe-gB-+2AD71?!nI`fIKSU39*=&PdfNC("60Fb29u[5"(/qIc3pBK0D5Re!lG'>_ZHS7"#\=-!s8i3!s;t\"4I<mgB*ZC$Zk>0L&qa(lN2eB$Rd7V"nMe(^'Fi<!`/+`!s9qrh?<EO>O)@V!qQJ%`X)b=!`.hX!s:Cc!s9qrc3*A6,jPNl!oj>jc34=9!`.PP!s<)g!o!d2$T/.k"(?W\irVjUpBo@N*:3b/dfMD4$3LAY,MiUa!]>rD!s8Oe!L!QeF.37!!Xj(E!hKT(2(o%6F0bq&"UbC,!j_s/!^?bhWra@FP60PF2(&J.3ZB$%!^?bhUB5M;!mUfS2+drQ2>mX["*=>@54\gUP6$:<!s!rSMZX&=*s2UdRfhdSo)_o:"+p\5DZ^(AlN37P!s&3"Rf`am,6NQ#!0[J:!s8Q#!fI-_F-?]$$T1fa"&Y*eqZ6jW`<68F!.2<[!s#Y0_ZKuQ"3UcK2nK.o]`oIY"9[*S25LN[""V7j])n`/!5el5!WtHj$2+e&!]?t\!s9bMWreal3S+i1"02J\h$!l_'rqFh"3(]K>I+D6!.tBc!s95>"1&(e#6P&0;mQS,"$rsi^&rui#-.j,"7?CIScc"qWri@&"+p[X2$X3c2=1GI!so&3"%90k_Z?M6*s8PFh$,a?!s8W>!s?.:F2J()!=LKS!fdW*!WXI_!WrG'!m:WI'E\HT!W\trb5qbGWrg`O"#U;c!u(h>b5r&iZNA#G2.$Ff!;cf'!WrG'!kSL9!2BV5!X!8F!WrN^#6P&.,I7FR!3615!Ws,="1&%/UB.t.!s#A'_ZBot\cDm822qY>!s%ondfKVe"4I;R22qkD!s%WgUB:SuMZ^!^"'$QJP63\?#6P&m!s=/X9)A[B"$QcJK*1uP2.m!n8rEe("6KXbP6-XE!s&3"P61o.RfcCn!:p5d!s;OJ",d6]Wre1]""FD2!s8TdK*.#6!0[GI!s8OU!Lj/n251*R!s1Q:"7$!gK*$r5!s&3"P61o.RfcCn:Q#;W"#Z5B!s;uO!<]A(2;JH=!u(h>P61f;".KAp!;chm!s95>".KAm])n`0!s"5]WriG]7fri-!s=G`!.tB;!s8Ph!h08o2-L(aE!V'u!s!rUMZX%]gB*Q@"#WCI!s"MeZNC;GUB:T#!4r<-!s8Oe"02M+2(o%6@E&<MdfNsL"U!K\@=A==!]:2b"%r`g"OdDPRffu!")O_7!s8P8!i#i"!1O(k!s8O]"1&(3Cnh(7"#XNi!so&3!tX,e^&k#82:hj2!tEud!t..')q+igP6'\F!tFPt!u!^/)rguW#6P&.P6(7V!tG,/!uj97)tO,.ndEnJ"#WjV!s&3!dfKUOb6$E""*<K(V?%'@dfKURE.@u4!WrGG!n.2QCBN#e!s"McdfKV/U&b>u28'D#!usN-dfMDl%0H\4o)XIG")A!k!s:FO%g)n6o)Y$V")A"&!Wt<C$NgJ?o)]"UCBO/0"#X6a!u(h>irTns"5<l*,L-DO!aFC\gB-C:-mPSnirV(c!s9"]!WsYl"4I>#!d!)tNWBMF-NaGrir[s:gB(p?!o!d:$TkHldfS8*2(o%6F5m=f"q)h(Q3Z^W-mR">o)^3/!p]pR!]?DI!s:E?#6P'*XUqN8"#Z&F!s<Vf"/Z),!j`!P"2b3u]`nQ@*7YH"dfME"&-E#!!s>"pF/&ig"q,AeWriG]-NaGW!s8XHMZ_f:$ZIMX!s:DI!s8Uo"02O!!s!\C!s8Ou!ilD*&Hf?A"#U;c"#ltW"31R,N<m,tb5sQd#Qk//H]nL5!:'ZT!WsnSRfW[LcN41N6u,G2F*%<c$Uf&/F)u[T$Zgq$`WHTiMZL6f$T0:6"%6?d>B=;7"UfBeV?.,_=p"jpMZHJ/!HXG*L'%fJ!s>"n&=W]t#*oKOhZ3f]7(WIm])b+u"2b-N_ZBH4c3Fou!PSVq"#Yi8!s<VN!M0N(7'cneZN5-Z!O`+=2+drQ&AnO_!hK[=b5p/q$Ui/=9?R?WdfKFL$UiGE9@EoM`W61r!H8V1!<Y4B!<WE8_Z@IQ`XNKs!PSVq$kU;W^&l"V2.?Xi&AnO_!o=1o_Z@IQXpkr[!PSW$$8pE9!s9,;UB1NVP6(ii!YCh%%c.="RfUM4L&l@j!R:fUF/o?@!=M;r!DBHo2<"W=!t`?N^&ljl&AnO_!j2kA_Z@IQ^'lln!<WE8_Z@IQNX-36!VQTW#S=lS^&lRg251*R"'u?;"*5]Q!=N>U!<Xi0B*/6WlN+^&$ZK5>!<[E?!QG?P7tUjFXpB*,!]CED\c`*;&AnO_!q$L/_Z@IQ[KmG^!PSX7#S=lS^&jl8&AnO_!eq"=_>s`@56D!D56D!LF$mA?$Zesq#7E`u"&j8FXoo+iaoheK1BWmNP6*V9$3LAd"18W6"#Yc5!s8f3#n7Ii'cA"lz#k<=L)Zp1>0,k!NDZ^)M`W6/l2<OuB!tU"s>MC)S*<QBNINoLI,E<!R,U4fa8.-pu2Cg:&;250&"#Z,?!s;aX,:cLk.g$--,82+CNX$e:$R6l'IOc?p-NaGl.ujib80]W007GDr2-L(a$@XcE>:V3["tM3Q2*qBI*s4#82)PI<@=A;/2'N,):'3!Kz!!!5TI5MfC"#USk"#U;c"(ME8$Y:7Z!t?IW!u`*\)f=%+o*hZ%!>,;3!!!!%epTCl!s:Ck!s:Cc!s<QG!s92M!s:.X!u!oB"4J.Z!rr<$!!!!1nU<?F!s:E)!s;El#2946"^N?O;^_b)#$YA;>9c0R"%+@:1BT$-jo[\&T*YT%-j/T81B93]""49F!@oQ#V?&IS'/M.J!s8XEGRFU<!s92b"82a72$X3c%3kr_!YZdt-j-%A)`>)-!s95>"(M<UCBFP]Es";O!<WE(,>/+=,?"[E,?k7-pB1R#!$aQ-,U5Z$$mSCi22;A<""47h)ZgZ\)^kgf"rdUW$QCJrNWpF[QN70j!$aQ-!$ai5!$b,=25^QZ!t?IW'0cR$.f^5="#U;c"&C-D!t?a_)ZUg5"#XNi!rsQm"$.A'CH;P"6R;gj""496"$8C7"9S`-'+5a-"4dYq!YYq\-j/$')ZgZ\)`7j&""496!?3EhSd$D@'-eH8Vu[h>29Gq%""49."tN(t,:`g?1Fk=_!s:qQ,9m156N^+?!s9qRjo[\&LBI\]:GW(T-j/T64&7@/!s0\t,7Q.*)ZUg5"#XNi""496"$:<L!s8u_!uh4Z1BRV%3s,I-6N]4-!<WE*'+5a-"-s'/!YYq\-j/lA)ZgZ\)^kgF#9*^X$QCJrXp,gH'+5a-"6Kh-!YYq\-j0/G)ZgZ\)^kgf"WILV$QCt"!WrNS"'Yj-,@^fU,ARB=`;p&C!$bDE!$b\M!$btU'E\GA!$btU3XZ%"3WfIO,m,q*@D2mI4#I6F")KIi!t?a_)ZUg5!rsQ-!rsQ5"'m-E,:EZN##dB"!s;q(9-Yc.,?%-+;bL=^6VC32!s:EL!s8XA.g#k_.g$^j)`%Qr,<Gu-,=;PjJcl/X:FcML![B3?%4_N"!#m]r!$aQ-E,\/H!$b,=!$bDE3ZA/g,m,q*-j/T64)?DL"#[ap!s<?i!s8u_!uh4Z1BTLg!WrN^K`M8X"9j(!SH/]j!!!!&n9m0L!<WE.',,gu',(`R$PNV"#6P''!ttb<$QBa-"82a/%3#BW!Xfq\-j/T4'/^!s""48C"rdUO)\WYo!tum]',*54!s:ai!t-LZeclcs)ZpHL$QBa-"4dSg%3#BW!Xfq\2$X3c-j0GP'+Gl_$N^\T'.<sS!>>n]!t-tD!s8Sa)XA<*'fCRD!s8W/Go6S^!!!!$f6oLu!s:Cs!s:Ck!s:L:!Q,nX!HJ8E")oq%!tu=M")\JK!rr<$!!!!$f6oLm!s:Ck!s:Cc!s8u?!s9qZXp#J\$NgK?!s8WsRfiNkP8=9D"TSN&!!!@eIPm`!!s:EI!WrNk,K9bF"#XEf!t,#74"D@6NX%WS4$,5%NX6pt,XXp<$q!*<2$X3c:'3Q[1<'>V,>k??3s.@\!WrO342q:W:'3Q[FTWj5?R,7J,:!XA,7Q.*$NLhr"(A>?"$8Aq!<WE('.X/nIKMB7mK3PQ2-L(a0`s3f67^%Vk5dH$!<WE('0?;)V?[2j:GW(T*]&7$2*qBI%1<7?.K^%\%2/gG2(&J.@C?IE6ZiJU.h+9:$T2Z$""FBd"(?W\)\""o$T5m(!s:Cq!s:D^!s9VI4'si`!s;t\""Rg"!<X8u,m+6V4+8sh`W8._2*qBI67]2F,rK69"(+.0!Aao!!BWA<"$6T7UE.f%o,IfP)#sX:!!!5YI5N)K"#Uks"#USk"&8q;"'uWC"$Zki)^kf["sX0g,7>n%joZh0)^?"a)]K/B*<QCRlP&"gis,Sdz!"OR/2+I`N2*V0F!##_B24jpP"$"$s'?1&1`rZ>F!$`ur:'3!K2(o%6?5!DC@=A:t@E&<M,;gqQ"&?H/M[,.E3:?kU`W7qC!s9ef1EulU,6Kf)!s8Nr'*A5=)Zqra!s;ah$S)C@#<P"O9+s)bNX&3M?X&Nq)ZVr-"#WsY"'[Ph.g:q<1G`B*NX$L'1CF9b6Q6+b#6P&c*s2TuNX%'B3(b^@!B#Q3!s:M?$cW3).K]bu)`o8E4!Ohb[/g@3(_\Y42&-2q09-8f$SRMF1D;jX!@or`8co.qz!!Cf#2&?>s2%Kck%dO;a#-.o6$NgJ3$NgK?!s8W_*<QBE(]Y0[UL[,4MTJ)lnPHq\53P3Ro?D-l9WLAdl3(mKmH-W03)3_mn$YGr:Y#&:92f\%b`K+jZiuqFPeu]I)'@'A;$&3dM6`!C`?M'3ENrmZUkSq6)%.S'F8EP,RX3)b/Yi@Hz,/BuSz!(jsD!CNX_z!$o>t"_t1FqL#(=z^gk0Uz!!#-sU]:Ap!!$D<^n^r1!!!"LBY^DDz!)^P-z!!#3u)$M21kiJ`\%'Z\+(CO)mT=8_J#c%G#z42@Wlz!)p\/z!!!_K)%"=Y"UWkP4HAtM$:Q4JqQ!/C'Lq_jz!!$6=)$XW)%%s"'U]:Ap!!%O>^_m>8)-$<CR%s]^!!!"L;o#1/z5ZYZ<$/r"aU/`'35GB#(#Yba..&-\Gh^=[#U]:Ap!!!!A^n^r1!!!"L?bdN^BI^%k)$a$p[gMtD(o.-3z7DP]!zJ69U_z!'kM=)%R,*$K1k-!"6<$;r)@qaJ;(pia(UGftsNbzJ3^oGz!5MdRU]:Ap!!!!W^_m=+oM>lVU]:Ap!!%O@^_m;+>]*\,U]:Ap!!!!p^n^r1z!!&epzJ4dVQz!'lU\ZiC(*s8W-!s.fVpz9#);JeF5&"&>T:+z*5EEs[_%end9p.Rz!.[eZ)$YT)]%K$IU]:Ap!!!!U^_m@bi>^q+-kmO&Hc7$tC`*C%H/3:0)$bqXIJ]CFUSIki!!!!aA\b)Az^f/%Ez!!"diU]:Ap!!!!Y^n^r1z.)6])ZTb8S4klb4z!!'eP"le^c<HP#:z!%Pd[z!!"XeU]:Ap!!!"%^n^r1!!!#'Fhf1%U]:Ap!!!!b^n^r1!!!"L8AM#$z!&q]hz!!#F&U]:Ap!!%OC^n^r1z4hqp?2:1t<8idD!#&Z5lF"p@az!!#@$U]:Ap!+jF"_&3dNDY2GB3iJPS,c6IM#V?nsZI+-EU]:Ap!!(qb^_m=ig=:malD+C[!!%P&0#8_3)$bN3%n0l:0Ve[Kz?biH;z!!pB9z!8q;$U]:Ap!!!!M^_m@-/,MCW`2!A5z9u*P)z!'e7:#k95]G=G<pcD1F?!!!"L=2:U3z!#WMIz!!#'q)$Y:gN%_-^U]:Ap!!'f4^n^r1z-GZDWz^g+[Nz!5M[OU]:Ap!!%OK^n^r1!!!"LBu$MEz!&_P0"sooH"&k#Oz!.[JQU]:Ap!!'f3^n^r1!!%](QbfHtz^g4aOz!!!SGU]:Ap!!!!Q^n^r1!!!"L:V`b+z!'.ijz!!)N'U]:Ap!!!!R^_m?E@B`A&#c%G#z7_kf"z!(XgB$Um!^p5EFL!)!-%U]:Ap!!#9(^n^r1!!!!AA&+l?z5Zkgtz!8qA&U]:Ap!!#8k^_mJP"\L[&Bi%1lc5@!60cZFa!"hnaVm3#tzJ9\l*z!0DE?)%CAc]p3QXTdRs<p?7/I.9C+dXJ%,^,C^YGe5RD<)nAI$kY=?RC'a+s![ZC.B"AjFo4X`;!ah`'z+KW?r$!L'PN@F0A8Db9k.q3!m/[]onPGA0Y!!!"<EPNG(X903JFX*e^0lB*#r;%ICkG/(X!!!#7H,(:%]QK.5T4]#Q/F(S:rSqIBs1,tg-X#@#)%:Bl[VI^Gdh/`.8OB3QzJ9AZ'z!0D08ZW)SWs8W-!s.fVpz1Vfddz?t$jHz!'jf))%b@Js#W6gTrGsGVen1SeHVh<R@0J2RCU'M(2'H3mJXP+rCC>\hf/^sji-,9CLSt8(QV>@DVC92fXM+Y5oI6h0@?i"d35V<U]:Ap!!&[5^n^r1!!!"LA\]0XR`d_<p^Bkp%E!M7/hqe#+W7\RO!k^k;t>rAES&*86YL!Sf%K)+m,3fi!8F'VSU\ti.=Q\E.>3+2QKiEQkt.)`DWD0-c%9oRXr.mq'Jt2n1i9.]O*rb2:up>6I_lsa;=FDtc6t.A3@M\9^Y`V2H72J,%&u<\<D:5YfcbK?J9Dfk\'f\3`"K8()`[B.&Q!.M.aH8<,,i#Iz!'kYA)()dVB!Rq,6/V35!hS#CpoI.WD!irq]rY^o(Hb[p80ss75'Cj0U]:Ap!!"-X^n^r1!!!#gF24ROzi,$3)z!5Ncn)(&D"-gKY1F(PmVJ"lb'$f5IaQ^Z;1UDEglY>V?QHVRT!`sRA[U]:Ap!!#!0^n^r1!!!"L:;@_SjaPAN'h`=6.bkmEDf+>TZRD+=s8W-!rtu)gg%qF/89jd&z!.\4f))F&sg48^4Xq%!m@MCngEoE3q\>TEX4qR@,ddN#kNB<lQe"0D47,Y]O*8oUa!"6H()5I64zG/1G7rr<#us8W+pz!3gpfU]:Ap!!#i=^_m34E23I6!!!#7B##8jr3+<?s0kilA@')Ms8W-!s8NrS-rYm@cU[o(5Eb-k+V-UL-=BR:baoZSS>6,bzJ\\V`s8W-!s8W*:&msrr@`j9A6$dZ)f#@)gV=frg#7jG4&<L13Zdjj2s8W-!s.fVp!!!#7=MU^4z?uNiVz!'kD:)$QF5So(*qz!+9c]U]:Ap!!&[%^_oNA_pd3KK-Tuha;0@dmE`nC=T;O^VtV7kcnu`BH9%5=+\LUqDbZdU^s_TeHZ/R'G8Fr/>8A>\qFNiP7@CN(:S>*5;G<\j/*Bh_Y)ZDME_X[O<EA#.m,tf_?RkUi0cP2Q<X1]*lNSQH=F+Ll&`MsW@%sc3QifhDH,@i8=c!K/E;koRJEYG6DI6J@D,-[u###f.z!+9TXU]:Ap!!(qg^n^r1!!!!aBttSrY"A#^,e=1Hs(.7T=;[h6zi,HK-z!"a[rU]:Ap!!#i7^_mGH,;[cZWS&euU]:Ap!!#8_^_m6pae0LWbD3pKQg)H.)&nMFHnAi$>g_;k)6M1bE0Z(#!@K):Q\hmr-):M@!!!!a?,369z^fA1Gz!'jr-)1$DNQppFFqYIl5rQ6E+)S+?sdqf'=i(OT9_<_*%=%7J6I3hKMP71'56*1f4qugLU,Zq^d+]#=m9tLWF_InUW(cJg)<,ek*]!]M.cnKGmVKj,eMDbJ>XF[Wq/mSpg]cl>EVF/A=K"!Z6@g(=CB\0kYh)'q7U]:Ap!!%OG^_m>@6ZepXHPq-l*:6WK]*EI<GR49C+*Zl;B8.?6q0dn:>84^PDgJtLqoH'uRk>1GcZ3:3jA].hd.lQ]<s/j%_^X4VOr=#Ooo1o_7kW:PDr@RcpGM\`Ed67@l5b.H2Y^J=(CVJ>?u30VS1$Dq?HN4jB[HGmDF/@RNL7LSS/DTQe8X.(hL/Y)z!+9KUU]:Ap!!!":^n^r1!!!"\HGH<Vz?t[9Nz!$GgfZYBF=s8W-!s.fVp!!!!qEPS@Mz^gFmQz!2+5FU]:Ap!!!!d^pEV3s8W-!s8Skpz!-Q'p#R-K/o6CWH`>Jh6<`YrPZ]Y:fs8W-!s.fVp!!!!a<PYC1z!,96Ez!.\q%)1"&@l<gcmW'IuN0)uBcLf9IG6.We=;O37?o:\uIAaDWF:Ht'E6$>r%&S:qPCb@/6^T9gQ\#<'905g,hUl\t-SMWr*jm&t#^>[4NAHJY^*jOd+1C11W\Q(77"nK/Zh1)7%L$.<M?`RrMf4#';XmOb[W+Q9EU]:Ap!!(qj^n^r1!!!#WDnm4lo(o-^z^gOqq'D7<kj::\11`@@>g18E@5gn^cU]:Ap!!!"&^p=jVs8W-!s8Skpz?t-nh&_D4_aMHnIXlYo1:7@Q_Rs1Y.zcuQptz!"a4eU]:Ap!!!RQ^n^r1!!!#7I_Zg(!$s9tU]:Ap!!'fS^n^r1!!!"LAAFu@zJ4mZq2<EaW2Y$uSFYV;"r[4QBPjVN#QCubgn?tC-]`.q]@"4fF@5-p`Qe-6G!t3)55EFp<Hi^#CzJ476k#MQd+;=Spq)%)+e`RT`1mRj7Y)$rmE`#pRra"8j<z!.\:h)&R.dWgJ1b]K4/pprn_9Ga6Kh/FWq4^jW!Yz!)12(z^a.DpU]:Ap!!#8o^n^r1!!!!QFMJb#Fu^XIbpOacUSIki!!!!a>JR$7z!.r!(%M8W(D4*%k&<fhBAclkFz!!$9>U]:Ap!!"-Q^n^r1zEPNFqaCCV#Zl'L@qlk"1!Sg8*pQXhNZYCSXCSUq1zEknINzi,6?+z!$G[b)$lmKcW_A=([W(FMdMcX;6Q(Wz!$H[)))j0\T@9SeV"%Nq8hn5HSO&qGOc2A)@mF:*)qP_*c4N9mNLrQV,3G;El6\'G9WADg5[Zj+`u,*7SE#t"7AKn`!!!#gIDDWYz!)Pou0]s^!A:6>%:ZC/-@*sQ<kGif;aMR@Sm.ZG"6en6+Q"u,I/^X@0q1DspPO<'6V5+(k!!!#7E53>L3\*n!Qds(<gGI\&Nu$F6_"e'*HQMi?3PrA=e10fL&5:^m\Kaj?9Z)4u00=B:?s'el`cE"#B`R@_U]:Ap!!#94^n^r1!!!!aHbcEWz0RpkU"Uudje_?l"zY]dggIK'9Hs8W-!))^h0h\5)M;h5=NaioT1^-r-IrD31=-l*2iRo@ch%e''`<h@J$q;Y(<C$6a_*Ikmq>[^g3z!$HO%)+&("qA(J]rc]FTO-9JYND")6T0o.OBkS^P9^2a!3kRTmk+I\c)oZ+Ob#C(FbmaeoG:LDPWai$5M!@[fJDo3@)'\NsZ!]UBi3`M3*rrt-<mr3be`KOmNJ,.JUej?ei$;kC)%3m0LfVl16Jh?,9V_Xg!!!"<F24ROz?tmEPz!.]@1U]:Ap!!&[#^n^r1!!!"LCquhHz0RCMP%J>@br#>1X11!)=MGb;p`.G-dU]:Ap!!"]o^_mCTR`XmeVb<fczlE`a^iTpODs8W-!)%TA\#:(..<^u?JQl)WN;AjeoYW6#k+,_k,,WoLoHV:*hM_Z*9?1GrLB>D;!94iT+Q^kcFr1VHJ&r4@$_^Ll;I>R3dZckmEU=*j+jW1#B/%?KAjg/^'l_5.h#<l[1B;tR-2O:mEC"BAB('ZMISqaI!=h+j&%>J=uG7Uf$hQ9e`Wtu!r6DOS]!!!!QGJL!SzJ:53N,kW?P*`(D=-l*@8=]h269?Hg"7\5;#j0;`SIc>0c%=?&a',_=e326?sgGkEIf\k>8&,2k"z:k6?Wz!5NBcU]:Ap!!"Et^n^r1!!!#7DSW%JzJ:PG2z!5MpVZU=`ls8W-!ru"&WReQ(q1u=fDKbrJ$gTj<IbMMo95L,q8fcmnB,u*&gpcVtW%GuKM?ore+I:'1>M4WOFTC._hH.KeC<c&]YI8Ai>'>tb^GoWsqMVsTT)tB=R&/qp56_&3jb2klbhpLMnVEd[dni2(,/($TuD[5W04M"*K2bO;?a<,$Y\o>btE8b;bQX:I+1FtDmgUGe<)$R*'&`HV*0gGYj@j*$7l5uY8G3K0#M3WOHo(5"0-5LV@>I9iS*OCf21PC_D#\dbSaIqL+,6&MjrRuaZN^<iQ+'3c]gUnCmJ/]R8o+)ELE^<F5e<jLAJK-nn`U"-e2t,CXl32X@=/?Ou7OSs1LhH+83jZ?t.jJ&k2s[<p(5=?Mc\J,jlp@qMZ_RR$!!!#7GJG(&cMYoo<_IWjh&-XOlrjuR(s,B*YuiCl#Ms+"h7\gJU]:Ap!!&[)^_o#7FsP4//WZiTL*:6UroSns#NiJ"?!Mm=5@mk>J6T;F)nA<Y]`.deGR496+)=/_Ef:n<)$CT'S,]8az@",nez!+:,gU]:Ap!!#!1^_mI`]sY3DO]'%K5,8/Y!!!#7@_ec>zJ8;rrz!)RsVU]:Ap!72?g_5%&2!!!"l@)/Q<zJ4@>\cN!qEs8W-!U]:Ap!!(qd^_o)Z1U20iZrMEP.tVg(R<A7i:+Ua;JR\MWM+*.K]>MO=6a-a^ot!6Tf.msY[#A%U,YF</5mt$pq#C?o!!!#*<8dfVs8W-!)$`)H7f.[rP8OQ#I;^pt)%Oba(%:SpG0daDRMSBj)$i\uKVUjSXU_-,z5[M7%z!.\ImZY0:;s8W-!s.fVp!!!#/JA<$smE,YP(rT1p23ULhT)p?(UPON41s^P?XpiidD*U4J1W#<"pQ]<-F(Cppl_WEEPr\5m_o3_3J#0d>%f5!1;[0Od<mbGCch.YSdA-aB!!!#'FMO[Pz5[qMH$Ge)ZgB"Q(6V.Y'&31%sp+S0[l\bP7Xd\9*8[B/:s8W-!s8NrFFMir%rE6+rjp(_7)%D2g\$a[:Y])'WbQb'b,Qem`0Hji\r_6IWK^7]n;+#Tl3&(hVdTTNu)Z!#g]MCV1F//d9z<5>:0z?us+$-F9XT$$#G[PT838f=7Y6bMMo9'Zd8[gao:G0NsbH[Q?iG#gbdR%KT@a!`nN$T#YIXXpT7g.R;`q:D-IZf.R[9]Tc@D+[X]Y<<A64i:rsB?#/bBFW2jK<3bX%[g7DXz!'kJ<)(nDIE(@gf;+jB#^;mY7kM1l<;ur7,*8A17(06$[[:6bjM.GXdqBD+=h>P^\)$;'k7MuKL+'Hi9/C^Gjz!.\t&)$bYiY/;flGSs)R64bJg7aPu_mQN\Q^TQ+#Z$KqTdmL)o:BpuaD9am]H]*5Dk+e%f'%g*UL/i`Nb8FS\;/OD(UF3&#MF`;`J=r!KaL<OeU]:Ap!!!"-^_mFX*]Hrn-e=rdz!:Y!DU]:Ap!!!"H^_m59(+H$Zz5\IkM0,9(Q[kE%cP'ZP\H+"fLNVHlB#55OK=cki6ccMVXs%f?]nGrBQ2$OGuM+#f8)(MT6#FB2GD?IWTDJ-Z;oWe#Dgiu@k]egWeA.&iEMs7WY$6Lpom5<:+Zhsb%rr<$!!2KSp!!!!AFhjdQzY^4)&#am+5&Gl[c6)4J\!!!#7CqpoKBRrM;`Ll1Q:!PL=H]*5Dk++%%'phJP_])e%^gCqQARjN6q0/V64XO4VS%R6pan$h,\+9*T@AEl'!!!"lCquhHz!.DYh.0'>Is8W-!U]:Ap!!"]q^n^r1!!!#7FMJbb_5=S#6_5hu:CWG9`*bKOJT4l!P+$e<fGrJc=[U?J'L@.,A*h:tF05J2j8dr*\Wq9S]fasDo'sOX4+lI&.d@J2co.XeZSDL[s8W-!s.fVp!!!!ABY^DDz?uEat&]--YkYP"@X*9sL=6jCgLgRKurr<#us8W+pz!!n+jU]:Ap!!"^$^n^r1!!!#GH,-3Uz5_?ch"@OFdbo$_!1UJ?4<#Hp"fo.&*4]Z6G/]ts0-\UQBs$auVNhB5<OpppXFW,<R5(fX2!!!#7jO6@3#NQ#O1`Vmj)&U<m)NEFG9%1g?TLqQ.d<<h,]Q+'q>]lhBzTPM?=z!!#p4U]:Ap!!"^#^_mPo;P7k;<(r]AfP+]gz!-!.t)%2mDf,KMh93qqBD57.3!!!"lG/0mRz?t6ti"[rN.n>i>bz5]sl<z!!$iNU]:ApJ8ItP_&6O+(e%tVH2ktb<2no6i^;)Hm@\jL[Q)^6j3NC+D40O!IB?GB`cUD_#i:7BK[BNN9JJ575[=6:PSr`/++2,LbXQ.uig#>\(LXI;XqHI/6X)U,J(Tm1Y.7JD)%!P)oh/4dYNDZ!!c<K+%H@qIIhhGI:fcVcELWa(z^idGgz!3gLZZN't*z!2KSp!!!#7<koRVka+$,_5%&2!!!"lBttT!SDCWp?]?P0hY2jobtb%Fr!T;#z!->pna8teZjAAg6Su0&k>XKds-"7m*dSUZB"Lgf^V%Pk"BE7Gk*FS67GK*,hX?#.b)F<gi3%!ROmE;bhT/$dAaE:\2k#GInf)G+n9N6E=[!pURJJ-SLRB$GhB++_s4,gnQeMF7P1C(o/^N*+W;26Ne,;sYt,9O+>eS@O+?FJ!`-\KPS)/F78O.<d<rh>dl7a]-I^`gV]H/.`ZYLP^ZaQ$]@[9\u_+hq2fSX49NZ1BbG@nC029r3f39)4NDA:T5c<,\Q4zJ5sC\z!0DB>)$fP(o\Z,TZ5FIN,+A!Z(Jg?u]4P.t-*$Amcmk5!h;P.0z!'n>qz!5MaQ)%0$^Q#CSpp-CCj%&<k'!!'eWh`r&8nps+%Uc"LTU6+Qob]4V"QsgD[Ym_%8MnT+/;,'*Kr\0olJK*(uPiu0),tP$SEf],r#U=Z)]M1IK3hu`U!!!"L6,9fJrr<#us8W*:%KT%g(J=CNKp-ld[g6O_(fh*"9j@](2-He,ri44G_`Or6!0&))"f)+uz@_ec>z+F1buz!'kV@U]:Ap!!"^"^n^r1zH,-3UzJ9J`(z!75f&U]:Ap!!"-W^_mb;_IkCK"ddqks!SraJifCBn[%T^s8W-!s8NrLSa+;mCSgTos$b>/]:3TVZn3.)<nKV9LCn$*($csKmA'^^!!!"lC;?VFzd!`^*z!!#d0)$dfmLo@Lh$5j/d!FO^p]dZBAU]:Ap!!!!q^_m?f,pV?3Pb\9Z!!!!aCquhHzi+]tE$Mt(SQL1d9#Tmq%*:LTDPd'Elf[qGb"T?pgc<so*jBQ_sf'N1@&K*8`3D#S19cTo,37oF-'\r$/q#oYj'_E\-e\1k0.cP7f>JLTY,$5'Z`G<UIHT]+^$R-#\M"!85<f*]MU]:Ap!!"-_^n^r1!!!"$JA<$-#\b(c's?brz!+<T-))c>6K!+_#%'<F'$3j>`l'uQ.9`p%JEQB>T<TWMsM@&c^)")Tid]9@e/>dAE$0E/-,t1BoU]:Ap!!&+$^_mWrck\!IC!/!.dms?/A#'))!!%](\&"j?zi-2sS"@RNUNu8M]'*.LUKb_"^.l!BGd1B\'"brYmdtsk#zOF+b\-&+'2,0Y)t7A[HT%e/%]&dSAl;U0JVhu?aZW57f=XBS/4o519'zi,ZW/z!.\^t)%lp/E-f49XkCbNbWT\BOYI#kU]:Ap!!%Oq^_mV_^M('`:HUI%Lb8.jcl!OB,M+_n\'0hMGa6KbJ)q]'_K<7)$QX8:7EGgW*G!)b)(cl_Z&bdeIMl[H<ZO=-r),Z@=[-DA!rDa-C:O:FSJ+?^/W7Ye"2=nTB>*&qz!75`$)%'"`7j/RW>tO\>U]:Ap!!&[&^n^r1!!!"lEPNG,M%e@?]%eF*E%2/nj*GQQ8/U!(dMWZD+St]4`/V<E(JQNZX:sJNKqn\K!!!"LEknINz^hpl_z!8r:@)%C"$4#cGjT;==pQ;Oi]z!2+bUU]:Ap!!!"0^_mX1P>%t_Rm:@H%u5Z5R%s]^!!!"LA&+l?zTQ%[a'N+_."oiEZkW!tOVmYD?Z$nE3fq\TJ!!!#7@DJZ=zY].Aq#%7QZ3UDV@$%\aCfTUd(722Ntz5_6_Hz!-!+sU]:Ap!!!""^n^r1!!!!1G/0mRzJ:#)-z!!(rlU]:Ap!!(ql^n^r1!!!"L@_ec>zi+0X!R[KS3R@213Z\+\Gs8W-!rtuU<OO_mlANZeo1im_(gAW("o!!;.';PU.!!!#gI)$U$omI\bNi@fd!@KY^MNjn:z+CW&'HGIET+_$ro(?q0:/fE;:ja^H_aGh6??o^("cf/W5qMh9_J]@T-+Hbr;M;tb;ffgk+[l\QX,J`qHk9h#5Q5bt=`uK:491iZ3rm&4doV`Q^NO/FD,6l`6S+CZKkR!^bQr.R$FM(Sc]NFTaAI*4&JJcQ(``/n4z!'keEU]:Ap!!'f6^pF%?s8W-!s8Nr@OZVu%2S,[azE-T/9,Rpas?anaR@+\OMTeN8]PL==3)&%\UIZNaU,!\3#X$obQS"p#a!!!!1E53>'K'BnUd4;>B+FDcMX;sr6(o.-3!!!"\IDDWYze&aim.n,Vg%f]@U)b0RHT#XPHrX*:GZe_jQoTS9T=BDm6:7o9i&R(L8^Ln?)U]:Ap!!!"!^n^r1!!!!a=25[g7r:/s?8>u-'X%9R@A8p)RK?OTGSq$/j`4<5Kb4]LK)bpKMQNZSz&:D82%kZ%O;X=gnQQA?cM,k"1)$[R7cZedXU]:Ap!!#95^_mg]5J_in-no8&I2S3&M(p*i8EdDYs8W-!s8W*:#?]O4DGqC8U]:Ap!!'fb^_n[pIXR,9Vr1qklO'3&Con!L_N[3UiUK&@F>.B39D$u,(p;.$0d]?G8nWCEz!'kbDU]:Ap!!"]t^n^r1!!!#7:r&k,zE-/mkz!2+JM)%(Du0W*so+\jg5U]:Ap!!#8m^n^r1!!!"lB##9^nrlr'+B5c&[>X%m`d(Qcc#HL7[/q.AJ>T.f#Ri\iX?N4!NtU9Pf=2ORD&W9tI);Sc^aZ0s,t-2kX=+EF!l]N=?nllOI93V6JNO4+'!J)2zTR=PNz!5NorU]:Ap!!%OI^_m8ZfP-\Jz!.\h")$CSU_!N!d)?)hT-]\^mTUVnfnnT)k1LYs:rRW<uH4<B`(V(b^67(/,N\_Oa*?>G1gjD4S/rjUJAi[;")*NI56mC^O8iKG0(:A!T?O>.rh_-?4SmbmdJ=S8,`CT'MCj!eg&4^2N2jf<PI\Q=lpdLIJj4&J)Y\',qz!7621)%$Meq3,*5PNlsGU]:Ap!!&+#^pEt=s8W-!s8SkpzJ98T&z!.\+cU]:Ap!!$DK^_m5]JOlR:zTR4JMz!2*f:)&9f/KtFg3),2W\k]-2DKE0fn_7'H@z_"cVKZbF]as8W-!s.fVp!!!#GG/0mRz+E,&kz!,onC)$WT/3kS<SU]:Ap!!"-i^_m8/*@7#Iz!'j`')*3H6KCoS`,A,u@,`3I7k[BO96XTgSEc@buVO6T!a$!$1NZ_)XU'^p-QKb\e=<9-'qDd1SP$=HMZTS6es8W-!rtu-a!SQ>u=0:M?U]:Ap!!!"#^n^r1!!!",CquhHzJ9SdH%*.A=43b5-jf`TGPo2%1EA<ufKqC[L.9$oTjMY&N`N?1]oUp`43THY<ns%&;TLr1YV*AG"U]:Ap!!#8r^_o>r\;HA6g&;UbmC[@r!X&/A8Vdci[hs(1]PMkSj55SSF]XVJ*0Qs,6;]+F\K_@]/u#F+b9_c\h;Qnb8#-+b!!!#WB#(2Bz^hCNZz!'jAr)&kN!^E"o>JkdMp#]"CVO0F`=_oHiog57-Wg8"]KzA&,FBrr<#us8W+pz!.\7g)$uWDnX5'+2.NI#$t1A3,/B:nVB^Ps:`1\8V?B0[@?6%.+7g^kEk90%T'jYR4j)u%dnUcWa$P!.UU)2WbrOr)!_=CN16^G%pbb7p/j+-.F]Y<-a=/4a8Dr3"B#N)(5\r>;h8/Q(UZ77"!66g3KQ+f@As;k_z!'jGt)$pf7@mB%recU/mz!77-!)$\Tb-pCjR)%+fE?bZc>;e&*UU]:Ap!!(An^n^r1!!!!AB>>AgQ*V%Wl_FL\!!!#GFhjdQz5Z,=mz!$Hd,)&;Zd$9T:5XGFYin\@eHeC]XYE+?3l"\ieQmP:R<z!-#`Lz!5O*")%d26+"Ch3N-_7lQ%-\rnD]lS137,u8[5M\<8<_8Q[!(`M]T:8fSFs#TD)rIX9t<=H/V@%_h0b&m(@@23Y-.,9`1BdOT,:[s8W-!U]:Ap!!"-R^n^r1!!%OXfg)>5zOE845z!!$<?ZfD)cs8W-!ru!g`"-](uas&D")kYSqXTYF1Spm0tnM^t6$trI'o$is8iLM#Q`IZAC/1s1lK'En]ZYcK?Sl^7RU]:Ap!!%OX^n^r1!!!!aCVUen8?Q6*D=/TkU]:Ap!!!";^n^r1!!!#'Hb^LV`$[pXl?dZS2"mcd;N,kacA.EIs$Eldr>WDlDc7LcLfU$T:Y"u,!m[%@g[5Ij3m(nr:o"'k!!!"lDnm5&E-QWOdL8btG:hU0gN':QOe_sW!!!",FhjdQzJ8rB#zJ;rDN)%#Kcf#DPHq@iFqz!+9uc)&+Y>_X8$VX+Yb-`6/`nAn!HWLOc0#zY]7IbXT&8"s8W-!U]:Ap!!(r#^pEP1s8W-!s8Skpz5ZGN:474KR'BJLjYo!.ln;1)g7&.Kj)mn4Ncj0NA7**6+S+KBOO3?]dDGE`7V]p3lJ&N-=2\Gmb-`9aeU]:Ap!!$t`^n^r1!!!"<Fhek);KS@;]1&@#OnUrI+YXc;f4?;[aVb9n)hV>@Ii/Pl:86a*l;#osU]:Ap!!"-g^n^r1!!!!AEPS@MzJ8`4@'S\8!,0YE(9X"-Z%d(qZ'FD=8(8Lp1!!!#7JO$"2z+C`,(%:lj]Xb%ETKTOq54?oVAzd!EJF$UbOdeXj7t4K!$T))Q\<i4#gH#1hPhAtns\Ws-o!XbM)H]fOTE^[K5rCQ\@$J*.*)_K;ne=5hqQgT]=X!ICOAz5]4BDYHS!+z)$j9WFh+eG/M@u.\8df(\f%+AU&3CjX$8F1`=O!H>XAFQIDd`lELV)Dk)tLJ/^dtR_,u'"emCjkeaUbA]/T*<S)mW!L8KQIebp?g<^!O!))_,;-[T*aM\uVSJ^a]`G3q@dV.XM:8dN8`<b=iNM1&#nCpL8G+?i/t-blA&;h-I1`RW5/z!&/H/U]:Ap!//sZ_5%&2!!!!9otVFN\`Au>O6,OJ)$O-QaF.6fz!+93M)%((ti5nuEdFT='U]:Ap!!%OH^n^r1!!!!qI_Zg+cSKIg>obGkz!8r"8U]:Ap!!#8e^n^r1zB##9;"]EuJ576Zj%/;>A:/&KDfJAi.R;l6hJW2i.fid=g>%33'&-Q<\+m[#0CoQNlz!75r*U]:Ap!!(qu^n^r1!!!",H,-3Uzi,-9*z!"a.c)%'/rjAOic^Qj,_)$eFSP'*P1;ksBn!!!"\FMO[Pz?u<]Tz!$H!k)$M$\9RcH:1B7CSs8W-!)$2ULU]:Ap!!$D=^_nMYc,oW*I80=]Je?t##r.BtbmQ[XkFKlpG<u'HXq$b'@6c>uGNYb%z&9>R^z!5N-\)$e[>5BI<#`#0)KiSfbQ'd5%2mmA8^F<74Xz!*I%4z!'k_CZR!rus8W-!rttlP&YoC,!!!#WEPS@MzJ6fr."bBW:o>J!(rr<#us8W+pz!!$?@)$XF@4[V:=U]:Ap!!!!l^_mZQc_9*)L-)-J_n&\8?DXFtzJ4%,Jz!.[DOU]:Ap!!%O]^n^r1!!!#GHb^L)'CX&&;t<\ZU]:Ap!!"]m^n^r1!!!#7B>EGW"q(D2zzzz!*0@*!*0@*!*BL,!*BL,!*BL,!:0[c!#GV8!#P\9!%nBS!!MM62'2o&2&?>s2%Kck2$X3c;@<R/*s2lu%1<7GCBFqH2%Kck?1SJW"d9?P#6P'0!s9JR)nlNj!cJ/[!tZES#JL7@!s9JR)tjKm#&aS_!tZE["1ACG!uh?K!=K!I@D`R5$Xo%r!u#ba!s:D,!s8U$D#b.Jzzz!!%TN!!'5.!!!H.!!!K/!!(UQ!!")@!!!`6!!(jX!!'e>!!'e>!!'e>!!'qB!!'qB!!'G4!!'Y:!!'Y:!!'Y:!!#4`!!"8E!!)!\!!!/oI5NAS"#V/&"#Uks"*E!#M\(dX@KQ]?2$X3c<s&OD&0&>4Scis6)ZpWj[K`$%&H`sS;@<R/T)ij<"#VA,"#U;c"'5R,)\<t^#/1.W!uh=R)n#jG";(_T"*=nQ!sT,8Xp&7J,m+g&$NgJT^'"N?2(&J.,/+3_!t>V?$Xp1C!u!P7!s:Cc!s:n0!s9)RjoXs&DZ^p\&0$?-rWNl9)ZsOO"02J)8<j2U"onW'zzz/cYkOz%0-A.)?9a;+T_WD"mULn-NaH.*s2U&(BXb@K,i&So*7,X!s:Cc!s9#X!s9)ZXp;B?<s&OL&0oI$[Kg^Q,6JK%Xp:6tDZ_3d&0n%TQ3Ip',6Li-#6P(Q!=PY+js^`Y!t/oQ!s:Cc!s:Cc!s:n8!s9)ZjoU!M"![mZ,G#+r"q^q^"(D?7_Z^)G%0-S4zzzz!!)!Y!!!H.!!!K/!!(IK!!!2ZI5NAS"#V/&"#Uks"#USk")")EWsZ0O2$X3cDZ_3d&0n=_Scis6,6JK%[K`$%&Ha6[%1<7?=d'4$Q6-PT!t-q)!t,/3"TT>=zzz!!!<*!!!H.!!$@.!!'qA!!'qA!!'_;!!'_;!!";F!!!i9!!$%%!!'/+!!'))!!"qX!!"2C!!$@.!!#Lh!!"SN!!$L2!!'qA!!'qA!!'qA!!'qA!!$R1!!#+]!!$C/!!'_;!!'qA!!'qA!!'qA!!'e7!!!:eIPll]!s:E1!s:E)!s<T`mMcg+)qG56"#\s;!s:Cc!s;U,"$7&UmK/s_DZ`''&3KjnQ3.^$3s4^J*<QBc!un-=2>7+R"&\Lg'*C*L!s:Cc!s;U,"$7&Up'13mDZ`''&3JGGmK4%'3s01)"6Kf,O9-'t3YNG?;3q=l"#U;c"'5R,3tOLA!lb@]"$6Sr40AWS&Hb)sL&l])"#U;c"%,-P!t[PS!JUYo"$6Sr45L+#*"`97"%OR<NWW^m(B_hh!#m]rCa0#a25^HW"(B1W!uj+4!s<T`L)(F[D$'kt#6P'H"$6Sr44XT/"]kd.3tOLI#5/4="$6Sr46?Ye&Hb)sHd`9'Xp&8%-NbT8)Zp1"-NaGN',q$ND&WR7M?*e]')N*t%H@e)!s8W-%2NXX"onW'zz#64`($NL/,_Z9`;+ohTC+ohTCci=%G"Q"Pa(BXas%g)n]!s8og#6P'H!uh=R)m0DuDZ^p\&/uCF#8%%W"%T[.",7)&$^MA4@E'Ys'/^L,!u:\:Wrqr52&uc$!!'A+zzz!!'#!!!%ZX!!%ZX!!%ZX!!%ZX!!%`Z!!!`6!!!W3!!!K3!!"AH!!!f8!!!W7!!*!'!!*!'!!"kV!!",A!!!9)!!"nW!!"tY!!#%[!!#+]!!#1_!!#7a!!#=c!!#Ce!!#Ig!!#Oi!!#Oi!!$C1!!&_s!!#t'!!'/,!!'/,!!#ms!!#su!!$%"!!$+$!!$+$!!$j9!!#+]!!)0a!!)d!!!)d!!!)d!!!*!'!!*!'!!%BH!!)!Y!!'G.!!"2E!!"2E!!%`T!!$a9!!)Wn!!&Yp!!(^U!!)Wo!!)Wo!!&Pi!!#su!!"SN!!"nW!!$[4!!$a6!!$a6!!!?+!!!E-!!!E-!!!E-!!!E-!!!K/!!!K/!!#Uk!!#[m!!#ao!!#gq!!#gq!!(1B!!$d7!!%cU!!"DN!!#Il!!#Il!!$g8!!$m:!!$s<!!$s<!!!K/!!!K/!!!K/!!!K/!!)Hf!!%EI!!!$"!!!?+!!!?+!!!?+!!!?+!!*!'!!!Q9!!#[u!!#[u!!#[u!!#n&!!#n&!!#t(!!#n&!!#n&!!$U:!!$U:!!"#?!!'D,!!#+a!!%<N!!%<N!!%<N!!%<N!!%BP!!%BP!!%BP!!%BP!!%HR!!!c?!!!iA!!%WP!!(+@!!!?/!!!c?!!!c?!!!c?!!!W;!!!W;!!!W;!!!W;!!$[<!!$[<!!%$F!!%$F!!'&#!!(gT!!!Z8!!"DQ!!"DQ!!"DQ!!"DQ!!"PU!!"VW!!"DQ!!"DQ!!"JS!!"JS!!"JS!!!c7!!"JS!!"PU!!"PU!!"PU!!(gU!!)`n!!"kZ!!)Ni!!!'$!!"n[!!$[<!!!<,!!!H/!!!!%!!"#@!!!c8!!!$&!!!--!!"_T!!",B!!#%_!!%$F!!"n_!!"ta!!"ta!!"ta!!#%c!!#%c!!#%c!!#%c!!"h]!!"h]!!"h]!!"n_!!"n_!!"n_!!#Cm!!#Cm!!#Cm!!#Us!!#Us!!#Us!!$j;!!#=d!!",E!!#Us!!%iW!!#pu!!!0*!!&u"!!$7)!!!9-!!&#b!!%r`!!%r`!!%r`!!&#b!!&#b!!&#b!!(+B!!$a7!!"hY!!"gdJ,qO2#6P&cV[!;+24k*U")7q]'q5\<_ZBq#"(?p2"3Uaf_ZBoB2$X3c@KQ_M!]:2b"'5R,P62A["7?E&#B'^.!s9*u"/Z2R&He4!"'i_F"0MeDVBuDg!d)<]!s;fG!X$FE2$X3cF2J(A(W-;*_ZH\:T+NsL$NgJ5"2b2t&iI]6!s:Cc!s:oS!s8W:P67ZbXo`MDP61muP6:dfSd#c/P61o.,M!PJ7?[`S_Z=2;+9R5s@Fb\dMZI8[%Khmq@?q]3RfQs[#m6q'@J1`EWrZY;$j3g:@HJa9])c@.,Qkpb25^NY")s>&RfW\2:nn'oE.@ti!X!BQZN:4d0*;;bXrRW1!FbC:"7lP%^(LPF!Fb+="+pY4`rQ8E2$X3c<s&Pg!t^XumK_SMDZc1*!t^XuV?>C$&He4!")taN])i(>_ZBqC"\7D["3Uaf_ZBoB>f-UFL'BNK!<WFCYQD-3")uln])`"Qp]885")tIFb5h]&#6P'IVub?J")sV/gAqCqn,_PM")t1?lN%*,a8tl5")qZF!<Y3o!<WE]#6P'0!s=_h&<d3f#JM-q"-Wfh&<d4I+iXNp"-Wfh@?qc5MZPSZP5td,!<WF^!F`\F"-WaC[fHR5:C@7,>S@4Z"'H9Ned#Wd#m2DJ'*A>A)["(^24jmO"(AV^"3U^Rp'q2R!FaOu"5<ibmMZ2f!B#Q5!s:Cc!s:!9!s8W:P67rhV?(T;P61muP68NGegh=7P61o+BS-?gE*,a8E52O=!Wt=9!WrN:".K;n@D2jHUB(r/WrW;[M?<q_=W8=2#@Z0j""R.d!s:F*!<WE]#6P'0!s=_h&<d4i#4;M1"-Wfh&<d4A"bm6o"-WfhEWZCG5RR\6"'H!>ed#XW#Ql#'aoVYI23/"F"#\C-!s;fG!X#S/@BKk<b5ue'!WrO0_ZBpXF2J'^!Q+tX#g38OFMe.^"#U;c"(C<n"2b0tT*,5u2$X3c<s&Pg!t^XumK]U#6^%TS!t^Xuc3L3X6^%TS!t^Xu`YC[U"-Wfh&<d4I'rE)c"-Wfh2$X3c9eun;!gWkq/H`lr@GW.0qZ:3_+Tm?!FTWlS!Z%@UlN37O;((Z2"&1iZlN1MW&HhV+@J2#MqZ9RZ!WrN,"7$"!@?ql8lN0d:"7lS&L(XUc!b&M_"+p[f",d6`FTWl[!Z1/(lN6YZAEs<_!mV,WlN6ARp*=PYirT<TlN6)Jegt_AirT;oir]3+XsO__irT<Qdg6,:"(C=A"4I<nb5qbJ>g!0NNWV-D!s;u_(B`+fFNX^f"'j"N"-*IlVC2Pq!d)Te!s:Cc!s<!7"3Uaf_ZBoB@KQ_M!]:2b"'5R,P62A["82rM%W;H5!s9*u"-t9g)%ct7!s="i!X"Gb@@e/8b5ue'!WrO0_ZBq#"(BIe"3Ua'EWZDK_ZBq#"(B1u"3Uaf_ZBoB21bi2!s8Y#!=q&K#m19,Z36p'"#Z\R!s:Cc!s<HDP61muP66O@`YratP61muP686ANZA]6P61nl_ZBqC"_"PG"3Uaf_ZBoB>f-UFXp&6o*s9[f8#lmt`WJ(7!s<Y_!WrO6!s?FBF413Q(XiG%_ZBoB>f-UFXp&7R#m8?P2$X3c@AX).dfO@'!WrO0_ZBqC"_#+Z"3Ua'@KQ]i#6P&WP61mh&<d4a#4<.C"-Wfh&<d4Q"RZqA"-Wfh&<d4q%Gi0="-Wfh#1EYF"0Mk/b6#Q_"'j"N")`2'!]J4'2$X3c2$X3c<s&Pg!t^XumK`_7DZc1*!t^XuegKSf&He4!"&l?-"4I<nb5qbJ24=UL"#U;c"'5R,P62A["82qb+E%@G!s9*u",7,J!YGNu!s>7u_ZBqC"_$g5"3Uaf_ZBoB2$X3c2$X3c<s&Pg!t^Xup'0@YDZc1*!t^XuN\8$S&He4!"02I?!X#S/@?q<(b5ue'!WrO6!s?FB2$X3cDZc1*!t^XumKTO?DZc1*!t^XuVB>L[&He4!"%S7Y"0Mf9L*HfL!d)Te!s:FD!s8XI_ZBoB>f-UFXp&7"*WsReFMe.^"'i_F"0Mf9c6EG7!d)<]!s:Dn!s;fG!X#S/@@ePCb5ue'!WrO0_ZBqC"_!]6"3Ua'EWZDK_ZBqC"_!]H"3Uaf_ZBoB>f-UFL'UX&_ZBotDZ^)!#6P'0!s=_h&<d4i#50Qc"-Wfh&<d4Q"SO?a"-Wfh&<d4Q*/57A"-Wfhk5jlZ")`1t!]Ipt@4hZ*!d)<]!s:EL!<WE]SHo<"2$X3c9g]$K!b(d6"7lR.!s@ij9^;bG''fT'lN6ARhABeh!p]p=$O5nulN7&6<s&Qb!_Vb[irZq5DZf#$!taJoQ4ETp&Hh%p"'i_F"0Mf9p)sO]!d)<]!s<5S!X"/_!s?FB9f3.X"'5R,P62A["7?6a)K,_A!s9*u"1A@#-kQQF!s=2WPm@Ho@KQ]78&GB1Xp&72*!=@cFMe.^!s#q7_ZBpU"2b0B2*(gA2$X3c<s&Pg!t^XujohP"DZc1*!t^Xu`Z'pi&He4!"%g?90#I`Jnco7!!!!<*zzz!!!Q1z!!!H.!!!Q1!!!$"!!(RR!!(RR!!(RR!!!8aI5NAS"#V/&"#Uks"%(`DgB!3?2$X3c2$X3c6SefH&2UHo[Kfk9"#CKE^';"N<s&O\&2T=NQ3V=11BS1EV?E1h&HafkeH$<c"3(?\rWLs`F!LYe'5AI2)bpJS!rr<+!!!!$!!!!)!!!"*!WW39!!!#3"98G7"98G7"98G7"98FX!!!!(hL.6d!s;U,"#CKESck>]DZ_ct&2TUVXp5O@1BUnj!s;[6$]Yd,V?-i=%3kr_%4_Mo<@\.Z@KQ]72X:ms&=Wq_"Tni/$4-n:#6=f)zzz`WZ>B`WZ>B`WZ>B`WZ>BdJs7IdKT[OdKT[OdKT[O('"=7('"=7%L2t6&-i18&-i18&-i18&dJC:&dJC:.0'>J)ZTj<B`e>8e-5mQe-5mQe-5mQe-5mQiW]A_iW]A_(^C$@(^C$@(^C$@*X;ZF*X;ZFp]^]uq??p"r!!-$r!!-$n-/jmncf'ooEG9qoEG9qdKT[OdKT[Oi!'/]i!'/]iW]A_iW]A_CB+>73rf6\$NL/,e-5mQe-5mQfEM<Ug'.NWg]d`Yh?Er[i!'/]i!'/]M#[MU8H8_jIKKQMrWW?&rWW?&+pS)J,R4;L+pS)J+pS)JT`>&m<WE+"JHGlP":"o,"pY,."pY,."pY,.j9>SajoteckQV"ekQV"ekQV"el374gmKNXkmKNXk"pY,.#R:>0$jQb4$jQb4cN!qFDu]k<Nro@^+pS)J+pS)Jk5YJ^G5qUCf`D-RnGiOhI/j6Ip]:EqmKERjmKERjmKERjmKERjn-&dln-&dln-&dln-&dl%06G/MuWhX!s8N'\ci'6\ci'6*ru?ASH&WirrN0#!!WE'"pP&-"pP&-6NI/eVZ6\sp&Y3op&tErqum'#qum'#qum'#qum'#"pP&-U]g_uU]g_uU]g_uU]g_uV?Hr"U'1Ms`WZ>B`WZ>B`WZ>B`WZ>Ba9;PDa9;PDFTDIB_>jQ9jT5D^LB.ATa8c2?joPM_M?!VV^]a]<_?Bo>`!$,@`!$,@`!$,@`!$,@"pP&-"pP&-iWT;^j95M`j95M`j95M`j95M`l3..fl3..flid@hlid@hlid@hlid@hhus)\hus)\hus)\iWT;^iWT;^iWT;^`!$,@aT2AAkl:\`lN.%dfED6Th?<lZh?<lZ\ci'6\ci'6\ci'6i;ioYq>^Kqg]@HU\ci'6lid@hlid@hr;clu!W`9$irT2\#6Fl*#lt#+fE)$QU'1MsU'1Ms`!$,@`!$,@*<H3@('+C83s,H_GQn-JH3O?LH3O?LH3O?L2Z`sZ+TVQC2Zj$[E!?:BEWuLDEWuLDEWuLDF9V^FF9V^F;$$^t0ED.R;Zd""WWiG'WWiG'B*&&57KEJh1'7LV('"=7A-N#6A-N#6A-N#6F9V^FF9V^FTEYArTEYArTEYArV?R##V?R##V?R##VZHhu>6+^(<<E4$X9JY)WWiG'?j6T2?j6T2_#aT:BE8)54TbZaHj0QNJ-GuRJ-GuRPQh*fQ3I<hQj*NjQj*NjQj*NjRK``lRK``lk5kV`H3"!G1BRUWC'FY<C^'k>C^'k>r;ls!K`M/R7fr_kO9P[bO9P[bJd)2TKE_DVL'@VXM?X%\N!97^NWoI`NWoI`NWoI`+Th]EQ2psc0EV:T0*;1ST)eol1BRUW('"=7('"=7NWoI`NWoI`NWoI`NWoI`9`k@qZN1%+0EV:TB`e>8\cDd2!<<*"U'1MsU'1MsHNO6J_uTi<irT2\MZWqZaT2AA*!60@Plh!dd/a4I(]sa<1'R^Y1'R^YW<3,#gAq9S*WlBB4pCue4pCue/-Z(S/d;:U0EqLW0EqLW1'R^Y1'R^Y1'R^Y3!K?_3!K?_49bcc?j6T2?j6T2$jH\3-3aGM-3aGM-jBYO.L#kQ.L#kQ?j6T2Xp"e*YQY",-c1E824#6a"#Z,Y!s:E9)Zp14CBN,rF*%<`>9<rgmg:q]%g)nqZOYFuiuU^[!<^%<F.33%".K="L*Qkr!F_i,"02G[2Zj-ngB!lhecJ%q!M1g:!GCEnirOlS9&fs,!WE35gB#"krW+lh!s:Cc!s<HDZN:4?ZN?-iSd'*8ZN:4?ZN@!/[K@*DZN:4/dg!,Z"*F\jRfQ$S!<^%<F/&c-"/>m*ef"Xk!B%%]!s:6`!@n7EZN7*-c5StM"1&">ZN8&fVA)Y/!NQ6m/3a4=ZN2q="9S`j!s?^I&Bb*W$e>ALdfBQb"#\C*!s9+P!R;e<!_O]T!WE35_Z@ITrW+lC!s;@%".K<KY6>"1&@2DG)o`afZN7*-Xrh7+"1&"c[fQX62$X3c<s&Q2!YD[>mK]TkDZd<I!t_d?p''jc&Hf?@"+@$J"1&".'>"8IFTWk`!C$YgWrYh.Wr\e<8pdT>jq\N/!R;V//O'=>ZN2qP!<WFFdfH$BdfEm3-Ni*(!%[(1!rt.C!<[HH,LZZcdfIVmrWEeU!PSa:!Au5,"*;'TXoZ-8E-T8$"*D-U!s:E<!WrN^#6P&<ZN:42&@2Fec2hhcZN:4?ZN@QFrY?(JZN:4n!s@!Q&CUZG("NFMgB!lLRfR0V!NQNu"Z8dP"$Zki])`JT!WFY$!^=L&Scod?_Z@XUScqa(!P8C3";&0G^'+E956D#*!B&C/!s;0M!Rh)K";'#_^'+E956D#B!B"]r"#U;c"%0Br!s9+@!nILg&8qZW!Ws"?!i?"\)\E1Y!Wtk!"7lm#Wr^*="#.=f$Nj#5!ODfe'1]Y8")^!-!WrN^k6D(kF"=Bu$Zdi4!@n.#,6KeQ!s;&_!<^%<F.33%".K="NZ&"p!HY:BecLa1!0[Gi!<Y2,!s9!r!<X!VRfWKkMZFLo"-WaC;?I#D"!a99?#uJ9RfNMY!HS?#[g*!;2$X3c<s&Q2!YD[>NWQ@3DZd<I!t_d?SdFfp&Hf?@"1/(2!s;uo!<Y,8hZEr_2$X3c9j7^h!`l&t^+K$c'E\H,!b@c%Rf\m-#+G[`!gY-6!s=_g8t,mG!feCA"-Wcg&<d1X#MoUr"-Wcg%>t5h,61B#!<]k5!s=G^2$X3cF-?Y("B//dK)l'3B*/5n#6P'0!s>k2&@2ERL*:I;ZN:4?ZNBPGh@1&!ZN:5+!s8X<F*j3%%>+Z`)ZWNh!<X#<"+pV3nc8gp2<PVT"%OR<Xp&6o'E]k-,6J$*#6P';!s9c*1'7Um!s<=OCMSq<?"7A[2$X3c6u+ko*s6;F"Z6Me"%0Br!s9+@!hKNq<s&Q2!YD[>^'7VV"1&%2&@2Fm)28t?"1&%2/N^ZM@n1;:L'2F1ecY4G!(1f0!*adPChj+T24k!R"&>m9]*8'G56D!L56D!T7nWs("TSp/"$.)?9/fKGk6"N_".K<KiWK>c'E\GIF)0>.;a,9b)I$iqF1)ljCMS!"-3J<H#6P&uHNV7k!)%qF"$.)?HT-9RrrER5!t00[rWH.6!s;a:@fmBcC]4H822VD:!so&3"%PudL'2Qj[Mhd=6W4)+5[+=J#6P'E9*57r6V@N&;m$?u21bi2!uV34)D`H;1TCL6?NUBf#6P'0!s>k2&@2G`!JV2)"1&%2&@2H;%E8hh"1&%2%4_M_rW+N"^+'g!""QqF.k<Jt!s:FW"p4r`"76>?2<k>I"(C<n"*6?Z"9SaIA(C]c*s6!n2:i3<"*69$#7GT/^&^#eZ2l``24XsS"%`SF$TQ90/*6mj3WfIN)^`$(29H()"#C$o9/YE)!s:Cc!s<HDZN:4?ZN<Vi-s$KQZN:]E!o="P-uT3o!Ws"?!q$N3$kWTJ!WtXh"5<hfgB%:)ecI8C&"Wq<BB'$Q!M0HPY64q02$X3c<s&Q2!YD[>js0">DZd<I!t_d?rXbYM&Hf?@"+P[@!Tk./b5om,c7M6_"4I8^dfHlr`YhCt!QtMH+(c`"dfD>S!<WE]#6P'0!s>k2&@2H#!p1PB"1&%2&@2G0&(Vg7"1&%23QhH`!<Y%1!=K!%gB#b(NY=q;!<[3sLB7P[2$X3c9q).cRf[#i)$?W8@J1ZCWrc(d!WrN1Rf]&\`[jstRfW\#[OD<J!ZqN6!Y8_J-3K_=A=EXi!i?>0Rf]&\Sgm*k!WrNsRf\cTc6R<1P6(gtP6.luL(b.$P6(hV])`#J"*;'TSccS*@>6$0isfFo!X$UH!#*f^"*F\j])aeP"9S`[dfCZq9%*ga!R;WK!s@!Q&CU["+/T`EdfIVmSh*)."4I9_$No,a2;/*6"#U;c")e:J!Ws"?!e.Q\<s&Q2!YD[>^';"KDZd<I!t_d?Xs<'G&Hf?@"-N\S&$>rf!H9II!<[Gu!<WF#!s?.922;89"#U;c!tMX=!s9+@!e/]?DZd<I!t_d?7b/Pt"1&%2&@2G`+RTRK"1&%28osS4rWEee!PS^9!C$YgirM%#!<WEg!sA,q&G#pg("NFMqZ38l])cRA!W)nh"\SXmo)\gn&G#q:"TAEZ_?'fA2$X3c<s&Q2!YD[>joV+[DZd<I!t_d?js@GL&Hf?@".B6(gAqD!"!b\a56D#2!D7.N!M1SpRK`ir2$X3c<s&Q2!YD[>rX@'qDZd<I!t_d?Q6WgZ&Hf?@"8)Zs,P(q.o)\.XrWEeu!PSa:!B&j;!s9+p!R;e<!_O]t!WE35irQjtrW,4c"7#t!lN+-recJA5!<^%<F7TF("7lONQN70j2$X3c<s&Q2!YD[>mK3A<DZd<I!t_d?Xqf5%&Hf?@")5=T!s:Cc!s<HDZN:4?ZNBh&[M`ucZN:4?ZNAthc7'>-ZN:5!M[]d&"*;?\Scck2@Fc>!b5l%K!X$mP2>R@V"(?p3"8`*!.t[m*!&KN7"#[ps!s:Cc!s;U,"1&%?ZN@iihBQq@ZN:4?ZN@9HL(t:&ZN:5^!W<Fb!<Y1a!s;U,"1&%?ZNBOr`Z/n!ZN:4?ZNC+T[OMjkZN:50M?j:d2$X3c<s&Q2!YD[>NX">cDZd<I!t_d?efOMs&Hf?@"'QWG"&\Fm)Zqsd$NgJg#6P'0!s>k2&@2H+#DO.8"1&%2&@2G8&cO?o"1&%2_>ttc@l58/"(hoC])_o4!Q+p?0Y7>n"%p0+ZN6("2-0k^2$X3cDZd<I!t_d?^&lk&DZd<I!t_d?VBOM8&Hf?@!t^@m[N!4(9!\Q!!NmM/!s>k120T-)2$X3cDZd<I!t_d?ecb[gDZd<I!t_d?N[!m'&Hf?@"%TC!")`1l!NlI8!H?Bd_Z9is:BL\kH`I20((dMIc5Ot[56D"o!B%^p!s<22!P8B`-;(lNZN6p;9!\Q!!M1i,!s>k123J"C"*D-U!s9^P$^1Vj"uS=A")sn7RfNTkRfT8b""FDJ!<YOg"02GpCT@K-,rLhd!s:F7"9Sa7mL01B;>gt4"#]?R!s8`:M#i;2JH:0&!#5J6zzz!!rW*!"Ju/!1a/k!&OiZ!&OiZ!!3-#!%8!N!%8!N!%\9R!%\9R!%e0N!$_ID!0mTc!(d.j!&"<P!1O#i!&=]X!&=]X!+c-1!&srY!13ff!&=]X!&=]X!&=]X!&=]X!&OiZ!!eL421G]120T-)2/`R!2$X3c<s&O\&2X"a/oLhJ!t[7(NX$-u1BT9D"24kY':o:>@C@!T)ZU6j"#Lr!'+YKE!Za/]!WrO2$NgJA$]YB$2&?>s%h#fL1,\4q!s:Cc!s<HD1BS1ENW`r]1BR^j1QD^C!cJ/s!t[9V"MOpL"#C$Lo*tl:"*5-I!u#,B%g*aSNWfep2$X3c1`HN12$X3c6SefH&2T=LjpuA41BS1EmKSCL&Hafk7hZ!="*5-I"4I<[^*!Ls"ni!*,;f]."#Lr!'*&[r"#Lr!)`7j&"%+jH!t[8K"I9U;"#C#j1Y*'X&Hafk"h"RBis/'n"24kY)kI-N@>635,;j3<"#\L-!s<\@#b)p:!rr<Azzz!!!#Y!!!#k"98E2!!!!-!!!!"!!!#k"98Go"98Go"98Go"98Gq"98Gq"98Gq"98Gs"98Gs"98ER!!!!>!!!"J!WW5m"98Go"98Gq"98Gq"98Ej!!!!L!!!"H!WW5s"98Gu"98Go"98E)"TSN*"TSPt"98Gs"98Gs"98E1K75[*!s:D&!s:Cs!s9bE%YG+H)`JE4`rS%&!s<HD>6>F@NWbpVDZa2G&6lRIQ3Ip'>6A1>!s;&W#Qr'M!"0_J3YN_O2'i>,F">fC,9I"<pAm-a!s8i3!s:DN!s:Cc!s:np!s9*=(.N3E>6>F@I_Gjq"'Yk9^'+W1%Sd+!"#C%"'/at9"(<MY.lDeY"#U;c"%-8p!t\\&#)31\!s;a=>L!;)!cJ0F!t\])#0$cX"'YkK!tXu+24XaM!t/9_6T(tH!s8i3!s;uG"9T<4!ttc,1BYW#%6FXo3YN_o2_tQ)!<G=`&-)\1zzz#ljr*$ig8-L]RPV%Kuh4%Kuh48,rVi+TMKB)#sX:MZNkY2#mUV+TMKBL]RPV70!;f.0'>JLB7GU!WW3#<r`4#1]RLULB7GU*X)ND*X)ND*X)NDE<#t=4obQ_M?3bX$''Hl`rZ>F2891p"#[Oh!s<TprWFGf""T]?2$X3c<s&Ol&4>jerW@'@6N[le[K`$%&HbB&=)S0C1BSX22?*[Z""o3DitTBO2$X3c<s&Ol&4>jjp&dZL!s9*%Q3R$bDZ`?/&4>"OQ3S!(6N]`j"U"W+:'39S2$X3c<s&Ol&4>jjhA^A86N[lerWSkt&HbB&C?>R".lFd:!s:Cc!s;U,"%*Vep'':UDZ`?/&4>S3`WQkU6N\);,83!L"(bdH!s;%,"3(KE$QB1*@KQ]i#6P'0!s:n%6PbCYDZ`?/&4=_Ec3Fp`6N^Ws!s8uG!s8N2)ZqGi!tu1qrWZpk#6P'0!s:n%6gb#I#B']3!t[iV!p0Ut"%*/3I00QPI/jWT!!!*$!!!<*!!)6a!!(LN!!(RP!!(RP!!(dV!!(dV!!(dV!!(jX!!(dV!!(dV!!"AH!!!l:z!!!2eI5M63")e8d!tZ][#F5I1"![mZ,F/P:#8%%_"%VY`"0Mf9h@Ti'F:/0Q,/+0^!tbVC!s&c3$V(R,DD_Y$"*4jQ!=Njs!YYZX$NgK?!s8W_#6P'0!s9bZ,OPW1#B'\h!tZ^N"-s6*"![oA!<iQ-/b9o;RgK6!"qgnN!!!!E#64`N#64`L#64`^#64`^#64`^#64b@!!!!2!!!!/!!!"g!rr<C!!!!9!!!"h!rr<`#64`d#64`d#64`d#64`c!!!!H!!!"k!rr<`#64`d#64`^#64`^#64a,!!!!W!!!"j!rr<Z#64`^#64`0Ljhi%"6Kf,a9!"W3YNG?;83/?"#ZtX!s<!7!s::4(rHd:)`7j&"'5R,3tOLA!p0Z)"$6Sr4.ZT;!>,Dq"0DSU!s:Cc!s;U,"$7&Up'0@XDZ`''&3I<&V?@J53s/q2"0Mf9NYhjCF;k;a2*D$D@E&ZW)`8E6"*5E9()&Q4!s:Cc!s<HD3s-$UNX(RaDZ`''&3Il7mK=+(3s/"%%0MUm@BLCK.f^ME")K1a"#VY4"!7Ua@Ps#D!s;C2'*C+!!s:Cc!s9#p!s9)recgd1DZ`''&3GmTL')>r3s-$Uc2tuj&Hb)s!1O8k"p7_C)ZqtJ!<WFF)t"XY66"J[C,L,9!s8uJ=TD+qzzz!!&#a!!&#a!!"PM!!&#a!!&#a!!!Z4!!!W3!!("@!!&#a!!&#a!!%r_!!%r_!!%r_!!%r_!!"eT!!",A!!'M2!!%0I!!%0I!!%0I!!#Rj!!"_R!!'D/!!$sC!!$sC!!%0I!!$[;!!$j9!!#%[!!(CK!!$[;!!$[;!!$[;!!%EI!!#Ce!!(4F!!"VO!!&Ak!!&Ak!!&,]!!#dp!!(1E!!&Ak!!&Ak!!&Ak!!&Ak!!&tu!!$.%!!(1E!!'D,!!$F-!!'k<!!'t<!!$s<!!'h;!!%ZW!!%ZW!!%ZW!!"JK!!"JK!!%<M!!)Hf!!&5`!!'Y6!!%<M!!%<M!!%<M!!"DI!!%<M!!%<M!!&5g!!&5g!!&5g!!&Sq!!&Sq!!&Sq!!$[;!!%0I!!';)!!#Rk!!')#!!'t?!!$I5!!$I5!!$[;!!$[;!!$L0!!'P0!!'&%!!%-B!!(%>!!'/(!!!'#!!#t'!!#t'!!#t'!!$[;!!%NS!!%NS!!!V&Il4\D!s:Ea$j-ShV[NY0!&I7M!#&95@E'Gm>?)mM6T(2:!s:Cc!s:oC!<WE8K)mU%"E+Bp!<Wmc!TjP$&HdXd"(Bb/"4I<C"'[QB)Zr`8"%*/"6N[uZ*<QC66NaIp7nWru"*7,,"%tL?!s:Cc!s;U,"+pUcK)t*9rWR3BK)l&cK)oS]#8%&j!<Xhk.g%gG.jIUf6R+SB$:EqW22;27"%OR<Xp%<G"24kY/"Qhn@BL4F1J%[1)`7j&"#U;c!tKqa!s9*e!KIE1"E+Bp!<Wmc!O`#`!YGNe!<YA%""RIUdfT[],6J<2`;p&C2=C_O"(D?7"#U\n"%OR<Xp&7r$3Mf#,6J$*.K]cE"!\aE1*bo_2:;L-"#U;c"'5R,K)lO9!TjGiDZbUm!t^(cSg3(n&HdXd!tGuC"(@K)"'\bM"%+qQ!s:Cc!s9$c!<WE8K)t*8jo]N(K)l&cK)sg;rYZ:MK)l'8)Zr`8"4I>S%7:42!'<gU26$ZZ"#\[5!s;%\"0Met9*;m1F%`),94=t;"&hbn><=^*!<WE]#6P'0!s=/V&;(#O!q$;3"+pUV&;(#'#0%o#"+pUV<?hT5d/fR:!s:Cc!s:oC!<WE8K)lab!ET@*K)lO9!PSc8!H/'m!<Wmc!Oa;7!YGNe!<YhZ"0Met9*;m1BM4p!K*,Q%.K`U@"'[9:)Zr`8"%*/"6N[u%.n]sE'2o!AXqLnA2<"W="#[Ok!s:Cc!s:oC!<WE8K)qhPNX]%l"+pUcK)t*:^(kPgK)l&cK)tB@L'J:mK)l'3#6P'&K)l'i9g]#(@HJp>dfU9d"*7n*)ZtF/CBFYCCMUp9A8>u;('\PiSe+s*"(Or=@u_(<"(MEEA)7jl%1r\P"%P]\Xp%<g"24kY9:c5Y@K%2J;b7'q,F8EM"%u_u6N[cb!ttYZ9*5/-;ZgI2%0Kg7,6L:jWWE8)8HV=A3"JC=!]AC/!s;%\"0Mf9rWr["F@--425LBW"#]'>!s;]d%dO2V"Z6Me!tKqa!s9*e!TjF>")e9o!<Wmc!T"C5%hSnr!<XPKdg%ZgM?-*,!]?eT!s8uO!s:"T)ZrsF!uh>"hZ3f]2$X3c<s&PW!>'kap'-O(DZbUm!t^(cQ4*[>&HdXd"1A4L"0Mf9jrFOKF;k;a7iMPJ2$X3c2$X3c6\>CA!t^(cecf)m"+pUV&;(#7"]fODK)l&cK)r[qmN)rBK)l'qlNT8:$=Sr<"!_n,!s:F7!<WF1$NgK$'*H5VEtd[A'/eJE!s:F2!s8Ws"%+Rug&aY(!]>rA!s8X>N<,.B!!3-#!!<3$!"/c,!$D:Bz!!V/+%1<7?=UPW2'Og,I!uj*&!s:Cc!s;U,"!\@%L'+jgDZ_3d&0iff!>,DY"76+.!t-si!s;Yh)T*'&)$(HP2#mUVzzzF9MXEF9MXEGQe'INWfC_&HDe2)#sX:`W?,?M?Nt[2ZNgX-3+#G_?'];Jcu,SF9MXEF9MXEF9MXEF9MXE=TAF%2?3^W])hs4DZBb;5QCca_u]o=L'7PWL]mbYL]mbYL]mbYL]mbYN;rqY:B1@p\cMj3E!64AUAt8o>Q=a(bQ7bE])Vg2@fQK/^&e97Jcu,SJcu,SJcu,ScN!qFD#aP9a8u>AF9MXEF9MXEF9MXEirB&ZIfKHK_ZBf<fDkmO!s&B%M#[MU`rZ5@'`e:7P5kR_\,lX1!WW3#?j-N1@Kc`3A-Dr5Ad&/7Ad&/7C]se=E!64AE!64AE!64AM?Nt[M?Nt[M?Nt[F9MXEF9MXEE!64A&+b6-QO*`r23/%G"#Yi?!s;uo!WupiQN@6k2<P8J"#^)^!s:Cc!s;U,"*5#pp'0X_DZb%_&9FEGjoH%rEs%$q>6BT_F'I2t>6#UP"#U;c"#U;c"'5R,EtEET!ql_7"*4PUF4LK^!tbWV"%Z(#")M0D"#\+)!s;%t",6r">Lim\!%VO]2$X3c2$X3c<s&PG&9Ht8mO`>ZErutpL'@P[&Hd(V?;#&9Cg-uD2;\W@!u(h>>A%/ENXK,k;d2*a!s:Cc!s:o3!s9*U/qsH<EruLUF-[#b")e9_!t]P!!lbHW"*4Q4>K[GE"&Zf7>6?`7!s:Cc!s9$S!s9*USckVi<s&PG&9Ht8Sd009Erutph?)7=&Hd(VrrGdI"9WIE!s:EA"p4rt>6BT_F'I2t>6#mX"#YB,"#U;c")e9_!t]O^#)3.s"*4PUF05_U.hMl)"%RtQ"4dm%A,ZU(*s6#d!]:u#!so&3!rrur!rs9-"#U;c"#U;c"'5R,EtEET!lcL("*4PUF3Xf`+qXou"3gik9*5/E;Zdpg"$8@F!s:o3!s9*U0&?tS"*4PUF,g=)+qXou""c=C"euKI>Q+au%pQ1X?T$@7!s;%t",6r">Lim\!#&iE!)%)02$X3cCg-uD26R)a"*7Dl!_XU;;pk_)LB@V\2$X3c6ZW>3&9AVA#B']c!t]OV/Z&gd"*4Qc>Q+cK$P-J@#-S(c#6P'0!s<TUF7','%;u>i!t]PA!L=K5"*4Q2ncJsr,(gTq'nZcL#6P'0!s<TUF1qjU"`FKa!t]PA%ZV,5"*4Pd>Q+au%pQIWf)[`d!s:Cc!s;U,"*5#pp'&GO6ZW>3&9F->`YNIpErutpVCK;)&Hd(V2A7;;2`h+k?4-i;56D!$56D!,56D!456D!<2$X3c56D!D7lpgm"TSot"#ZeR!s<UKrWGk)>D=[)!B!"B"(<MY;`1Z[!s:=]Z3*0Gr<*3)!!"2Czzz!!';,!!';,!!';,!!'/(!!'/(!!'/(!!&es!!')&!!')&!!!'#!!&es!!&ku!!&ku!!"5D!!!f8!!(RN!!)iq!!"eT!!",A!!(RN!!#@d!!"ML!!(gU!!'_8!!$4'!!"eT!!(RN!!$^5!!#+]!!(pX!!%?G!!#Ig!!(sY!!&&[!!#dp!!(jV!!'_8!!'_8!!'_8!!'/(!!'/(!!'/(!!'/(!!'2&!!$F-!!(aS!!'t<!!$a6!!(^R!!!;9IPkI7"#X-^"#WjV"&^?G$W2Z_,6Kg\"TnjJ,Q8Ds66h4+`rS'D"9S`e',qT^Nrfss2(&J.?4-i;7hZ!e#&k\("#W+A"#U;c"'5R,3tOLA!nIKm"$6Sr42(d)#8%&"",[*i!s<GQ+4D%L%5e@m""?;6!t[QF"o\[D"$6Sr4(b>p&Hb)s;/_X("#Vq<"#U;c")e9'!t[PS#OVdt!s:Ur42(pe#&aT*!t[QN"Khe<"$6T0M[]S")aYd`$5YSW!<WE]56D!F#6P'0!s:Ur4,sBf!cJ0&!t[O8`YB'f3s0@&!s:Cc!s;U,"$7&Uc3EtGDZ`''&3K"WL'&"i3s1QF,6J;c""OIq,6J#["![n*#6P&c#6P'0!s:Ur40Ags-Z9)K!t[P#Sd,i03s3n3,6J<2dK'FP2$X3c<s&Od&3KRih@+<)3s-$UL&puP&Hb)saoN^hXp&7R(]u:1,6J$G,6J<NWWFCI27`hk"*5uI*ZIt1!\4@1*<QC$dK0LQ2$X3cDZ`''&3K"U`WdkR!s9)rNX*Q.DZ`''&3GmVL(+^s3s-(Y%(cuO!@%[S2.?Xi2$X3c<s&Od&3J/ArXNiK3s-$Ujr9<^&Hb)s.O,$'F";td)g!;,"#[(Z!s8T3%KHS2!!!'#!!!0&!!!E-!!%`Sz!!!8[I9mQh"*5F\":K8qrWEll#6P&c#6P'H"#C#j1Y)`<#&aT"!t[7@NWB^o1BVBu%jN#g!uh>""Tni,q\73Vdh)Q[UAt8ozzz8cShk$NL/,%0-A.VuZkuU]LMrU]LMr+TMKB('"=78HAekPQCgbQ3%$dQi[6fQi[6fTE5)nU&k;pU&k;pTE5)nTE5)nTE5)nTE5)nL&q>TL]RPVM?3bXO9,C^O9,C^U&k;pU]LMrU]LMr('=O:('=O:('=O:('=O:>lXj)2?3^WNr]4\DZBb;56(Z`OoYO_JH,ZM7K<DgGQ@dEncAdkncAdkoE#!mp&Y3op&Y3oR/d3e:]LIqG6%[Dp]:EqmK*@gmK*@g'E\=8'E\=8'E\=8Y5eP&@/p9-L&h8S&-Dn4&-Dn4&-Dn4&-Dn4'E\=8('=O:'E\=85Q^ud63@2f63@2f63@2f3!0-\3!0-\3!0-\49GQ`49GQ`49GQ`49GQ`kl:\`IK0?JNWB+[)?Ts>*!60@*!60@*!60@*!60@#lt#+MuWhX?3($+X9&A%X9&A%7KWVj7KWVj7KWVj,lmuGX8i5#?NC-,Xo\S'Xo\S'Xo\S'@0$?.[f?C.U&b5o63@2fErc7@a8c2?V?$YsaoVPCPlUjbc2[hET)eol(]sa<)?Ts>)?Ts>)?Ts>('=O:('=O:WrW2#g].<ST)eol])_m3i;`iX;?6atXo\S'Xo\S'Xo\S'Xo\S':&k7ocN+"Gn,NFgB`S26ecGgOecGgO.K]YN.K]YN.K]YN.K]YN/->kP/->kP/->kP/->kP.K]YN.K]YN.K]YNXo\S'rrE*"%06G/O9#=]*WlBB*s)EB'*/(5<ri:$4p(cb<!*+#<!*+#0*2+R-34)HU]CGq7KWVjX9&A%X9&A%X9&A%X9&A%Vucr!Vucr!Vucr!X9&A%X9&A%@fcW19E>+n@fZQ0a8u>Aa8u>A1'7LV1'7LV1'7LV1'7LV7KWVjW<*&">lap*=9/C%Z2t"+Z2t"+Z2t"+[K6F/[K6F/`rZ5@IK9EK?3($+=9AO'=9AO'=9AO'=p"a)=p"a)X9&A%X9&A%g]@HUh?!ZWh?!ZWhuWlYhuWlY(BXX;Nr]4\D#jV:+Th]EQiR0eE<-%>j8o;]g&_6SliI.e+7"FX22;58"#^)Z!s:FT!<WF'dhqBklOdQs/H]bg96128.g&^-#6P&ch[BSh7oKMm"_#+O"']hVecJ2r,m+6*"7HgX29,_""#U;c"'5R,o)TEo!L<ua")e;5!<Wo)!T"$H#8%(0!<WlX^'1qg&0nmmSe8g?,JF?L*tT[2"niZg*s2U@.g#lNf)mN*2,=;V7k4\-/6OJRQ3C^B)$;rX3WfImjoPVm56D!$56D!,56D!4215Q/26RAi!so&3"#]NK!s;%L"3(KE)`n-_'-f:l1BXff2$X3c<s&Qr!>+i'^'9;oDZfS3!tb&)c2u8r&HhV*"1nS4rWGS!;mliG24"aS"#\sD!s;%l"24kY;k=(i@C?UI>B=<R"@E@d!b5_9;Zd+%;bI3M8co/Q#6P'H"7lNq&G#qb"h#q""7lNq&G#q2-ak$-"7lNq9(N.c!S.<nZN8&I@nO'.Wr_&k8rE_N!WE3oP6%]bjr$$0!s;&_!<\&ZF.33]".K;k';GR156D"g!B#`8!s;.gWr]p8CmtG-"#\C,!s;*s1E/="%l<>L21G]12$X3c<s&Qr!>+i'p'.ZDDZfS3!tb&)eg6%[&HhV*",d19",6r"1U\2X!#n!%E1d5!")Kaq"%P-LXp&8-,m-5N1BR_:OoYXe29c1)!so&3"#VG.!tbW."*7E?"@E\uNWl$V24k!R"%P-LXp&72$3NA31BR_N"#CTJ#6P&fk7BH3!]@Fj!s:Cc!s;U,"7lO)o)XjPrY'2Po)Sq)o)Y-mQ7*=Io)Sr7A,ZTuQiW3N@q/;5!s:Cc!s8O%9*7&D#6P&u;Zj`9F&SY4;dmBV"'[X7!<WF4efk3S!De%E"&[YWHNQ,Q!s;\IH_pu]!s<mQH[D%]2*qBI2(o%61B[XX;`1`h!s<UCrWGS!;mlkM!]?#I!s:Cc!s;U,"7lO)o)[tUp'4Y$"7lO)o)Z9):2^7+!<Wo)!TjX,((gZ?!<Y1a!s;8E"3U^>K)l)'!Fb+""5<ib^'b&'!KI30!<WEu6Nc'D@K%JRirKhr"5<ibL(jaM!HeJhb5l.s!QtM8'*cV\b5mnB<s&QB!D:N9_ZA<pDZdlX!t`?N:8SR<"2b-AciJ_"!s<U[c3%QCC[M^r!]B]T!s;%l"24kY;k=(i@D3N[>B=<R"@E?Q"_2%"#6P'(;Zd+%;bI3M9`kJf;Zj`9F&SY4;dm*D"']hVrWGSG56D!F#6P'0!sA,q&G#qj!`j4Ao)Sq)o)ZQ7Q7`aOo)Sq29`kJ$p&\`6:K%>t!)lMm2-L(a2<k8G"%P-L`WZ>U3s.MW,;V1^!s:J<"#geo9*966rWGS!;iV%K!]?DM!s:=].Piri"p4rb#6P'0!sA,q&G#qJ!hKg="7lNq&G#q2.#o;["7lNqGQYnh1GuoL!s;%L"0M`/.m)$'3YMTW3WgT_2_tPQF*#>&@mkA_F&BdXEs";o"p4r2o)b*hb7QT:!s;U,"7lO)o)[tThB-Y<o)Sq)o)Zi@Q3n3+o)Sq&MZEnn/8LFM"*9q4p&nkd)]O\933!1@!TjG@`sDhM7oKMm"\2c!^&rF\Sc`2*mMQ+:!'=ruF*#n66Z[V2'LMjnK)l'81BUi`"&f:Zg&_?Y22;27"#U;c"'5R,o)TEo!KI3+$uZ7>!<Wo)!L<fD%M8g7!<_Kc[KU/N:K%>t!)lMm2(o%67oKN("*7D4"&iX"%KfpVA,ZTu20o?,2<"W="'K,Tp&STn!<[rT:NHU?;6gIK"#Z5D!s8i3!s8N:1BUAS1BTK>!s;U,"7lO)o)\OhmMBdDo)Sq)o)UK3(N0EI!<Wo)!N%Ho#S@11!<WY'"TuI@F&SY4;dl7-"'[Vf!s<USrWGRl[KU/N:K%>t!)lMm2,+/T=[QDb!]gts><2j2;`@VWjTl;g!s8Nj;Zd^9"%u-_"0M_`8co/Q#6P&qo)Spq&G#po#*(*M"7lNq&G#pW(T%]T"7lNq2$X3c9j7_C!Fa7g"-X'+!s?^I9eun#!Fah3"5<ibrW32^!>,G"!<[HH,LZZ0b5ocedfF"&!QtM0+U6*jb5m>G<s&QB!D:N9_Z@IeDZdlX!t`?NVBa(n&HfoO!tBSZ$NOsp!<[D$!VQY+#mUP73ZB#b;7ZsY"#[@i!s;%L"0Mf9p(d`lF>F"$2<>#E"#]?G!s:Cc!s<HDo)Sq)o)YEcXsZU.!<WE8o)YEcXs\,io)Sq)o)Z9&^)@Rco)Sr7C\@m@F/'9>"M4kZF7o`HF*$aqF)uEB!cnPRH`dSRHOBpYF*jbg'E\Ga2+I`N2$X3c.J!QB!tb&)V?EItDZfS3!tb&)NY7@$&HhV*"!7X*$&o6K<s&O^#6P'H"7lNq&G#q""HF^F"7lNq&G#q2'<Wbr"7lNq=j%/!Q3:X1*<V3#:O<0G23ItB"#U;c"'5R,o)TEo!U^#t*cD/P!<Wo)!U_K#,nU7N!<\Jc]a+]B7l(7M"_$7="$:T\!s9,;1BUAS1BRpc!s:Dt!s;/:Wr^cQF0bne!b4j/!NQ7X'M=8aWr`2&2(o%68"0M]L'2Re!S.@B!<=(6!<YOg"02G[;?I"Y#6P'0!sA,q&G#qb,M!JVo)Spq&G#qZ#1aE*"7lNq&G#qJ.F&nF"7lNqqZ2l]Wt+808kZ2c^&`&>!<WE7MZL7$jTma""9S`.ARSjE5l^lbzzz;??gu;??gu;??guEWQ4@EWQ4@'*&"4&c_n32us!ZEWQ4@.0'>J(]XO9,lmuG1B7CT+92BA&cht47KNPi7KNPi7fWMh0E;(Q3<9*[F92FBF92FBB)ho356(Z`.00DKHia9JHia9J1'.FU1'.FUM#[MU:]LIq-NO2IS,`NhV#UJq=TAF%*WZ6@9EG1o9EG1o:'(Cq:'(Cq:'(Cq^An66CB+>7,lmuG:]^Us:]^Ush#IETF8u:@/-,_N=on[(=on[(mf3=fJ,fQL.ffVM=98I&=98I&=98I&=on[($NU5-N;rqY(BFL9*<?-?PlLda)$'^;/HGhOXoJG%('+C8?NC-,[/^1,)$'^;C]XS:C]XS:C]XS:D?9e<D?9e<!WW3#+p%`E+p%`EI/s<J`;fl</cbqPN<'"ZbQ%VC*ru?A5QUoc4ot]a7KNPi7KNPi49>K_49>K_1]dXW2?EjY1]dXW1]dXW&uL.9cO0gW29-(,"#[h$!s<U;p+/:&k6"?Z22;D="&[)@.g%Y1!s:Cc!s:oK!<WE8MZK+GQ3V=1MZEnkMZMrD((gY,!<ZIL/!^?Ic4gBH!Db3J"#Vq<"#ZDG!s;[f9D/BpVB#bC:J1cl;<J!R"#Z,B!s:Cc!s;U,",d0kMZLfuhA^A8MZEnkMZIFe#8%&r!<Zcu$j.1)!<Wu;;2537"#]fT!s<U#L+XuRhZ5M82.$Ff2$X3c.>n3/!t^@kQ3P>6DZbmu!t^@kjq!1V&Hdpl"'I.\"SMk)XssN@:GW(T;250."#Y*$!uV3d"#E[S1BTs2L'2]X<s&O^#6P'H",d0^&;pSO!N#s;",d0^&;pS_"muF(",d0^8*^B^c3jV69*5k1"%+qT!s:D$!s<!"$j/"T""OIM!s9c*QNmTp2$X3cDZbmu!t^@kQ35tP<s&P_!>(.ijoXBJDZbmu!t^@kXp/2E",d0^7mdC($SUfV9*5k1"%,CBL'6322.$FfB&ae^''g6/M?,402$X3c<s&P_!>(.imK1Z7DZbmu!t^@kef`Ne&Hdpl"7ZET"p4sK6d>cq:'3icF%ad\4&O-%9*7%i!s:kWp*nu%2-0k^2$X3cDZbmu!t^@kjoOT`DZbmu!t^@kh?rZU&Hdpl"%Ts+"3q8S4%fYi!s:nJ@KQ]iSH/fpF$n4T4&,lF"#U;c")e:"!<Wmk!>^tLDZbmu!t^@k^'9<'&Hdpl"&IYY!s;Dp"%r_RDZ^)!#6P'H",d0^&;pSO!WE=B",d0^&;pS7"bm6o",d0^8%T'0`WK@26e2KNed;LX:I>3d=[PjM*-5?X/3>_p!<WE]cN=7O2$X3c.>n3/!t^@kechWODZbmu!t^@k^*C?,&Hdpl"'H<7#aPX&mM5mT:E'B<;83/O"#U;c"'5R,MZFBI!U^$O,]<dC!<Wmk!WF4u"VCip!<]q7cN++M2$X3cDZbmu!t^@kjomqe",d0^&;pRl)P.ZU",d0^2$X3c9lgDP;nE<i&#LdM6N_[DmLTJQ!>GV<HV\DZ"(Z1_jqS)9C]5Y0@flg*CL^+X"(MEEA)7cW+;"]c"%O",`WK?W9@a>VrYu"b:D3g42:;O."#U;c"'5R,MZFBI!U^$/,B![B!<Wmk!VS+B$kWT"!<XnA!<WF,$R:r@@E&QT1J]4t"&]"!,6Kel!s;j;!s9VI$b?Bs`;p&C2$X3cDZbmu!t^@k/lllmMZEnkMZLO$Q7`aOMZEp$q[1UN925Rf"#U;c")e:"!<Wmk!L<r@#&aU%!<Wmk!R;=D-4p?<!<Yj0$j5VrE/4NV"$.)71Js,71BTLg!WrO%N<CI.2(&J.7jA,u#&q'R.g%gG)^@3q!s:E?"Tni-&HEOGzzzz!!'M/!!!H.!!!N0!!)Kj!!)-d!!)-d!!)-d!!)-d!!)3f!!)3f!!(LR!!"YP!!",A!!)?f!!(j\!!(j\!!(j\!!(p^!!(p^!!#^n!!"VO!!)0a!!$@+!!#+]!!)3b!!!4^IPn#)!s:EQ!WrN^QN@6k23.e@!s$LYK,^!r2$X3c<s&OT&1d/RScis6.g$>5[K`$%&HaNcEsjl6PlZmG!u#ba!s:Cc!s;%$"0Mf9jsC0DF:/0Q2$X3c%1<7OCBFqH2$X3c2$X3cDZ_Kl&1amgrWQ@*""Op5p'.Z$DZ_Kl&1_AD";(_d!tE-M!t/lH$NkY^"0Mf9h?a8tF:/0Q7gfE:2(\n42$X3c<s&OT&1dGY[K1:K.g$>5jq!1V&HaNc7gfF%"_!u=!u#ba!s>>"$NmO82$X3c2$X3c6Rr6@&1`bGp'#@:.g$>5eh,/M&HaNc7hZ!="*5-I!u#+o)$:g+"3q#/$T]4/'3G>E"#[Ie!s8W;R/qF1#QOi)zzzp](9oz%0-A.$ig8-!<<*"+9VZE+p7lG"Q"Pa-NaH.*s2U&(BXahlPtO!iuKu^!s:Cc!s;U,!uhdjNX#IbDZ^p\&0&%^Q3Ip')[!JK$NgJ3$NgJT^'+lH@KQ]7!X&c/&c_n3zzz/-#YMhuj#[h?3fY%fcS0%0-A.(B=F8g]RTW63$uc+TMKB('"=7'`\46j9,G_!WW3#g&qBUg&qBUiWK5]iWK5]3rf6\,QIfEDZTn=-ia5I"nd:$[fHR526R#_"#ZtW!s;uO+TiBQ!ttbo*<QC$#6P'0!s9bZ,K9cH"`FJf!tZ^V"-s$$"![nVQ43p0JcPre"%\=QWu^dP2$X3c<s&OL&0o0qec]mn,6JK%h?K8N&Ha6[@BL7G'4CtV"'u?;!tPdB*Zm6s!s9&AL+?%WC'+PK$iU>K2$X3c<s&OL&0pTEL';Jt,6JK%NZ;XC"![pI!A+BU@BL%A'2AWC!rr<4zzz!!!!*!!!!/!!!!L!rr<t"onX""onXf!!!!F!!!!:!!!!I!rr<Y!!!!A!!!!@!rr<d"onWe"onWe"onX""onX""onWt!!!!P!!!!J!rr=0!!!!Z!!!!I!rr<*M1.>&!<WE]^B"E=27ESg"#U;c"'5R,.hF6)"tjfr.g$>5(6/V3""OJi!?2-$"(AVN"!_n,!s:Cc!s:EI!WrO%*>8N4NrfCc5/S&7$&]3L#6P&<.g#kb/$9-N")e8l!t[!6"RZ@(""OIN*J4h(2-0k^2$X3c<s&OT&1dGX`WU2^.g$>5rWSkt&HaNc7gfF]#&rK$'*G*4',q<:N<'+`20B!'2$X3c2$X3c<s&OT&1dGY`WpDa.g$>5jq!1V&HaNc72l?3"_!E-"!_n,!s:Cc!s:Cc!s<!7!s<T`mMcg+)qG362$X3c<s&OT&1d/Mp'#@:.g$>5jogD@&HaNcq>ml&!s8T?=TFiizzz!!"bT!!"hV!!"hV!!"hV!!"PN!!#Cf!!#Cf!!%rY!!%rY!!%rY!!"#>!!!u=!!'>*!!$g9!!$g9!!$g9!!$g9!!#@d!!"SN!!'>*!!!c8!!$@+!!"eT!!%rX!!$^5!!#(\!!&qt!!)Qi!!)Qi!!&ks!!&ks!!%0C!!%6E!!%6E!!%6E!!%iU!!#Oi!!&;b!!"\R!!"\R!!&>c!!#ms!!(IJ!!&ns!!$(#!!'M/!!'8(!!$=*!!%6D!!'b6!!$L/!!(%>!!(+@!!$s<!!&;b!!%lW!!%lW!!)0^!!%HJ!!'M/!!*$!!!&#Z!!((?!!")A!!&;b!!%ZP!!"YQ!!&Pi!!%KK!!!!"!!!!"!!!!"!!!'$!!!'$!!"JL!!"JL!!#Xm!!',$!!(FI!!$s=!!$s=!!$s=!!%$?!!%$?!!$X4!!(@G!!("=!!$g9!!%`S!!%`S!!&u!!!(aR!!'t<!!&eq!!&eq!!'\5!!)3_!!%3C!!!'#!!)!Y!!)'[!!)-]!!)3_!!)3_!!(mW!!)]m!!%3C!!)Hg!!)uu!!%<F!!*$"!!!*%!!'J.!!!<,!!!W4!!(IJ!!$m:!!"GL!!"#?!!'#!!!#mt!!#t!!!#t!!!#t!!!#Fh!!"DJ!!&>c!!#q!!!"eU!!("=!!$^7!!#%\!!%3C!!"DJ!!"DJ!!'#"!!'#"!!'#"!!&eq!!&eq!!%]S!!#Rk!!%lV!!&eq!!&eq!!&Dg!!$($!!'P0!!'8*!!$@,!!(IJ!!'h:!!%$?!!%WO!!%fU!!%fU!!%fU!!%fU!!)Hh!!%QN!!%9E!!!0)!!%rY!!%6D!!!r?!!&,^!!'t<!!";I!!&Ae!!(+@!!&5a!!&5a!!&5a!!$m;!!$m;!!#.a!!'P1!!&\m!!#ao!!%3F!!'h9!!&bo!!#Oj!!#Oj!!#Oj!!#=d!!%u\!!(.B!!&;b!!!E.!!!3(!!&Jj!!(IK!!%]Q!!!E.!!!E.!!!E.!!'2)!!(jV!!'S1!!'b9!!)?d!!'G-!!(aU!!)Wl!!'q;!!"JL!!"JL!!)Hi!!!'%!!%6D!!%fU!!%fU!!!B0!!!N2!!&8a!!"/F!!!i;!!&Pi!!#+^!!#+^!!#+^!!#1`!!#1`!!&#[!!&#[!!#:f!!"GL!!&>c!!$"%!!"VQ!!'M/!!$m;!!$m;!!$L3!!"kX!!%HJ!!)]m!!)co!!)co!!)co!!)Kg!!%3G!!#4b!!&Mh!!%QQ!!#Xn!!("=!!".2JcRaD%Kcej[giKB26RJl!ru7="*7\l"%tg^`ZA=a>9a5-k8j^-(gGl=.lE)$!s<Ucc3%hi^C50^2;\uJ"(@3;"-Wao`[1eW!F^^*"/>lS#6P&c#6P'0!sAE$&GlLr#Gq`E"8`*$&GlLZ"RZ@("8`*$@C?jPWr\FcL*$N(!F_Q>"1nRf4+dP92$X3c7mdB]!rtDU"$.)?6T7@7pD[^s!<YDlVBc72@Eonr94@5l"&iX*%0KgC[LiUO2$X3c@?qT0CLO(Z"*7nJ#QoE^hCSh^!F`\d",d1;D$'k?>8mZcA'P0L5%F9p@l4Jn!rugU"#\sD!s:Cc!s:pf!<WE8qZ57Op'#@:qZ-d1qZ5g^L'&"iqZ-d9>Lshc$8n.[!s;uo!Wu@YcO0gW!s;3j%lMB>!s8OE)Zr9NV@ul.HQrVM`t\[Y=\D]e!FaO["(P,*!s8W-;s+TImhZ'.(fT<1)`8W<"#U;c"'5R,qZ.9*!U^$7#&aV@!<Wo1!WEk;"q^t7!<W<X9*7)P!<WF,CO>aU@GV"eMZHV#!s8W-H`mr;hZ3f]!s;Kr&N(p<"'J8qp&SUY!<Zh-;Zd+Z1'7V9`u+s]7rncu!HWVU"`"eS"*4PHF6<Q]f,Feo2$X3c.Jj,J!tb>1/uAYN!sAE$&GlLR!N#m9"8`*$&GlL:!j2Y<"8`*$_#[3X#5/(+Fou5M;Zd,!h],Ps24k6Y!so&3"#YiO!s;\AHhIJKFp!X':O<0G2$X3c;5Y%R"#U;c"'5R,qZ.9*!U^$W!H/);!<Wo1!WE>D/J/*^!<\DamgK:#2$X3c6i-ld!tb>1echoSDZfk;!tb>1joqUcDZfk;!tb>1mLJq"&Hhn2!uRL<k6/[42$X3c<s&R%!>,,/mK07.DZfk;!tb>1h@eZ]&Hhn2"#cb_!s9BErrjo1#6P'0!sAE$&GlLr!hL-F"8`*$&GlLj,d&+!"8`*$7(3g3"#U;c")e;=!<Wo1!A9*8DZfk;!tb>1NZcmf&Hhn2"*:LK`WAdB>6=s-;e#nD!s;aemfZkW!]@.i!s8i3!s:E7!WrN^#6P&WqZ-d$&GlKg!D[P8qZ-d1qZ5OU[N?(`qZ-d<joXiS6W*:Y6N]34#m19NF3Xl'$g/"@;`2l;!s;uo!X!L$V\0(6;254""#\s:!s:Cc!s:pf!<WE8qZ20.'Q4*N!<Wo1!JVH2,7t%T!<Y1a!s;7r"4I9Zp*Tss#8@7BdfE0!"5<ibXs!o-!Fbs/"7#trrW32n!HeJhgArSS!Rh(u!G'X[dfH$W#1EV%!QG^=b5h\I9%*ga!M16K"3U]I&Bb+"'%RL("3U]I=_iBX!F^-RlN9q0!s:FG!<WE]o`YF"#m183;=Xc%"#^)b!s:Cc!s:pf!<WE8qZ4,0[O?%rqZ-d1qZ5h!p*1.OqZ-dT"'(6c2;/6:!rs9-"#[Oh!s:Cc!s;U,"8`*1qZ6Bpjq;S7qZ-d1qZ5P"h@gJ'qZ-eV!BUCd"'H"!ScUqd"%,*O,<IhG"#jO"!s;uo!WsBM^(1;j@HIUn.q-.&"#Dfl!<WE]#6P&qqZ-d$&GlKo"9&aJ"8`*$&GlLJ(PXIQ"8`*$1BZeGZNrGW!s8W_#6P&qqZ-d$&GlLZ"l:YG"8`*$&GlKg.Y\NI"8`*$(fPb@$T5[4!s;%t"0M`/$Y,b03YMU*3WgU22d6C)#rMqi""F*J!s9,3!KI2H+E%AZ!<Wo1!JUoH!YGP3!<X;'!rE*n;=+HY"#U;c"'5R,qZ.9*!U^#D.W5Fd!<Wo1!KJ_^&J5-B!<[Dn"9S`Kb8JbDlPqbe!s;U,"8`*1qZ5g\`XctiqZ-d1qZ6Zu`XctiqZ-d1qZ39;h?OVpqZ-f"!Q,!a"#[h&!s8O-)Zt.kc3$^'A)85920&d$!s;K@">qP/"%Q8lQ2u&2mKH5t!s;IZ1'7V9^CLDK=_iBX!FaO[",d1UHNO?P"+0\E2$X3c<s&R%!>,,/mK/+VDZfk;!tb>1p)T_8&Hhn2"7H9R&-E"l#6P'0!sAE$&GlJDc3\CkqZ-d1qZ2^*^)R^eqZ-dp!s8X&K`Vni29-+-!rt\e!rttu!u`*\;ZJ=8"#WRN!uP7:"WK<(!s;U,"8`*1qZ6*dVCZWfqZ-d1qZ4DVXq20IqZ-dam/d@l!s:p%">tc9!s:Cc!s<HDqZ-d1qZ5g_VAO4RqZ-d1qZ3i1mMHN<qZ-dhRfihZ!HWVU"`"eS"*6=)!s8W-F,(#Y\dANA2$X3c<s&R%!>,,/joWgYDZfk;!tb>1Xsa2S&Hhn2"+MOg"#ZMK!s;Es!Fl3h#6P'0!sAE$&GlLr!mVp,"8`*$&GlKg.Gc0Z"8`*$.9?TR2$X3c.Jj,J!tb>1rWB;PDZfk;!tb>1L*bCj&Hhn2"'JRW%@.-*eg(?=:LaJ/23ItB"#]`W!s;%\"0M_+4%fZ:'-fk'6NcKW2$X3c<s&R%!>,,/p'0q8DZfk;!tb>1`Y=^W&Hhn2",-bS"-rt/>ODYf'E\G9!s;KM#W:E?!s:Cc!s<HDqZ-d1qZ.Iu#]BhB!<Wo1!U_,.&eP6C!<ZK"%9)s$@FbG]@o$#*!s8X(WW>!%"Tnis>6D#1=VG;:!]gts@la]:>;oagnd@;[!s<HDqZ-d1qZ5g_ee2m'qZ-d1qZ4tk[N#k]qZ-d!q[+8E5't9j;ZM.h"#[q(!s:=]m0[&TNsPmj=]8gr"C]k,"*77J!s:Cc!s;Dk"(MEj#6P'0!sAE$&GlLr#IZ+#"8`*$&GlM-*psXQ"8`*$2$X3c9j7_K!DR&+gAt#A"60Er!U_07lN%\%"60DjNXc0W!DhGN!s95>"4I9]dfInuNX5p=!Rh)C)cm+Db5k5a!QtMp*cD/(!<WnV!TkNM%1r]c!<\2[70<WaWsjUp]+?h)!s:"L!<WE8qZ2]X`Zf='qZ-d1qZ6C,c6s8,qZ-d!>Or:+F(<Jt90QkB*Ff(Z1BTN7!WrO-92kNb@GV"e@o$#*!s8X(Z3iI["p4r-@l"3EndP['2$X3c<s&R%!>,,/joV\'DZfk;!tb>1VBqNU&Hhn2"5!WY.g'j&c3$^'A+g=@2.?Xi(j"[=)`7j&"'5R,qZ.9*!U^$O+)_8Y!<Wo1!L=b?'+k?D!<]%sr<!-(2$X3c<s&R%!>,,/c2t^1DZfk;!tb>1hBKZG&Hhn2"5!VV\dh(b#6P'0!sAE$&GlLr!k&VX"8`*$&GlM-$N:_O"8`*$!eh'c"#U;c"'5R,qZ.9*!>bYHDZfk;!tb>1^*fKt&Hhn2"2Fp>!s:EW$3LAd".]QV23eLN"'J8qp&STF"(P,*!s:Cc!s;E("&f:Z#6P'0!sAE$&GlLr!lbXe"8`*$&GlL*);Z_Q"8`*$RfVLS!s:=]\d(S[_>s`@2$X3c<s&R%!>,,/p'1L:DZfk;!tb>1ee@0Z&Hhn2"!BZ-Xohf?6_4??'*CT_"!]ld3s41;2$X3c6i-ld!tb>1(B,Lr"8`*$&GlJ\rZZ7_qZ-d1qZ3i8p(J#?qZ-e?gC;.(lO=;-!s8O%@fmDI"'[b%!aFdg21c)9"(C<n"*6?m#6P&c#6P'0!sAE$&GlLr#K@lRqZ-d$&GlJ\`ZT1%qZ-d1qZ3i,[L3ZLqZ-d6joPXC$T5m+!s;\AHhIJKec>l2!De%E!s8XPOq'@7"Tni5!s8W_Op(pi=\D]e!F_Q#"(P,*!s;En%T<He[0Zp;!)jg=F'Hol90QRW'3bH@,6Kgr%Kcf992kNb@@dK%@o$#*"&[JL;Zen/!s8W_#6P'0!sAE$&GlLR!PTF#qZ-d$&GlL*"MPal"8`*$&GlKg'ugds"8`*$Chj.H!Fagc",d1UHNO?P"+0\E25LZ_!s)O)$ig8-zz#64`($NL/,+p.fF7Krhm7Krhm7Krhm7Krhm+TMKB'`\46,Qe#H/H>bN+92BA+9MTD63[Di63[Diz#P3@$Y5n_-25^HW"#U;c"'5R,1Cu@.#G)':"#C#j1Y)`$"E+Au!t[7@eccWf1BS1%p'\kj56D!,X9"LcQ4N[%8fJG0.l@P6!t?1O"'HQ^%Ljoj$Vq]D"%jLGV@GHg!s9nQ!t-sk!s;U,"#CKEp'1L"DZ_ct&2UHorWR3B1BS1EB%@(s"#C$/M[BQ@#!W1l'+bi&%fR(u'a"OqC'+Pgb8K=[isu1m"on])!!!*$!!!H.!!"#@!!#su!!!2ZI5M63"'5R,,7l)k"L\MQ"![mZ,M!%,#&aSg!tZ^>!NlY>"![nG$NgK6$O`gZfE$U7!t/oQ!s<!7!s8_5*fC/b!]:,`!s/Z9!+u93zzz!+H'2!+H'2!;$?n!;$?n!;$?n!&t)]!'15_!#GV8!#5J6!#u%?!&ar[!"&i/!&4HR!$2+?!'()\!,r&@!,r&@!-/2B!-/2B!(R"h!%\*M!&jrZ!+H'2!+H'2!0RHb!0RHb!"8u1!"8u1!"8u1!"K,3!"K,3!!!-%!!!-%!!!-%!*fX,!*fX,!-\DC!([(i!$q[H!0[B_!)ERp!"/i.!#Ph=!$DCE!$27C!%J*O!%J*O!36)"!*]F'!#Yh<!&ar[!&ar[!&ar[!%J*O!%J*O!%\6Q!%J*O!%J*O!6G3@!,;K6!#kt>!7q2N!-/&>!%@sL!)s($!)s($!:'Ub!.OtK!%%aI!)<Xs!)Ndu!)Ndu!)Ndu!)s($!"/f-!0$sY!$;7B!"&i/!"&i/!"&i/!$_LE!1s5k!;Z]r!'pVc!2]_r!$D=C!($eg!)Was!3lM(!$D=C!;6Kp!;6Kp!;6Kp!;HWr!;HWr!;HWr!<*'#!<*'#!-J;B!5AL6!'LA`!+#d.!."bJ!."bJ!+H'2!!!-%!!!-%!0%!Z!9*tY!$;7B!!EE)!!!-%!6YBC!:0[c!!*-$!!EE)!!EE)!!EE)!!EE)!!3-#!9F4]!;QTp!($_e!/LaX!/^mZ!/^mZ!/^mZ!/q$\!/q$\!!*-$!!iT*!#kt>!##D6!##A5!'C;_!%@sL!#kq=!&=TU!'()\!$D:B!&FZV!(-ef!%@pK!&alY!#,0X2(&J.2'2o&2&?>s3U[H\"=lA(&-E#4$NgK.f*Vlf29,t)"%OjDjp#eg!Aafl!s:&2#6P&c#6P'H"-W`f&<d-T!T"#0P5taf&<d-T#MoZ'"-W`f&<d.'".fW-"-W`f!369m%g+\e!WrN^cN++M2$X3c<s&Pg!>(Fq`W9[i"-W`f&<d._"SMp0"-W`f.0DX6&Hb)s!BUB&&Hb)s2-L(a2$X3cDZc1(!t^XsQ36OZDZc1(!t^Xsh?8iY&He3t"%S7M"-*Il`Y/GAF?9R,20&d$*s31S$oK%-!rr]j"&8q["%O",NWW_P.g$`4'*A=K!ttc3!ttc7'*A=Y!u&-I2;\ZA"(C<n""Q6L!s:Cc!s:!9!<WE8P6$[KSgJ@XP5tasP6&*4V?7D4P5tb-"8`R#2$X3c<s&Pg!>(FqmK3A*DZc1(!t^Xsp'.)t&He3t"$>ZI!s:Cc!s;U,"-W`sP6&)sjo]N(P5tasP6&Z(mNrMJP5td"!<W]3@D2jH'6(_f)Zp*[!uh[g"!][)!s:Cc!s;U,"-W`sP6((VNZ2m=P5tasP6&ZK[LNlOP5tb]^'"N_;C_hW;9&kk"#V_6"'HQ^%R1$t.hF5V'E/_B)Zp1"H347,#6P'0!s=_f&<d._!kp"""-W`f&<d.'-*@@_"-W`f)QsGL"#U;c!tLLq!s9*u!KI2X$#]p0!<Wms!S.gj!YGNu!<Wo9dg6*W.g$_&""OI2Iffd1#6P'H"-W`f&<d-T!WE=*!s=_f&<d.g#6"jG"-W`f&<d.?"o\oB"-W`fScRj^"-*IlNXQ"GF=RFq,/+0^!tbVc!s'nS$T6'-!s;:#.g&`Y/*89XeH7<(2$X3c<s&Pg!>(FqmK25XDZc1(!t^XsXsg.N&He3t"6KWN!<WF%'*A=Y!u&6K273Ge"#U;c"'5R,P5u5Y!R:o#'lO2<!<Wms!M1%'.M2cH!<]\0$NgbY!t3'N2$X3c<s&Pg!>(FqmK3(eDZc1(!t^Xs53<(^"-W`f/=-A>"#U;c")e:*!<Wms!KI3K/8kWS!<Wms!Oa*L*t\U=!<YjH$j5VrE#:A5'E\Ff2$X3c2$X3cDZc1(!t^XsNWIueDZc1(!t^XsV@;;`&He3t!s$LR,6KgR!s8Wq$NlCk@@e)6'6FTa!t>V?'/^!s")@uH"(C<n!t-ug!s8Wq3s2Vh7mdBm"*6i$"%-MR'a%)d#6P&..oQOYXoni23[4_o=9CVe2<=lA"$*pp/djQ:!<WF%.g$/VeH7<(2$X3c9lgDP9oB#SF%qi!"+(^a"*7oM(^#+\CBFZ51BV],jphK?@K$<1K)oE[!X">]FTWk0*G]G3;%IFE@AXeBCEEXo+&,B1CLR2Y"*5.Y")DF_C]5R`CMT4[<s&P78o%qV*H)$i!t\ss$GHu^"(MF?nc]*tF;"`Y26?r_"#U;c!tLLq!s9*u!KI;c/8kWS!<Wms!U^?@(_Hk6!<WN6$a'^7'+4n4'*E,n'/gM4mN;TN20&d$AW%Fa(Rl:"#6P'H"-W`f&<d.W!lcX,"-W`f&<d-L&^Dj<"-W`f&`WpS!s(Ic)]o.qo`@WF"-*IlSg"8(F?9R,&Hb)s:'3Q[2$X3c%[-nq!t^XsNWK+eDZc1(!t^Xsc4&8O&He3t"$d7c%AkLMOp!9;2+7TL2$X3c6^%NQ!t^XsNWG.k<s&Pg!>(Fq[K2C>DZc1(!t^Xsjq*7R&He3t"5s9h"$;t[69F<2jT7<f"Tnia#6P'H"-W`f&<d-T!PTXo"-W`f&<d-t,i/b<"-W`f#."UtXp4qg.g&:'")`0A2ENc$!s;u?#m3P:3s,R_3s,RB#6P&c#6P'0!s=_f&<d.o"eHcR"-W`f&<d.G+9!`%"-W`f[K-IlM?5Z#!WrN.:eY_*"TV*ozzz!!!<*!!!?+!!)iq!!!f8!!!Z4!!)Hf!!'S2!!'Y4!!'Y4!!)Kh!!)Kh!!)Qj!!)Qj!!"qX!!"8E!!)`n!!)Kh!!)Kh!!)Qj!!'G.!!'G.!!$"!!!"VO!!)Ee!!$@+!!#(\!!*$!!!!'#!!%?G!!#:b!!(aR!!'e8!!'e8!!%iU!!#ao!!(mV!!&Vk!!#pt!!(pW!!&tu!!$4'!!)iq!!)]n!!)]n!!)]n!!'b6!!$L/!!)uu!!(+@!!$d7!!*$!!!([P!!%6D!!)Bd!!)Tj!!%EI!!)Ee!!)rt!!%fT!!)6`!!!Z5!!&2_!!)9a!!"GK!!&Ad!!(pW!!"eU!!&_n!!)rt!!)cp!!)cp!!)cp!!)ir!!)ir!!)ir!!!]7!!!]7!!!]7!!$.&!!';)!!)lr!!$X4!!'J.!!)Ee!!)]n!!%'@!!(:E!!)Ee!!&Vl!!(OL!!)<b!!',%!!(gT!!)?c!!'G.!!'b7!!)-]!!)3_!!(=G!!)fp!!(pW!!)Zm!!!$#!!)6`!!!'%!!!'%!!!<,!!!Q2!!!!"!!!'%!!(FJ!!(FJ!!"GL!!")A!!(pW!!#:d!!"8F!!)Ee!!#Xn!!"JL!!(dS!!$(%!!"nX!!)rt!!$p=!!#Rk!!(pW!!&8c!!#ap!!)Ee!!#gq!!&\o!!$%#!!(pW!!'2(!!$@,!!(sX!!'h:!!$X4!!!'$!!!eDJ,qOZ!s8W_cN=7O29,e$"#C&*$7e"."9S`r.g)pV=W9/g!]gts1HGU_.lSs\*An'(""C8O!s9+8!TjFN")e:B!<Wn6!L<u!"q^s<!<ZcE"Tpgd1Xc@,)B/c?F#1f;.oDW61BTN'!WrO5L*?^U:EorD;?$nH"#X]n"#U;c")e:B!<Wn6!S.FW!cJ1A!<Wn6!T"cE&Hf'7"%UfL"3(FG)]R?5@J136.o.)d"'H!VQ3B-t!<WE]/HZ)2"6U1625^fa"'IEAQ3:XA('@3*3s,Qe"$9L?h[oqm2$X3c<s&Q*!>):4^'=!,DZd$@!t_L6L'+jb&Hf'7"'JRr"?Tab;t^6#c6WR&:K%>t2$X3c;&rR;29-+-"'uWC"%O:4Xohf7,G"rt'*BI?"!\aD)["Lh!s:W_&N,%?"#U;c"'5R,WrWd4!R:_#!H/(@!<Wn6!L<qE!H/(@!<Wn6!NlW5&Hf'7"+7ug4/N2r!s:Ub4#6tA1HUm*@EoYk92@VO"#Yr:!s:FT%g)nk#6P'0!s>S)&?>gI`[#I)WrW;6Wr^KHVBQTSWrW;&!s8W_mfW^pF$mqK4&I"c"#\C.!s<U;p&mH[91tQS@>5s.>>Ilo"#U;c"#U;c""C8O!s9+8!>`BrDZd$@!t_L6[O&'Z&Hf'7"&U)n"TpXT!WrN^#6P'H"02G)&?>ht#-KO,WrW;)&?>ht"0O4W!s>S)&?>iW!Nn"m"02G)&?>j2%&O%;"02G)B@?n1%]0FE!s:Ub4#6tA1HUm*@EoYk92@VO!s8We<AiY9!s:Cc!s;U,"02G6Wr_nuSec5HWrW;6Wr](JmK!n%WrW<:)[!5F=VE$O!]gts,<>oO)`J]<Ns@NI!s:!Q!<WE8Wr\Ljh?@g"WrW;6Wr](?^*+'jWrW<*/!C#-!F_Q#"%,j?!s;E8"u??=hZEr_=Yi.*"C\GZ"%uEO!s8W-49#[GpB^p(2$X3c<s&Q*!>):4mK`FjDZd$@!t_L653<(^"02G).aAh4>>Ilo!s8WuRKPK$!s<U3`WA5)6UR^T'E\G)=[PiJ">tK-"#ZDN!s;uG"9U.d"#C#t)ZqTf*CBod-NaHR4%&]B@@dK%;boa_"#Vh9"#[Xn!s;[^4-g"X^*j(V:HJX\!s:Vb29c1)"#[@b!s:Cc!s;85"+*a@"+pVK1BWO9@I>TIP6#+K+Tn27@I><AUB,K>,DuR:!s=/V'E\GaA:&[S.L(6HhAIb`!s;/BF05pi"*4PUF1*Wk-P6H%"'IFT$^Lp(p*'T3:HJX\!s:Vb23.nC"#U;c")e:B!<Wn6!L<qM*H)%\!<Wn6!VRb`*>&CS!<[Dt#0$]p;4dnG"#U;c"'5R,WrWd4!U^$_)/fVX!<Wn6!N$V*+;"^V!<^^Mh$*r`#m183;:P[\"#U;c"'5R,WrWd4!U^$'(iKMW!<Wn6!R;P%)A*(P!<Z*>"p4rb#6P&WWrW;)&?>ht",8@.!s>S)&?>iW!JW.D"02G)&?>ig+-m6G"02G)]E'h;#aPU%c5$LT:HJX\*s4U&"uQVf"'5R,WrWd4!U^#L-#Wmd!<Wn6!QHOJ)%ctO!<]"rf)YsU2$X3c<s&Q*!>):4c2uQEDZd$@!t_L6h@?D!&Hf'7"+gOU_?V#;LB.JZ3?9/>2/`R!2$X3c6`U4i!t_L6NX+,IDZd$@!t_L60%LVQ"02G)&?>i7+I3'@"02G)F5$ki$el&1>Fl3q(K47:F&T4l;`/k'"#]fU!s8i3!s:F2!<WE]#6P'H"02G)&?>ht#/20t"02G)&?>i7,i/b<"02G)=c3DEQ3:WV#Qm^q3s,RB#6P'*]`L7t2894q"'IEAQ3:X!,m-e93s,R,"$9L?Op;'k=Xu<%!F_Q#"%,j?!s:Cc!s;E6!]'p9SH/fp2$X3cDZd$@!t_L6joM=iDZd$@!t_L6XrI?Y&Hf'7"'N5A99o]hp*'TC:J1cl2$X3c;&r:32>%+T"#U;c")e:B!<Wn6!L<qM$<I<3WrWd4!R:_+$?$$I!<Wn6!VS%`&eP5H!<`,u]*19^"C]"m"%uEO!s9VI4/W*:#6P'0!s>S)&?>j"!i@Me"02G)&?>iG,d%[j"02G)M#j%L!s;[^4-g"XNX,_[:HJX\;5+4U"#X'\!sb:s9@FLq"$8G!-NaHR1HUm*@J1lI92@VO"#Vh9"#ZVU!s:Cc!s;U,"02G6Wr_VnXs\,iWrW;6Wr_o4egV15WrW;/^'+U#!&HtE)B/c?2$X3c6`U4i!t_L6[K_a@DZd$@!t_L6L(!DV&Hf'7"(AnI"4Ib\6Xp3:)Zs:E!!iQ)zzz!'gMa!"/c,!"8i-!:U!h!#kn<!#>P7!:Kpg!8mqZ!8mqZ!!MM62.$Ff2-0k^2,=;V>*BAi*nq\m#6P'0!s9JR)n#gV#&aS_!tZD(NWB^o)ZpBK$Nji?!s:Cc!s;U,!uhdjmK_SQDZ^p\&0($>ScfW-)ZrS<")`/f2@GlQecc-hF:/0Q%1<7?2'i>,2.Zjl!=Af1zzzz!!!!,!!!!0!!!!(!rr<(hgI@(!s:Cs!s:Ck!s:Cc!s:Cc!s;U,!uhdjp'.r0DZ^p\&0!6^!>,DQ"2P!G"6L#5$dL+-@I>QH'/^!s""+0Q$PVP,lN>TX!!!K/zzzz!!!B,!!!N0!!$4*!!"/B!!!o;!!$(&!!'5-!!'5-!!';/!!'A1!!'A1!!'A1!!'G3!!'G3!!!8pI5QKV"#Y9)"#Y!!"#X]n"#U;c"'5R,1Cu@f!O`2N"#C#j1G4[g&HafkZ2km`%Ljoj'2KPL"#U;c"%jLGV@FsU!t-sk!s;U,"#CKESd/kG"#C#j1Tgt[#B']#!t[9^"1AFH"#C$LZO$_g#!W1l'+Gl_"%jLGrXobUp'\kjE<?:^&0$oGp(Bt:':(-X)ZpI*,m+5TlNY6._ZBoA"pt>^!!!"6!rr=9!rr=9!rr=[!rr=[!rr<1!!!!-!!!#I!<<+o!rr>J!rr>J!rr>J!rr>L!rr>J!rr>b!rr>b!rr<O!!!!>!!!#C!<<+g!rr=k!rr=k!rr=k!rr=q!rr=q!rr=q!rr=;!rr=;!rr=I!rr=E!rr=E!rr=E!rr=E!rr=(!!!!U!!!#3!<<+G!rr=I!rr=[!rr=@!!!!c!!!#>!<<+T!!!!h!!!#?!<<+_!rr=a!rr>P!!!"c!!!!t!!!#1!<<+Q!rr=U!rr=S!rr=[!rr=[!rr>-!!!".!!!#7!<<*)Z@5[Z!s;E@":G;hNrfCc*s313!B#o?!s:Cc!s<HD1BS1Eeck1>DZ_ct&2Ua!Q3Ip'1BVT`!@n7g)Zp1`gC0)X'/^!s"'HQ^hC<J`.g'T,!s;uG"To]=!uh>"#6P'H"#C#j1QDV+"BP[-1Cu@^"D2QS1BS1E7c"=]"#C#[gB@ZeC;'iR"%O:4Xp&7j*WmX/)Zp1`)n$t)=W8=:.Q&d["(AnI!t.j+$Nj-+$Nim,"-*Ilp*p.XF:/0Q2$X3c2$X3c6SefH&2T=Lc2qnd1BS1Ec32,l&Hafk7gfEZ"(@K@"60]0$NgK>^'"NG21bi2"#U;c"#U;c")e8t!t[9>"h#F=1BR^j1QD^3->ruB!t[8[#F5o5"#C$LUC.0a"(Cm?"7l\<)Zp14)Zsu!)`AXDNWB5,2$X3cF;k;a@D2jH)bpJS"&?08irk8F2$X3c<s&O\&2X:hc3A1h1BS1ErYDX@&Hafk7gfER#VQ8f2`88M!s;%$"6Kf,0G=OL',q<VJcZ;^2-0k^2$X3c6SefH&2T=LL+R<G1BS1ENX!c0&Hafk7gfF%"_"P>")Dud!s:E,!s:D$!s8^'9EeC4!#>P7zzzz!"/c,!"T&0!"T/3!$DIG!$DIG!$qUF!#bh;!"K)2!$2=E!$2=E!':/\!$hOE!"B#1!#u1C!#u1C!#u1C!)W^r!&OZU!"]54!,DQ7!':/\!!WN*!"K25!"9&3!.=hI!(?kf!!r`-!0$sY!)3Fn!"&f.!"oJ9!"oJ9!"5EJ24jsQ"#ZDI!s:EA!s8W_LB@V\2$X3cDZ`o?&6"Si[K^XP;ZdS0/rfrE"&f;C]*#Ja.ke=:1E-Lh*A]Jc!s:&2`rQ8E!%U\E1a<)Y2$X3c%T<H3&6"Sip&f48;ZdS0ecbCC&Hbr609.RK$QB8X#V.D>!s9c<.g*L:2'i>,2$X3c%T<H3&6%-`L';Jt;ZdS0`WY]4&Hbr67iMPr)_(sU$3NdC"26=-,IS^>22qV="#U;c"%,uh!t\Cs#0m?Q!s;I5;n`I]"E+B@!t\D>!T!qk"&f:l1BY>nTE-j?"-Wgqef=iS!$ai5215Q/2$X3cDZ`o?&6#_:V?:`=;ZdS0p''jc&Hbr68"0hfjp#d\!YYYs',q<VjT,_k2$X3c<s&P'&6%uu[O5tq;ZdS0?ChB6"&f<]!Cm4o2$X3c%T<H3&6%-`L&l2p;ZdS0Xp2<b&Hbr6!#*Na"&8q;"&\.\'*C*i!s:!a%uUa`)ZTjQzzz!!!!*!!!!4!!!"-!WW4n"98EP!!!!?!!!!u!WW5'"98G)"98G-"98G-"98El!!!!H!!!"1!WW4t"98G!"98F%!!!!T!!!"&!WW53"98G-"98F=!!!!b!!!"&!WW53"98G7"98G7"98F[!!!!l!!!"&!WW3/Rsm5]!<WE]Nr]=b22;27"#U;c"'5R,>7b$,!gX-&>6=s=>LiuG")e9G!t\\F#*&p#"'Yjt)[!5H7jA,M"*5]Y"!_6_('?&e$SqlG)Zq<e"#C$OIffd]joPVm2$X3c%U0#;&6k.tmK?Sn"'Z=@Q3Qa[DZa2G&6hW\"q^rA"3giSlNjWu!##_B%2/gG.K^=d;&p;P2*V0F7iMPJEuR"V@BKh;,;f]."*>Ia"&K(%'/cTe!s:Cc!s<HD>6>F@NX*i4DZa2G&6lRDL&qqh>6@A7"0MetK*2:j"*5]Y"!][a!<WFG)Zp1"RK3Km2$X3cDZa2G&6l:BSd,a0!s9*=joM%YDZa2G&6lRMeh%I9>6@&N^)f?946$VL3\(:W=9BKE7iMQm#&m*X"#Yr:!s<!"#m2[q$dJi1=VEm:$=U(B"&!(2!s;JE"!]lbZ2k%0-IW?<K+8!'&IAG"zzz!!!"R!!!"R!!!"R!!!"R!!!!2!!!!0!!!!e!!!!B!!!!<!!!!p!!!#1!!!#1!!!#1!!!#3!!!#3!!!!d!!!!K!!!!`!!!"#!!!!W!!!!f!!!#;!!!#;!!!#;!!!#=!!!#=!!!#'!!!#'!!!#'!!!#'!!!#)!!!#)!!!"Q!!!!h!!!!k!!!!e!!!#I!!!#I!!!#I!!!!#!!!"H!!!"H!!!"k!!!""!!!!t!!!#&!!!".!!!!s!!!"r!!!"f!!!"f!!!"f!!!"h!!!"h!!!#O!!!#O!!!#N!!!"A!!!"&!!!#d!!!"G!!!"0!!!#p!!!"P!!!"3!!!#G!!!#G!!!"\!!!"\!!!"\!!!"^!!!"^!!!"t!!!"t!!!"t!!!!@!<<+t!!!!_!!!!r!<<,,!!!"+!!!!1KRYl2"9S``cNF=P29,h%"'H!F^'A*7#Ql;I'*A=o#6P&c#6P'0!s<l]HbLrk"`FKi!t]gN"Qf^s"+(,m`s37[2;\E:"%OjDQ2pt11BS<n""R_/[KS0=#6P&c#6P'0!s<l]Hc?)8DZb=g&:9uQh?FPoHNR@P.g&o^42(r.c4C(N:HJX\;83,n"#\C1!s:Cc!s:o;!s9*]NWebS<s&PO&:<gMmKRS3HNOh+h?9t_&Hd@^46?SHRfuOh'*C`D"-rrf'-dSn!s9K"#6P&c#6P'0!s<l]Hc?9X!cJ0f!t]g6"1A4B"+(-6!?7%&)bpJS"'H"!^'A*'.0ELE6N[EfNs%fP2:hp4"'H!f^'A)D*Wnc*1BR_:#6P'*h#T;629u=+"%OR<Q2pt).g$If"!_.tp&ZHr#6P''"![n@],A3^itk3a"-rrf93VKG!s;J.$NgK.K`VVa22;;:"#U;c""AR!!t]g>!O`JV"+(+]H_r"L!tbW^"&[JIP6V1IB*/5n#6P'H"+(+]H`dUn#$1m/HOtPL!QG=^"+(+]H]A;b%1r\h"/5h>$7igq@Ep&!4&7@/"#ZeR!s:F$!WrO-$R<@j@?)T81J]4t"&XpV,6KfO!s;uo!Wu@r"&f:Z#6P'0!s<l]HaX$j#&aTj!t]h1&@MWP"+(,?3s1cL!&HtEB*/5t?TX8O4&,l>"%PudQ2ptQ;Zd^9"%tKV!s;n'[KT<!"%r_R#6P'0!s<l]HgV-9.rPN:!t]g>&^COl"+(,Q$VS2=@YPm*>>Ilo"&\=a9*7'B!s8X.$QHeb@Fc1r.o.)d"&ZW2)ZqsW"9S`r1BWpD!%U,5-NaH,2$X3c<s&PO&:6#n.=2.!&:9uOp'4Y$"+(T+Q3N'PDZb=g&::Q,h?=JnHNQ,1!s;7j")D>j/-Br-!s<='CMT4Kg&\>dCMRHrUC$?'#&A"7*cD-j"%m?=mOW8Y@fm9P[NFW:&HcMF6H]Q[*ArNP!s;mtp&[TV"%*/J#6P'H"+(+]HfbA.-!(0NHOtPt#6#oe"+(+]Hi>DL!tbW^"#PW9"-rrf4%fYi!s:nJEWZCD!!N?&!&alY!&alY!&alY!&alY!"/c,!"/c,z!!V,*%1<7?=UPW2'H%;(!uj'9!t-sk!s;U,"!\@%mK0g$DZ_3d&0iff!>,DY".9/n!s:!i'=/at*<HZR!"Ju/zzz!!rW*!"Ju/!2KYr!-/&>!$M=B!#kn<!2or!!'(#Z!%.aH!3-)#!)W^r!&=NS!2]et!(mCp!(mCp!)<[t!)<[t!,hi;!'L;^!!*'"!(I+l!!\I426R)a"#ZtY!s:EQ!s8W_#6P'0!s:%b/+s0"DZ_Kl&1\NV#8%%g",?mj"24kY':o:>@D3!L)[26*$R7JI!u#d_)iFrb'F"13$R7JI!u!Ns!s:n@!s9)bechWLDZ_Kl&1c<7mK4%'.g&9T"24kY':o:>@GVn)o*I9`!s;%,"24kY':o:>@C@!T)`7j&"#U;c"'5R,.hF5n!eq2'""OHb/+,"G)\E0&"!e7!"#Lr!'/^!s"'5R,.hF6)#0mHl""OHb/&i=\";(_d"*YC\^&rEiSc]X7[L`N["h"RB,;^>A'+YJZ"V3J*!s9&Ap&`YC22qV="#U;c")e8l!tZuc#MoN#""OHb/"Rd4%hSmo"'u?;!tV^INWilL*<QBD!"o83zzz!2KSpz!"Ao.!"Ao.!0[Kb!%8'P!%8'P!%8'P!%J3R!%\?T!%\?T!%\?T!%S$L!$;1@!1*cf!%%pN!%\?T!%nKV!%nKV!!i+D2(&J.2'2o&2&?>s,I82e(?6/f#6P&c#6P'0!s:=j1[Y=1#B']#!t[8s#*oH*"#C$L$Nl+f56D!$%3#BO8fJHC'"S)K!s9)Jp'\kj56D!,&0$oGp(B5q!s:Cc!s<HD1BS1ENWJPNDZ_ct&2Vl@rWR3B1BS1E7c"=]"#C#gq[EW@:E'B<9(NQ,V@FsU!t.^?':(-X)ZpIN)]K8EJcPrU!s/Z6!!`K(]=],0B101));f[0b11100]=(o.M.move);if not(not K[31038])then _=o:G(_,K);else _=-6961604185+((o.t5((o.E5(K[1130])),(K[0X1482_])))+K[0x65_7__7]+o.b[1]-K[31379]+o.b[0B10]);K[0X793E]=_;end;continue;else f[0X1e_]=(nil);break;end;end;end;(f)[0B11111__]=(nil);f[0X20]=(nil);f[0X21]=(nil);(f)[34]=nil;_=0B111010__;while true do if _==58 then f[31]=function()local B=({f});local t=B[1][0b10](B[0X1][0X01_B],B[1][0B101],B[0X1][5]);B[0B1][0X5]=(B[1][0X5]+1);return t;end;if not(not K[31520])then _=K[0X7b__20];else _=-3471911593+((o.G5((o.G5(K[27396]-K[0x68c1]))+K[25975]+_,o.b[0X2],K[25975]))+K[5250]);(K)[0x7B_20]=(_);end;elseif _==0B1010001 then(f)[0B100000]=function()local B={f};local t,m=B[0B1][1]("\x3C\0734",B[0x1][0B11011],B[1][0X5__]);local G=(0X1A);repeat if G>=0B110001 then return t;else(B[0X1_])[0X5]=(m);G=0X31;continue;end;until false;end;if not K[29695]then _=(0X7b+(o.E5((o.E5(K[0X793E]-o.b[0X8]>=K[0X698b]and K[21200]or K[11052]))-K[0x683D]+o.b[0X4])));(K)[29695]=_;else _=o:L(K,_);end;continue;elseif _==124 then _=o:sb(_,f,K);else if _==0X2B then f[0B100010]=(function()local B,K={f};K=o:Zb(B);if K~=nil then return o.l(K);end;end);break;end;end;end;f[0X23]=o.R.wrap;return _;end,Qb=function(o,B,f,K,_)local t,m=(0x5E);repeat if t==0B1011110 then _,m,t=o:_b(t,K,_,m);else for o=B-B%0B1,_ do f[o]=m;end;break;end;until false;return _;end,t=function(o,B,f)f=-2381872543+((o.r5(o.b[0X5]-o.b[8]+o.b[0X3]))+B[27019]+o.b[7]==B[0X7EF]and o.b[0x8]or o.b[7]);(B)[20357]=(f);return f;end,m=bit32,B5=function(o,o,B,f,K)o=0B1100;f[1][0X1e][K+0B10]=B;return o;end,Yb=function(o,o,B,f)f[1]=(o);B=0b1101110;return B;end,_b=function(o,o,B,f,K)f=B[0x1][0B100000]();o=(0B100__101);K=B[0X1_][0X20]();return f,K,o;end,o5=function(o,o,B,f)(o)[B]=(f);end,j5=function(o,o,B)B=o[0X1][0X1f]()~=0X0;return B;end,c5=function(o,B,f,K,_,t)if K==126 then K,f=o:m5(K,B,_,f,t);else if K~=0X45 then else for o=0B1,#t[1][30],0X3 do(t[0X1][0x1E][o])[t[0X1][30][o+0x1]]=f[t[0x1__][0X01E][o+2]];end;return 0XC8a__0,f,K;end;end;return nil,f,K;end,N=function(o,B,f)B=-551755672+((((o.X5(o.b[9],(2)))<=f[0X7Ef]and f[4060]or f[27019])>f[12654]and o.b[0X8]or f[4060])+f[0X49f5]+o.b[0X5]-o.b[0x3]);f[5250]=B;return B;end,Lb=function(o,o,B,f,K,_)B=(o[0X1][4][f]);K=(#B);if o[0B1][33]~=o[1][18]then B[K+0X1]=(_);end;return K,B;end,cb=function(o,B,f,K,_,t,m)m={o.p,o.p,o.p,nil,o.p,o.p,o.p,o.p,nil,o.p,o.p};K=({});B=(nil);t=(nil);_=nil;f=nil;return m,_,t,f,K,B;end,w5=function(o,B,f,K,_,t)local m;(_[0X1])[0X18]=({});B=(_[1][37]()-32834);t=nil;for G=0x1_d,0x84,77 do if not(G>0X1d)then(_[0B01])[0X4]=_[1][0B1111](B);else t=o:j5(_,t);break;end;end;_[0X1][10]=(t);for G=0X001,B do local l,T;for O=0B10__11001,187,0xE do if O<0X67 then l=o:d5(l);continue;elseif O>0X59 and O<117 then T=o:C5(_,T);elseif O<145 and O>0B1_110101 then else if O>131 then if not(t)then _[1][0B100][G]=(l);else _[1][0X4][G]=({[0]=l});end;break;else if O<0X83 and O>0X67 then if T>0B10_0010 then if T==179 then l=_[1][0B1_0000__1]();else l=_[0X1][0B100_010_]();end;else for G=35,39,0B1__00 do m,l=o:U5(l,T,G,_);if m==0x4DE2 then continue;end;end;end;continue;end;end;end;end;end;f=_[0B1][0b100101_]()-0X18137__;K=nil;return K,f,t,B;end,Kb=function(o,B,f,K,_,t,m,G,l,T)m=t[0X1][0B1111](l);if t[0X1][19]~=f then o:Jb(T,f,B,K,G,_,m);end;return m;end,Nb=function(o,o,B)o=B[0X1][0X27]();return o;end,T=math.modf,K5=function(o,B,f,K)(B[0X19])[0xc]=o.X5;if not f[30997]then K=-260+(f[0X705__4]+f[31038]+f[0X7054]+f[0X49f_5]-f[31546]+f[0X6577]+f[29966]);f[30997]=(K);else K=f[30997];end;return K;end,k5=bit32.band,A=function(o,B,f,K)if not(f>0X5b)then K[0X8]=o.r5;if not(not B[0X49f5])then f=B[0X49F5];else f=0X2_3+((o.k5((o.a5(o.b[0b0010]+B[4060]-o.b[0X3]))+o.b[8],B[0x316E],o.b[0x7]))>=o.b[0B10_00]and o.b[4]or f);(B)[0X49F5]=(f);end;return 46093,f;else if not(f<0b01111110)then(K)[0x9]=coroutine.yield;return 0X4608,f;else(K)[7]=o.Z;if not(not B[12654])then f=B[12654];else f=1090039156+(((o.I5((o.I5(o.b[8]+o.b[0B100]))))+o.b[0B101]~=f and o.b[7]or o.b[0X3])-o.b[2]);B[0x316e]=f;end;return 46093,f;end;end;return nil,f;end,bb=function(o,B,f)B=(-0X1__1+((o.k5((o.I5(o.b[0B1001]-o.b[0X3])),f[31520]))+f[18933]-f[27019]-f[5250]));f[29010]=(B);return B;end,Jb=function(o,B,f,K,_,t,m,G)local l;f[0X7]=(B);for B=0B1100010,0X6e,0Xc__ do if B<0X6e then o:Db(m,f,K);else f[0X5]=(G);end;end;G=(0B101__1);repeat l,G=o:Ab(t,f,_,G);if l==42592 then break;else if l==6085 then continue;end;end;until false;end,M=table,Wb=function(o,B,f,K,_,t,m,G)if not(f<=0b111111)then if f>=0B11_00000 then f=(0x3F);(K)[G+1]=(B);else K=m[1][0B100][_];G=(#K);if m[1][37]~=m[0X1][0X16]then else B=o:rb(m,B);end;f=(0X60_);return f,34116,K,B,G;end;else K[G+2]=t;return f,0xFD39,K,B,G;end;return f,nil,K,B,G;end,W5=bit32.rshift,U=bit32.lshift,L=function(o,o,B)B=o[29695];return B;end,w=bit32.countlz,Xb=function(o,B,f,K,_,t,m,G,l,T,O)f=(nil);t=nil;T=0X3B;repeat if T<94 and T>0B10010__1 then G=(l%0X8);T=94;continue;else if T<59 then t=o:Hb(t,K,_);break;else if not(T>59)then else _=K%0X8;T=(37);f=(O%0B1000);end;end;end;until false;m=nil;B=nil;return f,G,m,T,B,_,t;end,H=function(o,B,f,K)if K>0X5 and K<0X20 then(B)[18]=({});if not f[0x49f9]then K=(0X43+((o.W5((o.b[6]+f[0X1482]+o.b[0X5]<f[18933]and o.b[0B1001__]or o.b[0X8])-o.b[0X7],(K)))-K));f[0X49f9]=(K);else K=(f[0X49F9]);end;elseif K<0X2C and K>0B1_1011 then B[21]=(setfenv);return 0X555B,K;else if K>0B1__00000 and K<0B111__110 then(B)[0X11]=o.g5;if not(not f[5250])then K=f[5250];else K=o:N(K,f);end;return 0X8AFe,K;else if K<27 then K=o:a(K,B,f);return 0X8AFE,K;else if not(K>0X2C)then else B[0X13]=tostring;if not(not f[0x6b04])then K=(f[27396]);else K=-0X44E2d5dd+(((o.G5(f[2031]+o.b[0X3],f[0X698B]))+o.b[0x8]==o.b[5]and o.b[0x6]or f[0X1482])+o.b[8]-f[5250]);f[27396]=(K);end;end;end;end;end;return nil,K;end,K=function(o,B,f,K,_)local t;while true do t,K=o:A(_,K,B);if t==17928 then break;else if t~=46093 then else continue;end;end;end;f=o.v;(B)[0xA]=(nil);B[0XB]=nil;(B)[0XC]=(nil);K=(0B001110101);repeat t,K=o:J(K,_,B);if t==0X664c then break;end;until false;(B)[13]=o.y;B[14]=nil;B[15]=nil;K=(6);return K,f;end,C=bit32.band,c=math,v=string.char,u5=function(o,B,f,K,_,t,m,G)(G)[0b101101]=(function()local l,T,O,g,k,Q,y,z={G};O,y,Q,z,g,k=o:cb(k,z,g,y,Q,O);local P;P,k,Q,y,T,O,z=o:v5(l,y,k,g,P,Q,O,z);if T~=nil then return o.l(T);end;T,P=o:V5(P,O,g,l);return o.l(T);end);_=nil;K=(nil);f=nil;t=nil;m=(0B110111__0);repeat if m==0x6E then _=(function()local l,T,O,g,k,Q=({G,G[45]});Q,k,g,O=o:w5(O,k,Q,l,g);T,Q=o:i5(g,k,l,Q,O);return o.l(T);end);K=(function(...)return(...)();end);f=_();if not B[0X3Ec8]then B[21383]=(-4294966889+((o.k5((o.G5(B[0X7a93]-B[11052]))-B[11052]))-B[25975]-B[0X7152]));m=(-0x6AD55B8a+(o.G5(((o.X5((o.G5(o.b[0X9_],B[0X68C1]))-m,(B[8099])))~=B[25975]and o.b[0B100]or o.b[1])-B[0x7A93],B[26685])));B[0X3ec8]=(m);else m=(B[0X3eC8]);end;elseif m==0X7_5 then(G[0x19])[0b11_10]=o.j;G[25][13]=o.d;if not(not B[31546])then m=o:_5(B,m);else m=-0X19A__Db_E6c+((o.r5((o.E5((o.t5(B[27019]-B[27019]~=B[0x6_577]and B[0x7eF]or B[0x698b__],(B[24713]))))),o.b[6]))-B[12654]);(B)[0x007_B3A]=m;end;else if m==80 then m=o:Q5(m,B,G);continue;else if m~=0X6F then else t=o:l5(t);break;end;end;end;until false;if G[0XC]==G[0X1_6]then else G[0X19][0Xf]=o.C;G[0X19][0X7]=(o.n.unpack);end;return K,_,f,m,t;end,J=function(o,B,f,K)if B<=0x50 then(K)[0XC]=function(_,t,m,G)G=({K});if not(_>m)then else return;end;local l=m-_+1;if l>=0b001000 then return t[_],t[_+0B1],t[_+2],t[_+0X3],t[_+0X4],t[_+0X5],t[_+0x6],t[_+7],G[1][0XC](_+8,t,m);elseif l>=0X7 then if G[0B1][0B110]==l then else return t[_],t[_+1],t[_+2],t[_+0B11],t[_+0X4],t[_+0B1__01],t[_+0B110],G[1][0xc](_+0X7,t,m);end;elseif l>=0b110 then return t[_],t[_+0X1],t[_+2],t[_+0X3__],t[_+0B0100],t[_+0x5],G[0X1][12](_+0b11__0,t,m);elseif l>=0X05 then return t[_],t[_+0b1_],t[_+0X2],t[_+0X3],t[_+0X4],G[0x1][12](_+0X5,t,m);elseif l>=4 then return t[_],t[_+0X1],t[_+0x2],t[_+0X3],G[0X1][0Xc](_+0x4,t,m);elseif l>=3 then return t[_],t[_+0B1],t[_+0b10],G[0b1][0B01100](_+0X3,t,m);else if not(l>=0X2)then return t[_],G[0X1][0B1100](_+0X0_1,t,m);else return t[_],t[_+0X1__],G[0X1][0XC](_+0X2,t,m);end;end;end;return 0x664c,B;else K[10]=(nil);K[0xb]=select;if not f[21200]then B=(-2466094127+(((o.a5((o.r5((o.W5(o.b[3],(0b110)))+o.b[0X1]))))~=f[4060]and o.b[0X8]or o.b[0X8])~=f[18933]and o.b[0x3]or o.b[0X2]));(f)[21200]=(B);else B=(f[21200]);end;end;return nil,B;end,Q5=function(o,B,f,K)K[0X19][0B10100]=o.a5;if not(not f[0X5151])then B=(f[0X5151]);else B=85+(o.k5((o.E5(((o.a5(f[0X49f9]))<=f[0X6577]and f[0X79_3e]or f[0X1__FcD])+f[8099]))==f[0Xa6]and o.b[4]or o.b[0B10],f[0X1482]));f[20817]=B;end;return B;end,k=function(o,o,B)o[22]=nil;(o)[0B10111_]=(nil);(o)[24]=(nil);(o)[0X019]=(nil);o[26]=(nil);B=(0X4c);return B;end,Bb=function(o,o,B)B[0x1][0x005]=(o);end,h5=function(o,o,B,f)(o[0X1][24])[B]=(f);end,u=function(o,B)B[0B10]=(o.n.byte);end,y5=function(o,o,B,f,K,_)f=({[0X03]=o-o%0B1,[0x1]=K%0X4});if _~=B[0B1][39]then else return{},f;end;return nil,f;end,x5=function(o,o,B,f)if f>=0X22 then B=(o[0b1][0X1F]()==0X01);else B=o[0X1][41]();end;return B;end,v5=function(o,B,f,K,_,t,m,G,l)local T,O,g,k,Q,y;for z=0X6a,0x20c,0X26 do if z==0X19a then k=B[1][0xF](m);continue;else if z==524 then G[6]=g;elseif z==448 then Q=B[0B1][15](m);elseif z==0b100_10000 then(G)[0X9_]=_;continue;elseif z==296 then l=B[0B1][0Xf](m);elseif z==0b101101__10 then for P=0X1,B[0X1][0x20](),0B1 do T,K=o:Fb(_,G,B,K);if T~=nil then return t,K,m,f,{o.l(T)},G,l;end;end;(G)[0xb]=B[0X1][0b0__1001__01]();elseif z==0X102 then f=B[0B1_][15](m);continue;elseif z==334 then O=B[0B1][0Xf](m);continue;elseif z==0X1E6 then y=o:Kb(f,G,k,Q,B,y,l,m,O);else if z==220 then m=B[0X1][0x25]()-16079;continue;else if z==0X6A then K=0X1;continue;else if z~=372 then else g=o:Ob(m,g,B);end;end;end;end;end;end;for z=0B1,m do local P,e,a,H,W,u;u,e,P,a,H,W=o:ab(B,P,a,H,u,e,W);local F,U,r,Y,w;F,W,Y,r,w,u,U=o:Xb(w,F,a,u,U,Y,W,e,r,H);Y,r,T,w=o:Sb(e,_,g,z,w,k,B,l,Y,U,r,W,P,F,f,H);if T~=nil then return t,K,m,f,{o.l(T)},G,l;end;T,G=o:Z5(l,m,f,z,U,w,k,B,O,Q,_,F,u,G,W,y,Y);if T~=nil then return t,K,m,f,{o.l(T)},G,l;end;end;t=(nil);return t,K,m,f,nil,G,l;end,h=string.pack,s5=function(o,o)return{o};end,l=unpack,n5=function(o,o,B,f)B[f]=(f+o);end,U5=function(o,B,f,K,_)if not(K<0X27)then else B=o:x5(_,B,f);return 0X004D_E2,B;end;return nil,B;end,a=function(o,B,f,K)f[20]=o.h;if not K[0X7_a93]then(K)[16086]=-84637470+(o.k5((o.W5((o.E5(K[12654]))-o.b[0X6]-o.b[8]-o.b[0X1],(K[27396])))));B=(-0X211D274__5+((o.r5((o.E5(o.b[2]+K[0X7ef]))<o.b[0X3]and K[0x6B04]or K[0X52D0],o.b[0X3],o.b[0X5]))+K[0x1482]+K[4060]));K[31379]=B;else B=(K[0X7A93]);end;return B;end,m5=function(o,o,B,f,K,_)K=_[0x1][0Xf](f);o=0B10__00101;if _[0x1][0x25]==B then else _[1][0X1E]=_[0X1][15](f*0X3);for B=0b1,f do K[B]=_[0X2]();end;end;return o,K;end,tb=function(o,o)(o[0X1])[0X13]=o[0B1][0X27];end,O=function(o,B,f,K)while true do if K<0X002D then f[0XE]=o.e5;if not(not B[2031])then K=(B[2031]);else K=(-3030150691+((o.k5((o.G5(o.b[0X3]-B[0X69__8b]>=o.b[0x4]and B[21200]or o.b[1],B[0x052D0],o.b[0b1001])),B[0X49F5]))-B[0X52d0]>K and o.b[0X7]or o.b[0X9]));B[2031]=K;end;continue;else if K>6 then f[0Xf]=o.z5;break;end;end;end;f[0x10]=(function(o,B,_)local t={f,f[0xD]};B=B or 0X1;_=(_ or#o);if not((_-B+1)>7997)then return t[2](o,B,_);else if t[1][0X6]=={}then return;end;return t[0X1__][0Xc](B,o,_);end;end);(f)[17]=nil;(f)[0x012]=(nil);(f)[19]=nil;return K;end,R5=function(o,B,f,K,_)local t;for m=0B1,_,1 do t=o:M5(B,m,f,K);if t~=nil then return{o.l(t)};end;end;return nil;end,D5=function(o,B,f,K,_)local t;K[25][0x6]=o.x;(K[0X19])[16]=o.U;if K[0X001D]==K[0X1a]then local m=0b1000100;repeat t,m=o:F5(K,B,m);if t==0X353f__ then break;else if t==nil then else return{o.l(t)},m;end;end;until false;end;_=(0X0);repeat if _>0B00 then K[0B11001][0B1000]=o.q5;break;else if _<0x5f then if K[0X27]~=K[0X12]then else return{},_;end;if not f[23164]then _=0X5f+(o.k5((o.G5((o.W5((o.t5((o.r5(o.b[0B10],f[18937])),(_)))+f[27396],(f[24713]))),f[27396],_)),f[28756],o.b[0X7]));(f)[23164]=_;else _=f[0X5a7c];end;end;end;until false;return nil,_;end,Z=string.match,ib=function(o,o)while 166<0XE0==o[1][0x20]do local B=(0X6E);repeat if B==110 then o[1][0X12]=(o[0X1][0B10__110]);B=0X75;else(o[0X1])[0B101010]=(-0x7d/-0X0);break;end;until false;end;end,Y5=function(o,B)B[0X19][17]=o.T;end,fb=function(o,o,B,f,K)if f>112 then(B)[o+0x3__]=0x5;else if not(f<136)then else B[o+2]=(K);end;end;end,sb=function(o,B,f,K)f[0B100001]=function()local _,t=({f});t=o:f(_);if t~=nil then return o.l(t);end;end;if not(not K[29010])then B=(K[0X7_152]);else B=o:bb(B,K);end;return B;end,j=bit32.bxor,g=function(o,B,f)if f[0X1][0B11001]~=f[0X1][22]then o:z(f,B);end;f[0X1][0X5]=(0X1);end,mb=function(o,B,f,K)(K)[0X27]=nil;(K)[40]=(nil);(K)[0x2__9]=nil;K[42]=(nil);(K)[0x2B]=nil;K[0B10110_0]=nil;B=0X05;while true do if B==0b101 then K[38]=o.V;if not(not f[24713])then B=f[24713];else B=-12589330+(o.k5((o.k5((o.G5((o.k5(f[27396],o.b[0B10])),f[31038],o.b[0B1000]))~=o.b[0X8]and o.b[0X7]or f[0X49f9],o.b[4]))-B,o.b[5]));f[0X06089]=B;end;continue;elseif B==0X20 then(K)[0x27]=function()local _,t,m,G={K},0X2E;while true do m,t,G=o:jb(G,t,_);if m==0Xa8F4 then break;else if m~=nil then return o.l(m);end;end;end;return G;end;if not f[28756]then B=-4294966976+((o.k5(f[27396]+f[0XC78]-f[0X49F5]-f[21200]+f[27396]))-f[0x007b_2_0__]);f[28756]=B;else B=(f[0X7054]);end;continue;elseif B==0B001010010 then(K)[0X28]=error;if not(not f[0X1fA3])then B=o:Cb(B,f);else B=o:db(f,B);end;continue;elseif B==0X9 then K[0X29]=(function()local _,t={K};t=o:xb(_);return o.l(t);end);if not f[0B1__0100110]then B=o:Ub(B,f);else B=o:wb(B,f);end;continue;elseif B==0X54 then(K)[0B101010]=function(...)local _={K};local t=_[0X1][11]("#",...);if t~=0B0 then else return t,_[0X1][26];end;return t,{...};end;K[0X2B]=(function(_,t)local m={K,K[0B100__011],K[0x3]};local G,l,T,O,g,k,Q,y,z,P=_[11],_[0b1001__],_[0x5],_[10],_[0X3],_[7],_[4],_[0X6],(_[0X1]);P=function(...)local e,a,H,W=m[0X1][0xf__](G),(0X1);local G,u=m[0b1][0B101010](...);local F,U,r,Y,w,b,s=1,0X0,0x1,(m[0B1][0B10__0110]());local L,v,p,C=m[0B1][0X17__](function()while true do local i=(y[a]);if i>=0X3B then if m[0b1__][0X1A]==m[1][29]then while m[0B1][0X6_]do(m[0X1])[0X1d]=165;end;elseif not(i>=0B1011000)then if i>=0B1001001 then if i<80 then if not(i<0X4C)then if not(i<0X4__E)then if i~=0B1_001111 then if not(W)then else for J,I,R in W do if m[0x001][0X24]==m[0X1][0x1F]then if m[0X1][0X025]then return;end;while 0XBE>=m[0X01][0X10]do return;end;elseif J>=1 then I[0X1]=(I);(I)[0X2]=e[J];(I)[0X3]=(0x2);W[J]=nil;end;end;end;local J=O[a];return false,J,J;else local J=(g[a]);(e)[J]=e[J](e[J+0b01],e[J+0X2]);r=J;end;else if m[0X1][31]==P then return;elseif i~=0X4D then e[z[a]]=(k[a]-e[g[a]]);else e[z[a]]=(m[0B1__][25][g[a]]);end;end;else if i>=0B100101__0 then if i~=75 then e[O[a]][T[a]]=e[g[a]];else H={[0x4]=s,[0X03]=H,[0B10__]=w,[5]=b};local J=(z[a]);if m[1][0B100000]==m[1][25]then m[0X1_][0Xc]=(m[0x1][0B100111]);end;s=e[J+2]+0x0;b=e[J+0B1]+0;w=e[J]-s;a=(O[a]);end;else local J,I,R,j,V,h,d=0XF,4503599627370495,(0X4C);while true do if m[0X1][0x22]==V then else if R>0X3B then j=(-0X26);R=(-0x5E+((m[1][0X19][0XC]((m[0X1][25][0Xd](((m[0B1][0X19][0b1_011](R))==R and R or i)-i,R,i)),(m[0x1][0x019][0B111]('>\x698','\0\u{0}\0\0\0\u{00}\z  \0\0'))))+R));continue;elseif R<0X4c then V=0;break;end;end;end;R=0B1000_00;local S,c=(0B1111_);while true do if R==0B1000__00 then if m[0X1__][0X20]~=h then else return m[1][0X29];end;if m[0B1][0x27]==m[0X1][0b10110]then if not(m[1][0B0100000])then else m[0X1][26],h=(0Xf7~=0B10101011)^m[1][0X22],-m[1][0B101010];(m[0x1])[0B100101],m[0x001][0x21]=-0x3_C,(m[1][6]);end;end;V*=I;I=(m[0x1][0X19__]);R=-4294967189+(m[0x1][0X1__9][0B1110](R-R-i+R-i+R,i));continue;else h=0B11_11;break;end;end;I=I[h];h=m[0B1][0B11001];h=h[J];J=m[1][25];J=J[S];R=(0B1__010100);while true do if m[0x1][0x16_]==m[0x1][0b10011]then m[0X01][0b110]=(m[0X1][31]);return;elseif not(R>38)then if R>0X23 then S=S>c;if S then S=y[a];end;R=(39+((((m[0x1][0X19][0XE](R+R))+i==R and R or i)>i and i or R)==i and i or R));else if m[1][34]==P then else c=y[a];end;R=(-4294967219+((m[0X1][0B11001][0XA](i-i+i+i))+i+R));end;else if not(R>=0x54)then if not S then S=(y[a]);end;c=y[a];break;else S=i;R=-3758096452+((m[0x1][25][0xA]((m[0x1][0X19][0X13](R-R-R-i,(3)))))+R);continue;end;end;end;R=(3);while true do if R<6 then if m[0x1][36]==m[0X1][0X20]then return 0B1_0000101;end;S-=c;c=(i);R=-4294967353+((m[0X1][0x19][0Xa](((m[0X1__][0x1__9][11](R))>i and R or R)+R))+i-R);continue;elseif not(R>0B11)then else d=(y[a]);break;end;end;R=(0X62);while true do if R<0B11000__1_0 then if m[0X1][39]==m[0X1][26]then return;end;h=h(J);J=i;break;elseif R>0B1011001 then J=J(S,c,d);R=(16+((m[0B1][0X0019][0b101__1](((m[1][0B11_001][0b1010__](R))>i and R or R)+R<i and R or i))>R and i or i));end;end;R=(0B100__0000);while true do if R==0X4__0 then h=(h<=J);R=0X6+(m[1][0B11001][0xb]((m[0X1][0X19][0B1100](R-R-i,(28)))-R>R and i or R));continue;elseif R==0B11111 then if not(h)then else h=(i);end;R=(145+(((m[1][25][0xC](i,(R)))+i+i<=R and R or R)-R-R));elseif R==0X72 then if not(not h)then else h=(i);end;if P==m[0X1][0X29]then else J=i;R=17+(m[0X1][0X001_9_][11]((m[1][25][0xF]((R~=R and i or R)-R<i and R or R))+i));continue;end;elseif R~=41 then else S=i;break;end;end;I=I(h,J,S);R=(29);while true do if R==0X1__D then h=(i);R=(0XF+((m[0X1][0B11001][0X10]((m[0x1][0X19][10](i))-i+i-i,(R)))==R and i or i));continue;elseif R==0B1011000 then I+=h;break;end;end;h=(y[a]);R=118;while true do if R==118 then I-=h;R=259+((m[0B1][0X19][0xB]((m[0X1][0B11001][16]((m[0B1][0b11001][0X15](R,(0B1_0110))),(0xA)))+R))-i-R);elseif R==0B101110__1 then V+=I;j+=V;(y)[a]=j;j=(e);R=(-0X3__1+((((m[0X01][0B11001][0B1100](R+R,(0b101)))>i and R or R)-R~=R and i or i)>R and R or i));elseif R==0X18 then V=(O[a]);I=e;R=-0X2+(m[0B1][0B11001][0x13]((m[1][0X19__][0X10_]((m[0B1][0X19][0X0b](i==R and R or i)),(R)))+i-R,(R)));elseif R==0X17 then h=z[a];R=(-0X3F+((m[0X1][0x19][0X1_5]((m[1][0X1_9][0X1_0]((m[1][0x19][0X10]((m[1][0B11001][0B10100](R))~=i and R or i,(R))),(R))),(R)))+i));continue;elseif R==0B1010 then I=I[h];R=(0X1_9+(m[0X1][0X01_9][0xA]((m[0b1][0X19][0x14]((m[1][25][0B1111](R,R,i))-i+R))-i)));elseif R==0B1100__001 then I=(#I);R=(-0X75+((m[0x1][25][0xa__](i+R-R-R))+R+i));elseif R~=0x4C then else if m[0X1][0x16]~=m[0X1_][0X29]then(j)[V]=(I);end;break;end;end;end;end;else if not(i>=0X54)then if i>=0B1010010 then if i~=0x53 then local J=(t[z[a]]);(e)[g[a]]=(J[1][J[3]]);else(e)[g[a]]=T[a]-k[a];end;else if i~=0B101__0001 then local J=(z[a]);if W then for I,R,j in W do if I>=J then R[0x1]=R;(R)[0B10]=e[I];(R)[0B11]=(0X2);W[I]=(nil);end;end;end;else if not(not e[O[a]])then else a=g[a];end;end;end;else if i<0b1010110 then if i==85 then local J=z[a];r=(J+g[a]-0B01);(e[J])(m[0B1][16](e,J+0x1,r));r=J-0x1;else local J,I,R,j,V,h,d=0B1011110,0B10011,4503599627370495;while true do if m[0X1][0B1010__10]==V then else if J<=0B10_0101 then h=(g[a]);J=(0X26+(m[0x1][25][0Xb]((m[0B1][0x19][0X13]((m[0X1_][0B011_001][0X15](O[a]==J and J or i,O[a])),O[a]))-O[a]-J)));else if J>64 then if m[0B1][0B110__01]~=P then j=t;J=-5791+((m[0x1][0B11__001][0x15](((m[1][0X19][0B10000](J,O[a]))>J and J or O[a])+J,O[a]))-J-J);end;continue;else j=(j[h]);break;end;end;end;end;J=0X1f;while true do if not(J>0B11111)then h=(0x0);J=(-0X4D+((m[0x1_][0X19][0xd]((m[0B1][0b110__01][21]((m[0X1][0X19][15](O[a]>=O[a]and O[a]or O[a])),O[a])),O[a],J))-J+J));continue;else V=0B0;break;end;end;local S;J=0B100110;while true do if J==0X26 then if m[0B1][0X21__]==m[0B1][25]then if not(-I)then else return;end;return-19;end;V*=R;J=(0X7B+((m[0X1][0B110_01][15]((m[1][0X19][0xD](J+i-J>=O[a]and J or i))))-i));else R=m[1][25];break;end;end;local c,A,X;J=0x6;while true do if m[1][0X22]==c then if-(0XD6~=213)then m[0X1][0X21]=(m[0b1][39]);end;(m[1])[16]=m[0X1][0X12];elseif not(J>0B101000)then if J>0b110 then X=(0b1000_0);J=0b111010+((m[0X1][0X19][0XF]((J~=J and i or J)-O[a]+J>=i and O[a]or O[a]))+J);else R=(R[I]);J=(0b101100+(m[0X1][0x19_][0xF]((m[0X1][25][0XF]((m[0X1][0X19][0B1010](O[a]-J)),O[a]))+J-O[a])));end;else if J<=45 then I=(m[1][25]);J=-0B10110__0+((m[0B1][0B1__1001][0B1011](J+J+J+J<i and i or i))~=O[a]and i or J);else if m[1][0B1__00010]==P then else I=(I[X]);X=(m[1][0X19]);end;d=0X15;break;end;end;end;J=0x05F;while true do if J<95 then if m[0B1][0B10100__1]==S then if not(0XA0)then else m[1][0X1D]=m[0B1][0B11001];end;end;d=(d[A]);break;elseif not(J>0B110010)then else if S==m[1][36]then if-(0X0057+135)then m[0X1][12]=m[0B1][0B100__10];return;end;while-(0X6a+0X28)do(m[1])[0X2A]=(-m[0X1][0B11_111]);return;end;end;X=(X[d]);d=(m[0x1][25]);A=19;J=(-0x22+((m[1][25][0B1010__]((m[0B1][25][0Xc](J-J-O[a],O[a]))+i))~=J and i or J));end;end;local E;J=(0X14);while true do if J==20 then if m[1][0X12]~=m[1][0B100100]then A=m[1][25];end;J=-0x1__2+(m[0X1][0X1__9][0XD]((m[1][0X19][14]((m[0X1][0B11001][20]((m[0X1][25][0X1_4](O[a])))),J,i))+J-J,O[a],i));elseif J==0x6_3 then c=(0Xe);break;end;end;A=A[c];local q=(0B1111);J=(0B10100);while true do if J<0X63 then c=(m[0X1][0B11001]);J=0X3b+((m[0B1][0B11001][0xB]((J>=O[a]and J or i)+i-J))+J-O[a]);continue;elseif J<0B11__00110 and J>0b10100 then if m[0B1][0xc]==m[0X1][0x12]then m[0X1][0X1F],q=m[0X1][0X1d],P>m[0B1][0X0__C];end;S=(11);J=(3+((m[1][0X19][0B11__00]((m[0x1][0x19][0XA]((m[0b01][0X19][0XA](i))-O[a]))+J,O[a]))>i and J or i));continue;elseif not(J>0B011_00011)then else c=c[S];break;end;end;S=m[0X1][0B0011001];J=(115);while true do if not(J<=0x36)then if m[0B1][31]==m[1][0x001A]then while m[0B1_][0X2a]^(-0Xd7)do P,m[0x1][6]=-m[0B1_][0X16],m[0X1][36];end;elseif m[0x1][31]==m[0x1][0x24]then return;elseif J<=0B10__11000 then if not q then q=(O[a]);end;if m[0X1][0Xc]==m[1][0b11001__]then else break;end;else S=(S[q]);J=(195+((m[1][25][0B1011]((m[0X1__][25][0B1010](i))))+i-J-J+O[a]));end;else if J~=0X36 then E=O[a];q=q>E;if not(q)then else q=(O[a]);end;J=0B1011000+(m[0X1][0b11001][0X13]((m[0B1][0B11001][0XD]((m[0X1][25][0b1_0101](i,O[a]))+O[a],J))+O[a]-i,(J)));continue;else q=i;J=0x19+(m[1][25][0XF]((m[0b1][0B11001][0Xf]((m[0b1][0B11001][0X14]((m[0X1][25][0B10011](J,O[a]))+J))+i)),O[a]));continue;end;end;end;if m[0X1][0X24]==m[0X1][0B0011010]then(m[1])[0X19],m[0B1][0X25]=-m[1][16],(-m[0X1_][0X024]);end;S=S(q);c=c(S);S=y[a];q=O[a];A=A(c,S,q);c=O[a];J=(0x4C);while true do if J==0X4C then if m[0X1][0X29]==m[0X1][0X12]then else d=d(A,c);A=(O[a]);end;J=-0X945+(m[0B001][0x019][0B1__0101]((O[a]-J+J<=J and O[a]or i)+J<O[a]and J or J,O[a]));elseif J~=0X3b then else X=X(d,A);break;end;end;d=(O[a]);J=0x75;while true do if J>0B001010000 then if m[0X1][0X10]~=m[1][22]then else while m[1][42]do return m[1][0B110];end;end;I=I(X,d);X=(O[a]);J=0X50+(m[0X001][25][0x14]((m[0B1][0X1__9][0XD]((m[1][0X19][0XC]((J<i and J or O[a])-J-i,O[a])),i,J))));continue;elseif J<117 then if m[0b1][0x25]~=P then else while 0b0101__01~=m[0b1__][12]do m[0x1][0b10011]=(-m[1][6]);P,m[1][31]=-m[0b1][0x24],(m[0X1][0B11_0]);end;if not(-0X20)then else(m[0B001])[0X22]=m[1][0X21];end;end;R=R(I,X);V+=R;h+=V;break;end;end;(y)[a]=(h);h=e;V=(O[a]);R=j;J=(0B100100);while true do if J<=0X24 then I=0X1;J=0B101111+(m[0x1][0X19][15]((J~=J and J or J)+i-J-J>=J and O[a]or O[a],i));continue;else if not(J>=0X76)then R=R[I];I=(j);J=(34+((m[0X1][0B11001][0B1111](((m[0X1][25][0B01110](i,J,J))-O[a]~=J and J or O[a])+J))==i and J or i));else X=(0X3);break;end;end;end;J=0X78;while true do if J>0x77 then I=I[X];J=(0x23__+((m[1][0X19][0X13]((m[0X1][25][0B1111]((m[0x1][0x19][0Xe_](J)),O[a],O[a]))-J,O[a]))+O[a]~=i and i or J));continue;elseif J<0B1111000 and J>106 then R=R[I];J=0X65+((m[0B1][0X19][0X1_4_](J+O[a]-i+i+J))+O[a]);elseif J<0x7_7 then I=(T[a]);break;end;end;R=(R[I]);h[V]=R;end;else if i==87 then e[z[a]]=(y);else e[g[a]]=k[a]+T[a];end;end;end;end;else if not(i>=66)then if not(i>=62)then if m[0X1][16]~=m[0b1][25]then else m[0X1][0X6]=(-m[0X1][36]);end;if not(i>=0B111100)then if e[O[a]]==e[z[a]]then a=g[a];end;else if i==0X3D then e[g[a]]=t[O[a]][e[z[a]]];else local J,I=g[a],z[a];local R=e[J];if m[0B1][25]~=m[0X1][0X2a]then else while m[1][0X2_0_]do return m[0X1][0X1D];end;end;if m[1][0B1_01001]==m[0B1][22]then else m[0B1][0b1110_0](e,J+0B1,r,I+1,R);end;end;end;else if not(i>=0X40)then if m[0x01][0X10]==m[0X1][36]then if m[0B1][0x6]then(m[0x1])[6],m[0X1][0X0016]=m[0B1][0x16],m[0X1][22];end;elseif i~=0X3F then e[g[a]]=e[z[a]]..k[a];else e[z[a]]={};end;else if m[0X001][25]==m[0X1][0X2__7]then P=(m[0X1][0X12]);end;if i==0X41 then(e)[g[a]]=(k[a]*e[z[a]]);else local J=t[g[a]];e[O[a]]=(J[1][J[0X3]][T[a]]);end;end;end;else if i<0X45 then if not(i<0B10000__11)then if i~=0X44 then(e)[g[a]]=z;else(e)[g[a]]=e[O[a]][e[z[a]]];end;else if m[1][0B10000]==P then while m[0X1][0X29]do return;end;elseif e[g[a]]==k[a]then else a=(z[a]);end;end;else if m[0B1][25]==m[1][0X25]then if not(m[0X1][0X1D])then else return m[0b1][0B011101];end;while m[0B1][0B11101]do return m[1][0X24]^(0b1100+90);end;elseif i<0B1000111 then if i==70 then local J=(t[g[a]]);(e)[O[a]]=J[0x1][J[3]][e[z[a]]];else e[z[a]]=m[1][15](g[a]);end;else if i==0b1001000 then(e)[z[a]]=e[g[a]]%e[O[a]];else e[g[a]]=Y[T[a]];end;end;end;end;end;else if i<0B1__100111 then if not(i>=0X5f)then if m[0X1][6]==m[1][0x16]then else if i<0B10110__11 then if i<0x59 then local J=O[a];e[J](m[0B1][0X10](e,J+0X1,r));r=(J-0B1);else if i==90 then(t[O[a]])[e[g[a]]]=e[z[a]];else local J,I=O[a],(e[g[a]]);if m[1][0b11_00]==m[0B1][0X1a]then while m[1][0X016]do return m[0x001][0B1__00010];end;if not(0B10100)then else m[0b1][0X13],m[0X1][0X25]=m[0X1][0X1_0],m[0x1][0x1a];end;end;e[J+0X1]=I;(e)[J]=I[T[a]];end;end;else if i>=0X5D then if i==94 then for J=0x1,g[a]do(e)[J]=(u[J]);end;else(e)[O[a]]=e[g[a]]..e[z[a]];end;else if i==0X5c then local J,I,R,j,V,h,d=0X0,20,(0B10000001);while true do if R==46 then if not(m[0x1][0B10011_1])then else m[0x1][0X1a]=(0X66);return R;end;return;elseif I==m[0B1][0X2A]then while m[0B1][0b11001]do m[0X1][0X6__],m[1][0X6]=P,(-0X64);return R;end;elseif J>0 then if J~=0x5f then V=4503599627370495;break;else h=(0);J=(0X8e+(((m[0X1][0B11001][0B1010](J+i))+J>=J and i or i)-i-i));end;else j=-0X18;J=0B1011111+(m[1][0X19][0B001_0000](((J+J<=i and J or J)+J>i and i or J)-J,(J)));continue;end;end;local S=0XEe;if P~=m[0B1][0X006]then h*=V;V=m[0x1][0X19];end;local c=0XA;if R~=100 then V=V[I];I=m[0X001][0X19];I=(I[c]);c=i;J=(0x66);while true do if not(J>0X8)then if R==224 then else d=y[a];break;end;else if J<102 then c+=d;J=(-761953+((m[0x1][0X19][0X10]((m[1][0x19][0B1101]((J<J and J or J)-J,i,J)),(J)))+J+i));else if m[0B1][0X29]~=m[0B1][0X24]then else while 0B001011100 do m[0x1][0X0_24]=(-180);return;end;while-S do return 240;end;end;d=y[a];J=(0X9+(m[0x1][0X19][0XF]((m[0X001][0B1_1001][0Xb]((m[0b1][0x19][20]((m[0x1][0X0019][0Xd](J,i))-i-J)))),J,i)));end;end;end;end;if R~=129 then while 0Xf4 do return;end;end;J=0X21;while true do if m[0X1][18]==m[1][0x22]then while 0X98 do return(0XC5 or 0xB3)<=R;end;elseif S~=0xee then return S;elseif J>0xc then if J~=0B1111011_ then c-=d;J=(-4294961332+(m[0B1_][0x19][16]((m[1][0B11001][0xA]((m[1][0X19][13](J-i<J and J or J,i))==J and J or i)),(0X6))));else c-=d;break;end;else d=y[a];J=-4294967117+(m[0X1][0b11001][0Xa]((m[0X1][25][0Xa]((m[1][0X19__][0xe](J+J))))-J+i));continue;end;end;if R~=0X81 then P,m[0X1][0X13_]=S>0X53,130;end;J=0x64__;while true do if J==0B110010__0__ then if R~=0X81 then else I=I(c);end;c=(i);J=(-0X85+(m[0X1_][25][0b1110](((m[0X1][25][0XC]((i>J and J or J)==i and i or J,(17)))~=i and J or J)+i,J,i)));continue;elseif J==0X73 then if R~=0xEb then else while m[0x1][0X1A]do return;end;while m[0X1][25]do return;end;end;I=I~=c;J=-0X3d+(((m[0B1][0X19][0b1110]((m[1][0X19][0Xa](J-J))))<=J and J or J)+J>=i and J or J);continue;elseif J~=54 then else if I then I=(i);end;break;end;end;J=0B1011__000;while true do if J>0X4A and J<0X58 then I+=c;J=-0x12+(J+J+i-J-J+i-i);continue;elseif J<0b10_0001 then if m[0B1][26]==m[0B1][0X29]then return m[1][0X16];end;V+=I;h+=V;break;elseif J>0b1010111 then if not I then if R~=0Xc then else(m[1])[0Xc]=(S or-0X14);end;I=y[a];end;c=y[a];J=(-65448+(m[1][0X19][0X0013]((m[1][0X19][0xB]((m[1][25][0B0010101](i,(0X12)))))-i+J-i,(0B1__0000))));elseif J<0X57 and J>0X21 then V=V(I);J=(-59+((m[0X1][25][0b001010]((m[0X1][0X19][0b10101]((m[1][0B11001][10]((m[0X1][0B110_01][19]((m[0X1][0B11001][0Xe__](i,i)),(0X1E__))))),(12)))))+i));continue;elseif J>0b1100 and J<0B1001010 then if R==0X82 then m[0x1][0X1F],m[1][0X22]=R,(-S);end;I=(y[a]);J=-21+(((m[0b1][0B11001][0B10011](i,(23)))~=J and J or J)-J+J+J-J);continue;end;end;j+=h;if R~=0b100011__ then y[a]=j;end;j=e;J=0B1000010;while true do if not(J<=57)then if m[1][0x13]==m[0x1][0X12]then m[0x1][0X20]=-0B0011110010<(0X02C and 0B11111101);end;if not(J>0b1000010)then h=(g[a]);J=0x20+(m[1][0X0019][0Xb]((m[1][0B11001][0x13](J-i~=i and i or i,(0X5)))-J>=i and J or J));continue;else if J==83 then V=(V[I]);J=(0X71+((m[0x1][0B11001][20]((m[0b1][0x19][0Xd](i,i,J))-i-i+J))-i));else I=(T[a]);J=-0x10fF69+((m[0X1][25][21]((m[0B1][25][14](J>=i and J or J,J,J))-J>J and J or J,(0Xe)))-J);end;end;else if not(J>0X16)then j[h]=(V);break;else V=(Y);J=-0B110110_+((m[0B1_][0x19][0X14]((m[1][25][0X15]((m[0B1][0B110_01][0X14]((m[1][25][0xB](J))+i)),(m[0X1][0X19][7]('<\105\x38','\30\z \0\u{00}\0\u{000}\z  \0\z  \0\0'))))))+i);end;end;end;else e[g[a]]=e[O[a]]-e[z[a]];end;end;end;end;else if not(i>=99)then if not(i<0B11__00001)then if m[0X001][37]==m[0X1][0B0010010]then return 0x8E;elseif m[0x1][12]==m[0X1][0X19__]then while m[0B01][34]do return m[0X1][0X2__4_];end;elseif i==0B110001__0 then if W then for J,I,R in W do if J>=0b001 then I[0X1]=I;I[0X2_]=(e[J]);(I)[0X3]=0B10;W[J]=(nil);end;end;end;return;else(e)[z[a]]=(Q[a]);end;else if m[0X1][0X1D]==m[0X1][0x1a]then return 0X57<=0X7;elseif m[0B1][0XC]==m[1][0X19]then return;elseif i==0X60 then e[O[a]]=(e[g[a]]/e[z[a]]);else e[g[a]]=(e[z[a]]*k[a]);end;end;else if i<0B1100101 then if i==100 then e[g[a]]=T[a]+e[O[a]];else U=(z[a]);for J=0X1,U do e[J]=(u[J]);end;F=(U+1);end;else if i==0X66 then local J,I,R,j,V,h=(0XC);while true do if J<30 then R=(-0Xed);J=(-4294967161+(m[0x1][0B11001][0XE]((m[1][0x19][19]((m[1][0X019][21](i-i,(J)))>J and i or i,(J)))-J,J,J)));elseif J>0X1E then I=0;J=(-297+(((m[0X1][0X19][13]((m[0X1][0X19][0b10101]((m[1][0X19][0XA__](i)),(0X1c))),i))<=i and J or i)+i+J));elseif not(J<0X7B and J>0B1100)then else V=(4503599627370495);break;end;end;local d=0XA1;I*=V;J=0B00110000;while true do if J==0B110000 then if m[0B1][29]==P then else V=m[0B1_][25];h=(0B1100);J=0X4f+((m[1][0x19][0xF]((m[1][0X19][14]((m[0X1][0X0019][0Xf](i~=i and i or i,J,J))~=J and i or J))))-i);end;elseif J~=79 then else V=V[h];break;end;end;h=m[0b1][0B011001];local S;if m[1][0x2A]~=P then J=(0b1100000_);end;while true do if J==96 then S=14;J=(-0x21+((m[0X1][0X19][0X0d]((m[1][25][14]((m[1][0B11001__][0X00b](i)),i))~=J and J or J,J,i))-i+J));elseif J==0X3f then h=(h[S]);S=(y[a]);J=-0b1101101+(m[0x1][0b011__001][0xd]((m[0B1][0B11001][0B1011]((m[0X1][0X19][0Xa]((m[0X1_][0B110_01][0X10](i+i,(m[0B001][25][0B111]('>\z\i\x38',"\0\0\0\0\0\x00\0\8"))))))>=J and J or J)),i,J));elseif J==0X12 then j=(i);break;end;end;if d~=70 then S-=j;j=i;J=0X2c;while true do if d==0X50 then while 0XAd do m[0x1][0X1D],P=21,m[0X1][0X22_]~=d;return m[0B1][31];end;elseif d==0X55 then if 0B1110010 then P,m[1][0x6]=d,d;(m[0X1])[18]=(0B11100001);end;elseif not(J<=0B11011)then if J<=0B101100 then S+=j;J=(-17+((m[1][0X19][15]((m[0X1][0x19][19]((m[0X1][0X19][0XE](J,i))>J and J or i,(m[0x1][0x19][7](">\x69\z8",'\0\0\0\z \0\0\0\0\x13')))),J,J))+i<J and i or J));continue;else S-=j;J=(-0x7ffFF_FfB+(m[1][0B1100_1][16]((m[0X1][0B11001][0x14_]((m[1][0x19][0X15]((m[0X1][0B11001][0b1011](i))+i,(0X18)))))+i,(30))));end;else if J~=0X1__b then h=h(S);break;else j=y[a];J=(-4294967104+((m[1][0X19][0XA]((m[0X1][0x19__][0Xe]((m[1][0x19][0B1010](J+J))))==J and i or i))-J));end;end;end;S=(29);V=V(h,S);end;J=(0X7);if m[0x01][0X1d]~=m[0X1][0b10010]then else return(49>0B11010110)%(22>0X7E);end;while true do if d~=161 then if d%m[1][0X24]then return;end;elseif d~=0Xa1 then return;elseif J<0X3_a then if d==0B1111010 then while d do m[0X1][0X22]=m[1][0X13];return d;end;end;if d==0Xa__1 then else(m[0B01_])[0B11101],m[1][37]=m[0x1][0x2A],0B10001011;end;h=y[a];J=(-0b101100+((m[0b1][0B11001][15]((m[0X001][0X1__9][0X14]((m[0b1][0X19][16](i-J,(J)))))-i,i))<J and i or i));continue;elseif J>0x7_ then if d==216 then else V+=h;end;break;end;end;h=y[a];J=0x40;while true do if J<64 then h=i;break;elseif not(J>0X1F)then else V+=h;J=-4294967264+(m[1][25][0B1010__](((m[0X1][0x19_][0Xb](i-i))-J<J and i or J)-i));continue;end;end;S=0XA4__;V+=h;I+=V;J=125;while true do if J<125 then(y)[a]=R;break;else if d~=0x2A then else m[0X1][0X19],m[1][0B101001]=d,-0X42;end;R+=I;J=(24+(m[0x1][0X19][0B1011]((m[0b1][0X19][20](i+i>=i and J or i))+J-J)));end;end;R=e;J=0B101000__;while true do if J<0X28 then V=V(h);(R)[I]=(V);break;elseif S==0B10_101000 then(m[0B1])[0B11111],m[1][0B100100__]=d,25==m[1][0X13];elseif J<0X067 and J>26 then I=(z[a]);J=205+((m[0B1][25][0Xc]((m[0x1_][25][0B1110]((m[1][0B11001][0B1111](J))+J-J,J)),(0Xe)))-i);elseif not(J>40)then else V=m[0X1][0XF];if d~=0X8D then else return;end;h=(g[a]);J=(-0X64_00004A+((m[0X1][0X1_9__][12]((m[0X1][0b11001][0Xa]((i+i>J and J or i)+J)),(7)))+i));continue;end;end;else if m[0X1][0B11111]~=P then(e)[g[a]]=u[F];end;end;end;end;end;else if i>=0x6E__ then if not(i>=0X7__2)then if not(i<112)then if i==0x07_1 then if W then for J,I in W do if m[0X1][0X27_]==m[0B1_][0B11010]then return;elseif not(J>=1)then else(I)[1]=(I);I[0X2]=(e[J]);I[0X3__]=0X2;(W)[J]=(nil);end;end;end;return true,O[a],0X1;else local J=(Q[a]);local I=J[0B1000];local R=(#I);local j=(R>0 and{});local V=m[0X1][0B00101011_](J,j);if m[0X1][33]==P then else(m[0X1][0B10101])(V,Y);e[O[a]]=V;end;if j then for Y=1,R,0X1__ do J=(I[Y]);V=J[0B01];local I=J[0X3];if V==0X0 then if not W then W=({});end;local J=W[I];if not(not J)then else J=({[0X1]=e,[3]=I});(W)[I]=J;end;(j)[Y-1]=(J);elseif V~=1 then j[Y-0X1]=(t[I]);else(j)[Y-0X1]=(e[I]);end;end;end;end;else if i==111 then(e)[O[a]]=g;else if W then for Y,J in W do if Y>=0x1 then if P~=m[1][25]then else if m[0b1][29]then return;end;end;J[0B1]=(J);(J)[0X2]=e[Y];(J)[0x3]=(2);(W)[Y]=(nil);end;end;end;return true,g[a],0X0;end;end;else if i<0X74 then if i==115 then if m[1][0X13_]~=P then e[g[a]]=(e[z[a]][k[a]]);end;else end;else if i==0X75 then local Y=(z[a]);r=Y+O[a]-0X1;(e)[Y]=e[Y](m[1][0x10](e,Y+0x1__,r));r=(Y);else local Y=(g[a]);e[Y](e[Y+1]);r=(Y-0B1);end;end;end;else if not(i<0X6a)then if m[1][12]~=m[0B1][36]then if i>=0B1101100 then if m[0B1][0xC]~=m[1][18]then else while-m[0x1_][0x10]do(m[0x1])[0X12]=(-m[0X1][0X19]);end;if not(-0B1010)then else m[0X1][34]=m[0x1][0b1__00_111];(m[0B1])[42],m[1][37]=0X63,(m[1][0X22]);end;end;if P==m[0B1][0X19]then(m[0X1])[0x1D],m[0x1][41]=m[0B1][0x2__1],0X5F>=-0Xb6;elseif m[0X1][0X29]==m[0X1][0B11010]then while 0Xa1 do return;end;elseif i~=0X6d then local Y=(g[a]);e[Y](e[Y+0X1],e[Y+0x2]);r=Y-0X1;else e[O[a]]=Q[a]%T[a];end;else if m[1][0X29]==m[1][0X0019]then else if i==0b11__01011 then r=O[a];e[r]();r-=0B01;else(e)[z[a]]=e[g[a]]>e[O[a]];end;end;end;end;else if not(i>=104)then e[O[a]]=T[a]..e[g[a]];else if m[1][0B101001]~=m[1][0B100_100]then else m[0B1][0B1__1111]=m[0X001][39];end;if m[0x1][0X29]==m[0X1][0x12]then if(-0b11000)^m[1][0X12]then P,m[0x1][32]=0X5,m[1][36];(m[0B0_1])[0b11111]=(m[0X1][0X2A]);end;P=m[0X1][19];elseif m[1][0b1100]==m[0X1][36]then(m[0B1])[0B10011],m[0x1][0B10__0101]=m[1][0X2a],-0x0D2>=(227<=0b11101011);elseif i~=0X069 then e[z[a]]=e;else(m[1][0X19])[g[a]]=e[z[a]];end;end;end;end;end;end;else if not(i<0X1D)then if not(i<0x2C)then if i>=0B1100_11 then if m[0x1][0B0011101]==P then return m[0X1][0x1D];elseif m[0B1][0X1_9]==m[0b1][34]then while m[0x1_][0X1d]do return;end;elseif i>=0x37 then if m[0X1][0X19]==m[0x1][0X24]then if m[0b1][0b1100]then m[0B1__][0X1A_]=(-0X2B+0x09_f);end;elseif not(i<0X39)then if m[1][0B11101]~=m[0B1][26]then else return;end;if i~=0X3a then if not(e[z[a]]<k[a])then a=g[a];end;else local Y,J,I=z[a],g[a],O[a];if J~=0X0 then r=Y+J-1;end;local R,j;if J==0x1 then R,j=m[0X1][0B101010](e[Y]());else R,j=m[0b1][0X2a](e[Y](m[1][0B10000](e,Y+0X1,r)));end;if I~=1 then if I==0 then R=R+Y-0b1;r=R;else R=Y+I-2;r=R+1;end;J=(0X0);for I=Y,R,0B001 do J+=0B1;(e)[I]=(j[J]);end;else r=(Y-0x1);end;end;else if m[1][42]==m[0b1__][0X24]then return m[1][0X20];elseif m[0X1][34]==m[0B1][0x12_]then P=m[0b1][0X12];(m[0X1])[0X24]=(0B11001_%-0B10100001);elseif i~=56 then H={[0x4]=s,[3]=H,[2]=w,[5]=b};r=g[a];local Y=m[0X2](function(...)m[1][9]();for J,I,R in...do m[1][9](true,J,I);end;end);Y(e[r],e[r+0B1],e[r+0B10]);w=(Y);a=z[a];else if not(not(T[a]<e[O[a]]))then else a=g[a];end;end;end;else if m[0X1][0X27]==m[0B1][25]then while m[0B1][0b100100]do return;end;if-m[0X1__][33]then(m[0B1])[0X13]=m[0b1_][0X2a]+0X38;m[1][19]=(-m[1][0B100101]);end;elseif m[0X1][0B10010]==P then if not(-m[0B1][0B101001])then else(m[0B1])[0X1a]=(-(-0Xb__1));end;while m[0x1][34]do m[0X1][0X6],m[0B1][0B10000]=0B11100111,(m[0b1][0X1a]);end;elseif not(i<53)then if m[1][0b1000_0]==m[0x1][0X1__9]then else if i~=0B110110 then if m[1][0X024]==m[0X1][26]then if not(m[0B1][0B1__01010])then else P,m[1][34]=0X00e7,m[0X1][0X6];return;end;end;a=(g[a]);else(e)[O[a]]=e[g[a]]>=e[z[a]];end;end;else if i~=0X34 then local Y=(z[a]);local J,I,R=w();if J then if m[0B1][0b100010]==m[0X1][26]then else(e)[Y+0X1]=(I);(e)[Y+0X2]=R;a=(O[a]);end;end;else local Y,J=z[a],g[a];r=Y+J-0x1;if W then for I,R in W do if not(I>=0B1)then else if m[1][0X12]~=m[0X1][32]then R[1]=R;end;R[2]=e[I];(R)[0X3]=2;(W)[I]=(nil);end;end;end;return true,Y,J;end;end;end;else if i>=0X2F then if not(i<49)then if i==0B0110010 then(e)[O[a]]=e[z[a]]==Q[a];else e[z[a]]=(-e[O[a]]);end;else if i==0X30 then local Y,J=g[a],(z[a]);local I=e[Y];(m[1][0B11100])(e,Y+1,Y+O[a],J+1,I);else e[O[a]]=e[z[a]]%Q[a];end;end;else if i<0X02d then if e[g[a]]~=k[a]then else a=(z[a]);end;else if m[0B1][39]==m[0B1][25]then m[0B1][0B00111__01]=m[1][25];while P do return-0X53;end;end;if m[0x1][0x22_]==P then while m[0X1][0X21]^(-0X3b)do return m[1][32];end;elseif i~=0X2e then(e[g[a]])[e[z[a]]]=(k[a]);else if W then for Y,J,I in W do if m[0B1__][0B10011]==P then while m[0X001][0X016]do m[0b1][0B10011]=m[1][16];end;if not(0X0d3)then else return m[1][0X19];end;elseif m[1][0x1a]==m[1][6]then(m[0B1])[29]=-m[0X1][12];elseif not(Y>=1)then else J[0x1]=J;(J)[0x2]=(e[Y]);(J)[0X3]=2;W[Y]=(nil);end;end;end;return false,z[a],r;end;end;end;end;else if i>=0x24 then if not(i>=40)then if m[0B1][0B100_111]~=P then else if-0B11~=m[1][33]then return;end;return 0B101001;end;if m[0B1][0x19]==m[0B1][0X2a]then while 0X10 do(m[0x1])[0X2A],m[0B1][0X024]=0Xe3__>124>=-211,(m[1][0B1001_0]);end;if not(m[0X1][6]+m[0b01][42])then else(m[0x1])[0x1a],m[0X1][0x20]=m[1][0X27],(m[0X1][0B11001]);end;elseif m[0X1][0X21__]==m[1][0B101_10]then(m[0B1])[0x20],m[1][0x1_D]=-P,210==m[0X1][0X16__];if not(m[1][18]<m[0X1][0X25])then else return 0B010000;end;elseif i<0X26 then if m[1][0B1100]~=m[0x1][0b10010]then else while(0X94~=0X90)+-0X5F do return m[0x1][0XC];end;end;if i==37 then local Y=(O[a]);e[Y]=e[Y](m[0X1][16](e,Y+0x1,r));r=(Y);else if m[1][19]~=m[0B1][26]then(e)[O[a]]=e[z[a]]+e[g[a]];end;end;else if i~=39 then e[z[a]]=(e[O[a]]^e[g[a]]);else if not(W)then else for Y,J,I in W do if Y>=0X1 then if m[0B1][36]==m[0b1][0X1A]then return;end;if m[0B1][0X24]==m[0X001][0X29]then m[0B1][18],m[0x1][0x1f]=m[0x1][33],(m[0X1][0X6]);while-m[0X1][6]do m[0B1][0X1__d]=0X5a;end;end;(J)[0B1]=J;(J)[2]=(e[Y]);J[0x3]=(0x2);W[Y]=nil;end;end;end;local Y=z[a];r=(Y+0X1);return true,Y,0X2;end;end;else if i>=42 then if i~=0x2b_ then r=(O[a]);(e)[r]=e[r]();else(e)[g[a]]=(m[1][8](e[z[a]],e[O[a]]));end;else if i==0B101001 then local Y,J,I,R,j,V=18,(0B10__11);while true do if Y==18 then I=(-0X22ff2);Y=-9437111+(m[0B1][0X19][21](i+Y+Y-i+i-i,(Y)));continue;elseif Y~=0B1001001 then else if j~=m[1][0B10110]then V=(0X0);j=4503599627370495;end;break;end;end;Y=(0b1000110);local h;while true do if not(Y<=0B1000110)then if Y~=109 then R=12;break;else j=m[0B1][25];Y=-0B101+(((Y+i+i+Y==i and Y or i)>i and i or Y)==i and Y or Y);end;else V*=j;Y=(147+((m[1][25][0Xb]((m[0X1][0X19][0B10_100]((m[1][25][0x10](Y,(9)))-i<Y and Y or i))))-Y));continue;end;end;local d=0X13;j=(j[R]);local S=11;R=(m[0x1][0B11001]);Y=15;while true do if Y<0B100100 and Y>0B11001 then J=(m[0X1][0B11001]);Y=-0X10+((m[0X1][0B1__1001][0B1011]((m[0X1][0X19][15]((m[1][0X19][0B1110](i))))-i+i))~=Y and i or Y);continue;elseif Y>34 then if m[0X1][0X2A]~=m[0x1][0X12]then else if not(m[1][0X6])then else m[0X01][29],m[0X1][0X1d]=0b1_111101+0XB0-m[1][0b100100],m[0X01][0X20]*m[0X1][0X02A];m[1][0X10]=(0X32);end;end;J=(J[h]);break;elseif Y<0x22 and Y>0XF then if m[0B01][41]~=m[1][18]then else while-m[0B1][0X1F]do m[0X1][19],P=P,m[0B1][0X10]+m[0X1][0x1f];return m[0X001][0x1__9_]and m[1][0B011010];end;end;if m[1][0B11101]~=m[0B1][0b100100]then h=(0x0D);Y=0X4+(m[1][0x1__9_][0Xb__]((m[0X1][25][0X14]((m[1][0B11001][0b1101]((m[0X1][25][10]((m[0B1][0X19][0b11__00]((m[0x1][0b1__1001][0Xa](i)),(Y))))),Y))))));end;elseif not(Y<0B11001)then else R=R[J];Y=6+(m[1][25][0x13]((m[0X1][25][15]((m[1][25][13]((m[0X1][0X19][0B1_0101]((m[0X1][0X19][11](Y)),(Y))),i))+i)),(Y)));end;end;h=m[0X1][25];Y=5;local c;while true do if Y==0B101 then if m[0x1][26]~=m[1][0B100101]then else return-m[0X1][0X19];end;if m[0X01][31]==m[1][0X12]then if-m[0X1][0B100100]then return m[0B1][0x13];end;while m[0X1][0X16]^m[0X1][0B100111]do m[0X1][0B10000],c=m[0X001][36],m[1][0X10];return;end;end;h=h[d];Y=(-4294967224+(m[1][0B11001_][0xe]((m[0x1][0X19][0b1111]((m[0B1][25][0b1_011]((m[0X1][0B1_1001][0X00D](i,Y,i))))-i,Y,Y))-i)));continue;elseif Y==0B10_0000 then d=m[0X1][25];break;end;end;Y=(0x30);while true do if not(Y>0X30)then d=(d[S]);Y=0x2F+(m[1][0X19][0Xb]((m[0X1][0x19][0X10]((m[0B1][0X19][0B1110]((m[0B1][25][20]((m[1][0B11001][12](Y-i,(0x2))))))),(0x8)))));continue;else if Y==0X4F then S=y[a];c=y[a];Y=(0X3__9+((m[1][0B011001][0Xe]((m[0B1][0X19][0x13](((i<Y and Y or i)>i and Y or i)+Y,(20)))))+i));else S+=c;break;end;end;end;if m[1][18]==m[0X1][16]then m[1][0B10010]=(m[0X1][0X1F]);if m[0b01][0x20]then return;end;end;d=d(S);Y=(0B1101_00);while true do if Y==0X3__4 then S=i;Y=-0B1011010+((m[1][0B11001][0XF]((m[0X1][0X19][0x14_]((m[0B001][0X19][13](i,Y,i))-i))+i,i))+Y);elseif m[0B1][25]==m[0B1][0B0__100010]then if not(-0B10100001^0X95)then else return m[1][0X1D];end;return m[0X1][0X21];elseif m[0b1][0b1010_01]==m[0b1][0X19__]then P,m[0X1][0X21]=m[1][0X2__a],(0B1);elseif Y==0X3 then d+=S;break;end;end;S=(4);Y=(39);while true do if Y>39 then if not(Y<0B1110001)then if m[1][0x6]==S then else J=(y[a]);end;Y=0X2__5+((m[1][0X19][0B10100]((m[1][25][0X13]((m[0X1][0X19][0Xb]((m[0B1][25][13](Y,i,Y))))>=Y and i or i,(0X1C)))))-i);else J=J(h);R=R(J);Y=(0x5B+((m[1][0B11001][10]((m[0X1][0x19][0Xb](i))-Y))-i+Y-Y));end;else if Y==0x1c then R+=J;break;else h=h(d,S);Y=0b11001_1+((m[0X1][0X19][11](((m[1][25][0XC]((m[0x1][0B11001][10](Y)),(0X8)))<=Y and Y or Y)-i))+Y);continue;end;end;end;J=(0B10101);j=j(R,J);Y=0X5b_;while true do if Y>91 then I+=V;break;else V+=j;Y=-0X28_fFf27+((m[1][0X19][21]((m[0B1][25][21](Y,(0b1_1101)))+Y+i>Y and i or i,(0x014)))-Y);continue;end;end;y[a]=(I);I=e;V=g[a];Y=0X19;while true do if Y<36 then if m[0X1][0B100__000]~=P then else while m[0B1][0X19]do return m[0B1][0X06];end;return;end;j=O;Y=(0B1111_1__+(m[0X1][0X19][0X14]((m[1][0X0019][0XB]((m[0B1][0B11001][0x13]((m[0X1][25][0xb__]((m[0X1][0X19__][0X14](i))<i and i or i)),(Y))))))));continue;else if m[0X1][0X16]~=m[1][0B11_111]then else while m[1][0X16]do(m[0X1])[0X19]=-m[0x1][0X20];(m[0X1])[0Xc]=(m[1][22]);end;J=(m[0x1][0B10110]);end;I[V]=j;break;end;end;else(e)[z[a]]=t[g[a]][k[a]];end;end;end;else if i>=32 then if not(i<34)then if i==0b100_011 then e[O[a]]=#e[z[a]];else local Y=t[O[a]];Y[1][Y[0X3]]=Q[a];end;else if i~=33 then for Y=z[a],g[a],0X1 do(e)[Y]=(nil);end;else if T[a]<=e[O[a]]then a=g[a];end;end;end;else if i<0x1e then(e)[O[a]]=e[g[a]]~=e[z[a]];else if m[0B1][0B100111]==m[0B1][0x2__4]then if not(0XbF)then else(m[0X1])[0B101010__]=(m[0B1][0x19]);end;elseif i==0X1F then if not(e[O[a]])then else a=z[a];end;else e[g[a]]=k[a]^e[z[a]];end;end;end;end;end;else if not(i>=0xE)then if i<0x7 then if i>=0X3 then if i>=5 then if i==6 then(e)[O[a]]=(e[g[a]]+T[a]);else e[z[a]]=(e[O[a]]/Q[a]);end;else if i==0X4_ then e[z[a]]=(not e[O[a]]);else local Y,J,I,R,j=(0X7c);while true do if Y<0X7C then if m[0X1][0X25_]~=m[0x1][0X16]then J=4503599627370495;end;break;elseif not(Y>43)then else if m[0B1][0x20]~=m[0x1][0b100100]then R=(0X1f);I=(0B0);Y=-0B1010001+((m[0b1][0X19][0Xf]((m[0X1][0X19][0b1011](Y-Y+Y)),i,i))-Y~=Y and Y or Y);end;end;end;local V,h=(0X13);I*=J;local d;Y=(0x11);while true do if Y>17 then if m[0x1][0B1111_1]==m[1][25]then m[0X1][0X1D],h=m[0x1][0B10000],P;(m[0X1])[0b101010]=(-V);end;J=J[j];break;elseif not(Y<60)then else J=m[0B1][25];j=0X14;Y=(36+(m[0X1__][25][0xb]((m[1][0x19][21]((m[0x1][0X19][15]((m[0X1][0B11001][19](Y-Y,(Y))),i))+Y,(i))))));end;end;Y=(0x6e);while true do if not(Y<0X75)then h=0B1100;break;else j=(m[0x1__][0x19]);Y=(0XE0+((m[0B1][25][0X0e]((m[1][25][0b1110]((m[0X1][0X19][0XE](i,i,Y))~=i and Y or Y,Y))<=Y and i or i))-Y));continue;end;end;j=j[h];h=(m[0X1][0B11001]);Y=(0B11_0_1111);while true do if Y>2 then d=(0X14);Y=(-4294967185+(m[0B1][0X19][0XD]((m[0X1][0x19][0XD](i-Y-i-Y+Y,i,i)))));elseif not(Y<0B1101111)then else h=(h[d]);break;end;end;d=m[0X1][0X19];d=(d[V]);V=y[a];d=d(V,i);Y=(0X12);while true do if m[0X1][0X27]==m[1][0B11001]then if m[0X1][0B1000_0__]then m[0X00__1][0b11101],m[0X1][0x29]=m[0x1][16],m[0x1][0X24];end;while m[1][0X2__7]do return-(218-92);end;elseif m[1][0X2A_]==P then while m[0X1_][0B11010]do m[0X1][0B11__010],m[1][0B100101]=m[0B1][0x1F],(-66 and-0XE3);end;elseif Y<=0X1__2 then h=h(d);d=i;h-=d;Y=70+((m[1][0B11001][0B1111]((m[0B1][25][0XF]((m[1][25][0X14](Y-Y~=i and Y or i)),Y)),Y,Y))<=Y and i or Y);else if Y<0B1001001 then h=(h>d);if h then h=y[a];end;if m[0x1][42]~=m[1][0B100100]then else if not(m[1][0x10])then else m[0X1][0b100111]=m[0B1][37]^(-0X72);end;while(0X0D and 230)/(0X88<=0XBF)do(m[0B1])[0X2A],m[0b1][0b10011]=m[1][0X29],(m[0X1__][0x22]);end;end;break;else d=(i);Y=(-0X7e_+(((m[1][25][0B10101]((m[0x1][25][0B1010](Y)),(i)))+Y+i>Y and Y or Y)+Y));continue;end;end;end;if m[0b1][0X20]==m[0X1][0X16]then if not(220)then else(m[0X1])[0B11111]=(m[0x1][36]*m[0X1][0x2a]);return 0XCE~=0xd1+230;end;m[1][0B00100111],m[0B1][0X16]=m[0X1][39],-m[1][0b101001];end;if m[0B1][0X12]==m[0B1_][0X16]then(m[0X1])[0x016],m[0X1][0xC]=m[0X1][33],m[0X1][0Xc];end;if m[0x1][0xC]~=m[0b1][0X12]then Y=(0X1F);while true do if not(Y>0x29)then if Y>0X1F then h-=d;Y=0b1110001+((((Y>=Y and Y or i)-Y==i and i or i)~=Y and Y or i)-Y+i);else if not(not h)then else h=y[a];end;Y=0B10101__01+(m[1][0X19][14]((m[0X1][25][0b1111]((m[0X1][0X19][16](i,(Y)))-Y+Y-i,Y)),Y,Y));end;else if Y<=67 then j=j(h,d);break;else if Y~=114 then d=i;Y=-0X34+(((m[0X1][0x0019__][0x15]((m[0B1][0X19][0B1101](i+Y-i,Y)),(i)))~=i and i or i)+Y);continue;else d=(y[a]);Y=-0X1fFFff65+((m[0b1][0X019__][0Xc]((m[1][0X19][19]((m[0b1][25][0b10011](Y,(i))),(i))),(i)))-Y-Y+Y);end;end;end;end;h=y[a];j+=h;end;J=J(j);Y=0X78;while true do if Y>0B1101010_ then if Y~=0x7_7 then if P~=m[1][0B10110]then else while-m[0X1][39]do return-m[0X1__][32];end;end;I+=J;Y=0X77+(m[0x1_][25][0Xa]((m[1][0x19][14]((m[0B1][0x19][0XA](i))-i))+i+i));continue;else R+=I;Y=(106+(((i+i-i>=Y and i or Y)-i>=i and Y or i)-Y));continue;end;else(y)[a]=R;break;end;end;Y=0b1111;while true do if m[0x1][0B100101]~=m[0B1][0x1__A]then if Y<0b10001_0 and Y>15 then R=R[I];break;elseif Y<25 then R=(e);Y=-4294705117+(m[0x1][25][0B01100]((m[1][0x19][0xf]((m[0B1][25][0X14](i-i-Y))-i)),(Y)));elseif not(Y>0X019)then else I=O[a];Y=(0X17+(m[0B1][0X19][15]((m[0B1][25][0Xe]((i>=i and Y or Y)-i,i))+Y==Y and i or i,Y)));continue;end;end;end;if not(R)then else J=nil;for Y=0b0_1,32,0B11111 do if Y<32 then if m[0X1][0B101001]~=m[0B1][0B11001]then else return;end;J=z[a];elseif not(Y>0X1)then else a=(J);end;end;end;end;end;else if i>=0X1 then if i==2 then(e[g[a]])[e[z[a]]]=e[O[a]];else local Y=(t[z[a]]);if m[0x1][0X10]~=m[0X1][0B101_10]then else return;end;(Y[1])[Y[0x3]]=e[g[a]];end;else e[O[a]]=(e[g[a]]);end;end;else if i>=0Xa then if i<0B1100 then if i~=0b1011__ then(e)[O[a]]=(e[z[a]]-Q[a]);else if e[O[a]]==e[z[a]]then else a=(g[a]);end;end;else if m[1][0b100_000]==m[0X1][0X1a]then m[0X1][0B1100],m[0X1][0x021_]=m[0X1][0X16]and m[0X1][0B1__00__001],m[0X001][0x20];return m[1][16];elseif m[1][0X19]==m[0X1][0b01__00001]then return m[0B1][19];elseif i~=0Xd then e[O[a]]=(e[z[a]]*e[g[a]]);else(e)[g[a]]=(t[z[a]]);end;end;else if not(i>=0B1_000)then local Y=(t[O[a]]);(Y[1][Y[3]])[e[g[a]]]=(e[z[a]]);else if m[1][0X1a]==m[0B1][0X6]then if not(m[0B1][0X1D])then else return;end;elseif m[0X1][18]==m[0X1][0X2a]then if not(0XC4)then else(m[0X001])[0X1__A],m[0X1][0B100010]=m[0B1][0x29],m[0b1][0X25];(m[0B1])[12],m[0B1][0X6]=m[0X1__][0x25],(m[0B1][0x1_2]);end;while m[1][0X21]do(m[0X1])[0x22]=(-0XC1_);m[0x1][0Xc],m[0x1][0X2__5]=m[1][0b101010],m[0x1][0x1F];end;elseif i~=0b1001 then e[g[a]]=e[O[a]]<=T[a];else if P~=m[0X1][0X025]then else m[0b1][18]=(-(0x7A*0X78));m[1][6],m[0B1][25]=m[0x1][25],-m[0X1][0B110];end;w=H[0X2];b=H[5];s=(H[4]);H=H[0X003];end;end;end;end;else if m[0X1][0X1f]==m[1][0X12_]then else if not(i>=21)then if m[0B1][0B10010]==m[0X1][0B10110]then while 0B11100000<0XA9<m[0B1][0X2a]do(m[1])[0b0_01_00000_]=(-m[0B1][0X21]);(m[0X1])[0X6]=(P);end;while 0B1_0100001 do return m[1][25];end;elseif i>=0X11 then if not(i<0x13)then if i~=0X14 then local H,Y,J=G-U-0X1,0B0,(g[a]);if H<0x0 then H=-0B1;end;for G=J,J+H,0X1 do e[G]=u[F+Y];Y+=1;end;r=(J+H);else local G=(z[a]);e[G]=e[G](e[G+1]);r=(G);end;else if i~=0B0010010 then(e)[O[a]]=nil;else e[g[a]]=_;end;end;else if m[0x1][39]==m[0x1_][0X1a]then while m[0b1][0X20]do return;end;return;end;if not(i<15)then if i==16 then(e[g[a]])[T[a]]=(k[a]);else if not(not(k[a]<=e[g[a]]))then else a=(z[a]);end;end;else e[g[a]]=O;end;end;else if i<0b11001 then if i>=0B10111__ then if m[0B1][0B10000]==m[0X1][0X24]then else if i==0X18 then if not(not(e[z[a]]<e[g[a]]))then else a=O[a];end;else local _,G,H,u,F=4503599627370495,123,(0B0_);while true do if G>0X65 then H*=_;G=-4294916577+(m[0b1][0x19][0xe]((m[1][0b11001][12]((G~=G and i or i)-i+i-G,(i)))));elseif G<0x007b and G>0X1e then u=0X13;break;elseif G<101 then _=m[1][0X19];G=0b11_00011+(m[1][0X19][20]((m[0X1__][25][0Xb]((m[0X001][0B11__001][0xC]((m[0b01][0X19][0XD](G,i,i)),(G)))))-G-i));continue;end;end;_=_[u];G=16;while true do if G>0B101111 then F=y[a];break;elseif G>0X10 and G<0X42 then F=(0B1110);u=u[F];G=(19+((m[0X1__][25][0XE]((m[0B1][0X19][0Xe](G,i,i))+i-i))+G-G));elseif not(G<0X2f)then else u=m[0X1][0x19];G=(-0X2dFFffd1+(m[0x001][25][0x10]((m[0X1][0X19][0B1010]((m[0X1][0B11001][10](i))-i-i-i)),(i))));continue;end;end;local U=y[a];if m[0B1][0X13]==P then else G=(39);end;while true do if G>0x27 then if m[0X1][18]==m[0X1][34]then if m[0x1][0X29]then(m[0X1])[16]=(m[0x1][0X16]);end;elseif m[0b1][0X21]==m[0x01][0b0100100]then if m[0x001][0B10010]then return m[1][0x22];end;while m[0X1][0B1_1_0]==m[1][0x16]do return m[0X1][0b10011];end;elseif G==113 then if G~=m[1][0B10_1001]then u-=F;G=0x5_+((m[0B1][0X19][21]((m[0x1][0x019][20](G)),(i)))-i-i-i~=G and i or i);end;else F=y[a];G=(-671088527+(m[0X1][0X19][16]((m[0B1][25][0Xe](i+i,i))-i+i+i,(i))));continue;end;else if not(G>0X1__c)then if m[1][0X12]~=m[0x1][0B100001]then F=y[a];end;break;else if m[0x1][37]==m[0B1][26]then else u=u(F,U);G=-4294967137+(m[0B1][0B11001][14]((m[1][0X19][0B1011]((m[1][0X19][0B10011](G,(i)))))-G-G-i,i,i));end;continue;end;end;end;_=_(u,F);u=i;_=(_~=u);U=0X44;if _ then _=(y[a]);end;G=(0B1010);while true do if G>10 then if U==m[0X1][0X2a]then while m[1][0X13]do return 0B11101__111;end;while 0b10011100 do(m[0B1])[0X24],m[0B1][34]=U>m[1][31],(m[0X1][0B100111]);return;end;end;u=(i);break;elseif not(G<0X61)then else if not _ then _=(y[a]);end;if m[0X1][0X16]==m[1][0X29__]then return m[0B1][26]%-0B11000110;end;G=0X4d_+(m[0B1][0X19][0XE]((((G<=i and G or G)==G and i or i)-i>=i and i or G)+G));continue;end;end;if m[0X1][0b11101]~=U then else if not(-m[0X1][0X16])then else return;end;end;_=_>u;G=0b1011111;while true do if G==0X5f__ then if _ then if m[0X1][0b1100]~=P then _=i;end;end;G=50+(m[0B1][0X19][0x13__]((m[1][0B11001][0Xd](((m[1][0X19][0XB](G))<i and i or G)-i+G,i,i)),(i)));elseif G==0X32 then if not(not _)then else _=(i);end;G=51+((m[0X1][0X19][0B1110](G-i+i-i+G,i,G))-G);continue;elseif G~=105 then else u=y[a];break;end;end;if m[0x1][16]==m[0X1][36]then else G=(5);while true do if U~=m[0X1][0X21]then if G==0X5 then _=(_>=u);G=-0X1e4+((m[0X1][0X1_9][0x13_]((m[0B1][0B11001][0XA]((m[0x1][25][0Xb__](i))))-i-i,(i)))+G);continue;elseif G==0B1__0_000__0 then if _ then _=(y[a]);end;if not(not _)then else _=(y[a]);end;break;end;end;end;end;G=18;while true do if G>0B10100 then if G>73 then if G~=0X63 then U+=H;break;else _-=u;H+=_;G=-62461+((m[0X1][25][0Xc]((G<G and i or i)+G-G+G,(i)))+G);end;else if m[0X1][0B1__0000]~=m[0X1][0X12]then else if m[1][22]then return;end;end;_+=u;G=-0b111+(m[0X1][0x19][0Xb]((m[0X001][0b11001][15](((m[0X1][0x19_][0X1__3]((m[0X1][0X19][0B1011](i)),(i)))>=i and i or G)-i,i,i))));end;else if G~=0X12 then u=(y[a]);G=(79+(m[1][0X19][0Xf](((m[0X1][25][0x10]((m[0B1__][0X19][0xF]((m[0x1][0x19][0x15](G,(i))),i,G)),(G)))<G and G or i)-i,i,G)));else u=y[a];G=-4294967172+(m[0X1][25][0Xa]((m[0B1][25][0XB]((m[0x1][0X19][0xe]((m[0b1][0B11001][14](G,i,G))))<=G and G or G))+i));end;end;end;(y)[a]=(U);U=e;H=g[a];G=(0B101011);while true do if m[0X1][0B10__011]~=m[0B1][0b11010]then else if not(-m[0X1][0xC])then else return 0B0011111001;end;if not(0X76)then else return-(0x53>=0x2B);end;end;if G==0X2_b then if m[0X1][0X22]==m[0B1][0X1A]then while m[0X1][0X1F]do m[0B1][0B11__111__],m[0X1][0x1A]=G,0B1100_01_;end;end;_=e;G=11+(m[1][0B11001][15](((m[0X01][0X19][0b10000](G,(i)))-G+G~=i and i or i)~=i and G or i,G));else if m[0x1__][0B00100101]~=m[0B1][0B10__010]then else if not(m[0X1][6])then else return m[0B1][29];end;(m[0b1])[41]=m[0X1][22];end;if G==m[0X1][0x2a]then else u=O[a];break;end;end;end;_=_[u];G=17;while true do if G==0x11 then if m[0X1][36]~=m[0B1][34]then u=e;F=(z[a]);G=(0X2_5__+(m[0X1][0b011001][0XD]((((m[0B1][0X19][20](G-i))<=G and i or G)==G and G or G)>=i and i or i,i)));continue;end;elseif G==60 then u=(u[F]);G=-385875898+((m[1][0x1__9][0X15]((i-G>G and i or i)+i,(i)))-i+G);elseif G==0x6b then _-=u;break;end;end;U[H]=(_);end;end;else if i~=0X16 then(e)[g[a]]=(m[0B1][8](e[O[a]],T[a]));else e[O[a]]=(Q[a]<e[z[a]]);end;end;else if not(i>=27)then if i==26 then if W then for _,G in W do if not(_>=0X1)then else if m[0X1][0X001D]==m[0B1][0X001a]then return m[0X1][34];end;G[0X1]=G;(G)[0b10]=e[_];(G)[0x3]=0X2;W[_]=nil;end;end;end;local _=z[a];return false,_,_+g[a]-2;else local _,G,T,H,u,F,U=20,13,0X7C;while true do if T>0B1110000 then u=-67;T=0X12+((m[0X01][0X19][0XD__](T-T+T+i+T,T,i))==i and i or i);elseif T<0b1_111100 and T>0B1__01011 then if F==m[0X1][0B11__001]then return;end;U=m[0X1][0X19__];break;elseif T>21 and T<112 then H=(0B0);T=-43+((m[0X1__][0B11001][0x01_4]((m[0B1][0b11__001][0x13]((m[0b1][25][0XD]((i<=i and T or i)>=i and i or i)),(i)))))+i);continue;elseif T<0X15 then U=4503599627370495;T=(0X15+(((m[0X1][25][0XF]((m[1][0X19_][0xd](i-i)),i,i))-i==i and T or T)-T));elseif T<43 and T>0XE then H*=U;T=-0X31FFfF77+((m[0X1][0B1100__1][0b10101]((i-T>i and T or T)+i-T,(i)))-i);continue;end;end;if P==m[0B1][0B10010]then(m[0X1])[0b10011_],P=m[0X1][0B100001],-m[0X1][39];while 0X54>=(0XA_2__ or 148)do return;end;end;T=0X52;while true do if m[0B1][37]==m[0B1__][0B100__10_0]then return;elseif m[0b1][37]==m[0X1][0X19]then(m[0B1])[0X0C],m[0X1][0x1_f]=-64-m[1][0B001100],0xEc;elseif T<0X52 then U=(U[F]);break;elseif not(T>0B1001)then else F=0Xd;T=-0X10+(((T+i<T and i or i)+i-T==i and T or i)<=T and i or i);continue;end;end;F=(m[0B1][0X19]);local Y;if m[0B1][0X1D_]~=m[1][25]then T=0X7b;end;while true do if T~=0B0011110 then F=(F[G]);T=-4294951521+(m[0X1][0B11001][0xa]((m[0X1][0X19][12]((T+i<i and i or T)-T+T,(i)))));continue;else G=(m[0X1][25]);break;end;end;T=103;while true do if m[0x1][0B10000]==m[0b01][0X24]then else if T<0x67 then Y=i;break;elseif not(T>0X1a)then else G=(G[_]);_=(i);T=(-74+((m[0X1][0X19][14](i))+T+i+i+i-T));end;end;end;if m[0X1_][0B101__010]~=m[0x1][22]then T=52;end;while true do if T>0X6 then _+=Y;T=(-0X16+(m[0B1][0B11001][0B1110]((m[0X1][25][0X1_0]((m[1][0x1__9][0b1101](i,T,T))+T,(i)))+i<=i and T or i)));elseif T<0x6 then Y=(i);_=(_==Y);T=(-0X12+(m[0X1][0X19][0B1111](((m[1][0b11001][11](i+T+i))<i and i or T)+i,i)));elseif T<0X034 and T>0B011_ then if m[0X001][0X12]~=m[1][0X1d]then if _ then _=i;end;end;break;end;end;if not _ then _=(y[a]);end;Y=(i);T=57;while true do if not(T>57)then _-=Y;T=0Xb+((m[0x1][25][0B10100]((m[0B1][0X19][0Xc]((m[0X1][0B11001][0b1010](i)),(i)))))-i+i+T);else if not(T<=0B1000100)then _=i;break;else G=G(_);T=(0X3A+((m[0X1][0B11001][0X1_4](T))+T-T-T+i>=T and T or i));end;end;end;F=F(G,_);T=(0X4b);while true do if T<0B1001011 and T>0X0__2e then U+=F;F=(y[a]);break;elseif T>0X35 then if m[0X1][39]~=m[1][0X19_]then else(m[0B1])[0x27]=(m[0X001][0x25]);(m[0X1])[42]=(m[0b1][42]);end;U=U(F);T=(-0X57FFffD1+(m[0X1][0B110__01][0b101_0]((m[0X1][0X19][21]((m[0X1][0X19][0b1111](T-i>i and T or T,i))+T,(i))))));continue;elseif not(T<0X35)then else if m[1][32]==P then(m[0X01])[0X6],m[1][0X19]=-(-0B111_00__1),(0XFB);while-m[1][0X29]do return;end;end;F=(i);T=(28+((m[0X1_][25][0B10011]((m[0X1][0X19][0B1010](T+T))-i==i and T or T,(i)))+i));end;end;if m[0X1][0X02A]==m[1][25]then(m[0x1])[0B1010__10],m[0x01][0X29]=m[1][0X20],(P<m[0X1][0x19]);return;end;U+=F;T=113;while true do if T==0x71 then if m[0B1][0b1100_1]~=m[0B1][0B110]then else return;end;H+=U;T=-0X0055_+((m[0X1][0x19][0b10_101]((m[0B1][0X19][11]((T+i==i and T or i)-i)),(i)))<=i and T or T);continue;elseif T==0x1c then u+=H;T=-31+((m[0X1__][25][0b1111](T-i+i+i+T))+i);elseif T==0x4B then y[a]=u;break;end;end;T=(57);while true do if T==0B111001 then if m[0B001][0X13]==m[0X1][0x0_012]then while-(-0XeE)do m[0X1][0B10110],m[0x1][0x1_6]=m[0X1][0X21]-0B111111,(0xB1);m[0B1][0Xc]=(m[0B1][0B0101__10]);end;m[0b1][0B1100],m[0B1][0B10010]=m[0X001][0x6],m[0X1][0B101001];end;u=(e);T=0X24+((m[1][0X19][13]((T==i and T or T)+i-i-T,T))-i);elseif T==0X44 then H=z[a];U=t;T=(54+(m[0B1][25][0XB]((m[0X1][0X19][13]((m[1][0B1__1001][0b1010__0]((T==i and i or i)-i))))-i)));continue;elseif T~=0B1010011 then else F=g[a];U=(U[F]);break;end;end;T=0X3;while true do if T==0X6 then U=(U[F]);break;else F=(k[a]);T=-0b10011+((m[1][0X19][0X14]((m[0b1][0X19][14](T>T and i or T,T,T))+T+T))+i);end;end;(u)[H]=(U);end;else if i~=0X1C then(e)[z[a]]=e[O[a]]>Q[a];else local _=(false);w+=s;if s<=0x0 then if m[0X1][0b100111]~=_ then else while m[1][29]do return;end;while m[1][0X21]+m[0X1][18]do m[0B1][0X2a],m[1][0x0021]=_,0b10000110;end;end;_=(w>=b);else _=(w<=b);end;if m[0B1][0X25]==m[0B1__][0X1A]then if not(m[0X1][0X19])then else return-m[0b1][0X10];end;while m[0X1][0X12]do return m[0X1][0XC];end;end;if m[1][16]==m[0B1][0X12]then else if not(_)then else(e)[z[a]+0X3]=(w);a=(g[a]);end;end;end;end;end;end;end;end;end;end;a+=0X1;end;end);if not(L)then if W then for _,t,G in W do if not(_>=0B01)then else(t)[0X1]=t;(t)[0X2]=e[_];t[0X3]=0X2;(W)[_]=(nil);end;end;end;if m[0B11](v)=='s\116\u{0072}\105\110g'then if m[1][0X7](v,':(\u{025}\u{0064}+)[\u{03A}\r\n]')then m[0X01_][0B101000]("\z  Lur\u{061}\112h S\c\114\ipt\x3A"..(l[a]or'\z\u{0028}i\x6Et\u{65}r\110a\u{6C}\z)')..":\u{0020}"..m[0x1][19](v),0B0);else m[1][0X28](v,0X0_);end;else(m[0B1][0X028])(v,0X0);end;else if m[0X1][42]~=P then if v then if C~=1 then return e[p](m[1][0x10](e,p+0X1,r));else return e[p]();end;else if not(p)then else return m[0X1][0x10__](e,p,C);end;end;end;end;end;return P;end);if not(not f[8141])then B=f[8141];else B=(-4294967297+((o.I5(f[12654]<o.b[7]and f[26685]or f[0X49f5]))+f[29695]-f[0X052d0]+f[0B1_0100110]-f[0X6__089]));(f)[0x1F__Cd_]=(B);end;continue;else if B==35 then K[0X2C_]=function(...)return(...)[...];end;break;end;end;end;return B;end,ab=function(o,B,f,K,_,t,m,G)f=nil;m=(nil);K=nil;for l=0x27,0X73,0X26 do if l==0X27 then f=o:Nb(f,B);continue;else if l==0X0073 then K=B[0x1][0X27]();else if l~=0B1001101__ then else m=B[1][39]();end;end;end;end;_=B[0X1][0X27]();G=(nil);t=nil;return t,m,f,K,_,G;end,f=function(o,o)local B,f;for K=0X31,230,0X2F do if K<0X60 then B,f=o[0X1][0x1]("\x3Ci\x38",o[1][0B11011],o[0B1][0X5]);continue;else if K<0b10001111 and K>0B110001 then o[0B001][0X5]=(f);continue;else if not(K>0X60)then else return{B};end;end;end;end;return nil;end,p=nil,z=function(o,o,B)o[0X1][0x1B]=B;end,X=function(o,B,f,K)local _;B[0B1010__0]=(nil);(B)[0X15]=(nil);f=(0X2C__);repeat _,f=o:H(B,K,f);if _==0X0__08Afe then continue;else if _==0X555b then break;end;end;until false;return f;end,_5=function(o,o,B)B=(o[0x7b3a]);return B;end,E=function(o,B,f)B=(-3471911548+((o.E5((o.W5(f[0X49f5]+f[26685],(f[5250])))-o.b[0B10]>=f[0X49F5]and B or f[27396]))~=o.b[6]and o.b[0x2]or o.b[0X3]));f[25975]=(B);return B;end,H5=bit32.lrotate,W=function(o,B,f,K)if B<0X3B then(K)[0X19]=({});if not(not f[0X68c1])then B=(f[0X68c1]);else f[0X2B2c]=(0X9D+((o.a5((o.X5(f[2031],(f[0X07A93])))))+f[27396]-f[16086]-f[2031]+f[0X52D__0]));B=-2478395123+((o.r5((o.t5(o.b[0B101],(f[0X7a93])))+o.b[0x9]~=f[0X6__83d]and f[0x3ED__6]or f[0X7eF],f[1130],o.b[0X9]))-o.b[5]+o.b[0X3_]);(f)[26817]=(B);end;return 0XC310,B;elseif B>0X4c then K[24]=o.p;if not f[0X46A]then B=(36+(o.E5(((o.X5((o.X5(f[27019]+f[3192],(f[0X6B04]))),(f[0X7A93])))<=o.b[0X9]and f[0X07EF]or f[25975])+o.b[0B100_0])));(f)[0X4_6A]=(B);else B=(f[0X46_A]);end;elseif B<64 and B>0X25 then B=o:S(f,B,K);elseif B<0X05e and B>0X40 then(K)[0X16]=9007199254740992;if not f[0X683_D]then B=o:I(B,f);else B=(f[0X68_3d]);end;else if B<0X4c and B>0B111011 then o:r(K);return 0X3B2F,B;end;end;return nil,B;end,Vb=function(o,B)(B)[0x24]=4503599627370496;(B)[37]=function()local f,K=({B});K=o:Rb(f);if K~=nil then return o.l(K);end;end;(B)[0X26]=nil;end,Eb=function(o,o,B,f,K,_,t,m,G)if m>0B1 then(_)[o]=(t);m=(0B1);else if m<0B10_1010 then K[o]=(f);G[o]=(B);return 0XDd28,m;end;end;return nil,m;end,wb=function(o,o,B)o=B[0x00A6];return o;end,G=function(o,o,B)o=(B[31038]);return o;end,Ub=function(o,B,f)B=-0X5F_9E97C9+((o.G5((o.I5((o.t5((o.r5(o.b[0X6]+f[0X683d],f[0X683d])),(f[8099]))))),f[24713],f[0X2C9b]))-o.b[8]);(f)[0B10_100110]=B;return B;end,x=string.byte,P=function(o,B,f,K)K=({});(B)[0X01]=(nil);(B)[0b10]=(nil);f=0X1b;while true do if f~=62 then B[0B1]=o.o;if not(not K[0XFdc])then f=K[0X0fdC];else f=(-5412023251+((o.a5((o.H5((o.X5(o.b[0X8]-o.b[0X3],(f))),(f)))))+o.b[9]+o.b[7]));(K)[4060]=f;end;continue;else o:u(B);break;end;end;(B)[0B11]=o.B;(B)[4]=nil;B[5]=(nil);f=(104);return f,K;end,V=getfenv,r5=bit32.bxor,i=bit32.rshift,D=function(o,B,f,K)if K>0X027 then f[0X4]=(nil);if not(not B[0X698b])then K=B[27019];else K=o:F(B,K);end;return 0x429A,K;else if K<104 then(f)[0X5]=(1);return 0XB131,K;end;end;return nil,K;end,I5=bit32.bnot,Ob=function(o,o,B,f)B=f[1][0Xf](o);return B;end,z5=table.create,s=function(...)(...)[...]=nil;end,xb=function(o,o)local B;for f=0x71_,0X135,0X52 do if f~=0X71 then o[0X1][0b101]=o[0B1][0X5]+B;break;else B=o[0X1][37]();continue;end;end;return{o[0B1][0X6](o[0B1][0x001B],o[0X1][0X5]-B,o[0B1][0X5]-1)};end,n=string,_=string.len,Ab=function(o,B,f,K,_)if not(_<0x6E)then f[0Xa]=(K);return 42592,_;else _=o:Yb(B,_,f);return 0X017C5,_;end;return nil,_;end,pb=function(o,o,B,f)if o~=0X19 then f[1][5]=(f[1][0b101]+0x1);return o,0X0e12,B;else B*=0X80;o=0b00100100;return o,54857,B;end;return o,nil,B;end,C5=function(o,o,B)B=o[0B1][31]();return B;end,d=bit32.bor,Db=function(o,o,B,f)B[4]=(o);B[0B11]=f;end,Zb=function(o,B)local f,K,_;for t=120,0X178,126 do if t==0X78 then K,_=o:ob(K,B,_);continue;else if t==372 then f=o:nb(K);return{o.l(f)};else if t==0B11110110 then o:Bb(_,B);continue;end;end;end;end;return nil;end,a5=bit32.countrz,O5=function(o,B,f,K)if K>0B111101 then f[0X19_][0x13]=o.i;f[0B11001][0X9]=o._;if not(not B[0X0750E])then K=(B[0X750E]);else K=o:J5(B,K);end;return 44095,K;else K=o:K5(f,B,K);end;return nil,K;end,Fb=function(o,B,f,K,_)local t,m;for G=0X5D,0b10110_111,90 do if G==0Xb7 then m=K[0b1][0b100__000]();else if G==0B10_11101 then continue;end;end;end;local G=(m/2);if K[0B1][0X2_1]==_ then for l=0X3B,0b11001101,0X63 do if l<0x9E then t=o:Tb(K,f,_);if t==49985 then continue;else if t~=nil then return{o.l(t)},_;end;end;else if l>0X3B then o:ib(K);break;end;end;end;end;if m%0x2==0X0 then f=(52);repeat if f==0X34 then f=o:ub(K,f);continue;else if f~=0x3 then else o:Pb(B,_,G);break;end;end;until false;else _=o:Qb(G,B,K,_);end;for o=75,0X51,6 do if o<0X51 then continue;else if not(o>0B1001011)then else _+=0x1;end;end;end;return nil,_;end,Z5=function(o,B,f,K,_,t,m,G,l,T,O,g,k,Q,y,z,P,e)local a;for H=99,0XA_5,0x42 do if H<165 then if z==0X6 then if not(l[0x1][10])then(O)[_]=l[0X1][4][m];else local W,u;for F=0X68,136,0X10 do u,W=o:Ib(W,u,l,y,F,_,m);end;(W)[u+0B11]=(4);end;elseif z==5 then(K)[_]=(m);elseif z==7 then(K)[_]=(_+m);elseif z==0X002 then K[_]=(_-m);elseif z~=0B0 then else local W;for u=0X44,0X66,0B101_11 do if u>68 then(l[0X1][0X1e])[W+0X01]=(O);l[0B1_][0X1__E][W+0X2__]=(_);break;elseif u<91 then W=(#l[0x1][30]);continue;end;end;(l[0X1][0X1e])[W+3]=m;end;continue;elseif not(H>0b11000_11)then elseif Q==0x6 then if l[0X1][0Xa]then local m,H;y,H,m=o:eb(y,m,_,l,t,H);o:Gb(m,H);else T[_]=(l[1][0X4][t]);end;else if Q==5 then G[_]=(t);elseif Q==0X7 then o:zb(t,_,G);elseif Q==0B10 then G[_]=_-t;elseif Q==0X0 then o:gb(l,T,_,t);end;end;end;if k==0B110 then if l[1][0X0__013]==f then if not(l[0X1_][0x13])then else o:tb(l);end;elseif g==l[0X1][0x22]then a=o:qb(l);return{o.l(a)},y;else if l[0X1][0B10_10]then O,z=(nil);z,O=o:Lb(l,O,e,z,y);o:b5(z,_,O);else P[_]=(l[0b1][0X4][e]);end;end;elseif k==0X5 then K=108;while true do if K==0X6C__ then K=(91);if l[1][0X22]~=e then else a=o:s5(Q);return{o.l(a)},y;end;else if K~=0x5B then else o:o5(B,_,e);break;end;end;end;elseif k==7 then o:n5(e,B,_);else if k==0X2 then(B)[_]=_-e;else if k~=0X0 then else G=(#l[0X1][0B11110]);(l[1][0X1e])[G+1]=(P);T=0B100001;while true do if T>0B1100 then T=o:B5(T,_,l,G);continue;else if not(T<0X21)then else(l[0x1][0B11110])[G+0B11]=(e);break;end;end;end;end;end;end;return nil,y;end,X5=bit32.rrotate,eb=function(o,B,f,K,_,t,m)local G;f=nil;m=nil;local l=0X45;repeat l,G,f,B,m=o:Wb(B,l,f,t,K,_,m);if G==34116 then continue;else if G==64825 then break;end;end;until false;return B,m,f;end,e=function(o,B,f,K)local _;repeat _,f=o:W(f,K,B);if _==0X003B2F then break;else if _==0xc310 then continue;end;end;until false;(B)[0b11011]=(nil);B[0X1c]=(nil);B[29]=nil;return f;end,hb=function(o,o,B,f)B=f[1][0B10](f[1][0X1b],f[0x1][0B101],f[0b1][0X5]);o=0b10111;return B,o;end}):L5()(...);
+local HttpService = game:GetService("HttpService")
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- ==================== CONFIGURAÇÕES ====================
+local PLACE_ID = 109983668079237
+local MIN_BRAINROT_VALUE = 10000000  -- Valor mínimo: 10M por segundo (10.000.000)
+local MAX_CHECK_ATTEMPTS = 2  -- Máximo de tentativas para verificar brainrots por Job ID (2 vezes)
+local SCAN_DELAY = 10  -- Delay de 10 segundos entre scans no mesmo servidor
+
+-- WebSocket para receber Job IDs do servidor Python
+local WEBSOCKET_URL = "ws://127.0.0.1:51950"
+
+-- Webhooks Discord por faixa de valor
+local WEBHOOK_10M_50M = "https://discord.com/api/webhooks/1443349332341424178/iC3OxfQrlEPATQKOSNm3AfEGp5p6Qof2PSwZIDLWY37tUuGtuCKbHQMxuTcJKdM55JLP"  -- 10M até 50M
+local WEBHOOK_50M_100M = "https://discord.com/api/webhooks/1450011220471185430/-HFRWnwatVq35pEIB4Gk7DbSGbUO4OXJWW393N6rOgYfkzmUh7XmsPQCVK7VPOew6Iir"  -- 50M até 100M
+local WEBHOOK_100M_400M = "https://discord.com/api/webhooks/1444397954994802829/WJ6WVjMrCgEzXRNXY2LQGctIp5FlchQFYjPUGv95q97Pimcfn-ZG4AB9MDF4MDZU3obK"  -- 100M até 400M
+local WEBHOOK_400M_PLUS = "https://discord.com/api/webhooks/1444398054554992892/QJ2_IRq6Zjlb4Gh3Tex6nLC2x-KXZ8uHZSc9HHgsV0Gj1p_EF6tO6nPjkyOm4vuJmqJd"  -- 400M+
+local WEBHOOK_HIGHLIGHTS = "https://discord.com/api/webhooks/1444398376626950174/5wJWYMtjNwLPC_JW7Eyz8Rbq_uXppJ40Q7KioVVCO54bc4Et7hjS98cvM5Uwc6h5jxAM"  -- Highlights (100M+ ou especiais)
+
+-- Brainrots especiais que sempre devem aparecer em highlights (mesmo abaixo de 100M)
+local SPECIAL_BRAINROTS = {
+    "Nuclearo Dinossauro",
+    "La Spooky Grande",
+    "Lavadorito Spinito",
+    "Ketupat Kepat",
+    "Tang Tang Keletang",
+    "Spooky And Pumpky",
+    "Los Spaghetti",
+    "Spaghetti Tualetti",
+    "Garama and Madundung",
+    "Ketchuru and Musturu",
+    "Lavadorito Spinito",
+    "La Supreme Combinasion",
+    "Tictac Sahur",
+    "Eviledon",
+    "Los Primos",
+    "Tralaledon",
+    "Chipso and Queso",
+    "Los Hotspotsitos"
+}
+
+-- URL da imagem do thumbnail
+local THUMBNAIL_IMAGE_URL = "https://cdn.discordapp.com/attachments/1444466019832692757/1444466050279149698/image0-removebg-preview.png?ex=692ccf57&is=692b7dd7&hm=bdc710323f0fd1948e81a1a345c8fc914e492081f161fab70eee86e68a44ec90&"
+
+-- Variáveis globais
+local jobIdAttempts = {}  -- Tabela para rastrear tentativas por Job ID
+local isHunting = false  -- Flag para controlar o loop de caça
+local websocketConnection = nil  -- Conexão WebSocket
+local isWebSocketConnected = false  -- Status da conexão WebSocket
+local pendingJobIdRequest = nil  -- Callback para requisição pendente de Job ID
+
+-- ==================== FUNÇÕES DE EXTRAÇÃO DE VALOR ====================
+
+-- Função para extrair valor de texto (compatível com Wave)
+local function extractValueFromText(text)
+    if not text or text == "" then
+        return 0
+    end
+    
+    -- Padrões para valores por segundo (PRIORIDADE ALTA)
+    local bPerSecondMatch = text:match("%$([0-9%.]+)B/s")
+    if bPerSecondMatch then
+        return tonumber(bPerSecondMatch) * 1000000000
+    end
+    
+    local kPerSecondMatch = text:match("%$([0-9%.]+)K/s")
+    if kPerSecondMatch then
+        return tonumber(kPerSecondMatch) * 1000
+    end
+    
+    local mPerSecondMatch = text:match("%$([0-9%.]+)M/s")
+    if mPerSecondMatch then
+        return tonumber(mPerSecondMatch) * 1000000
+    end
+    
+    local perSecondMatch = text:match("%$([0-9%.]+)/s")
+    if perSecondMatch then
+        return tonumber(perSecondMatch)
+    end
+    
+    -- Padrões para valores totais (PRIORIDADE BAIXA)
+    local bMatch = text:match("%$([0-9%.]+)B")
+    if bMatch then
+        return tonumber(bMatch) * 1000000000
+    end
+    
+    local kMatch = text:match("%$([0-9%.]+)K")
+    if kMatch then
+        return tonumber(kMatch) * 1000
+    end
+    
+    local mMatch = text:match("%$([0-9%.]+)M")
+    if mMatch then
+        return tonumber(mMatch) * 1000000
+    end
+    
+    local dollarMatch = text:match("%$([0-9%.]+)")
+    if dollarMatch then
+        return tonumber(dollarMatch)
+    end
+    
+    return 0
+end
+
+-- Função para encontrar valor do brainrot (compatível com Wave)
+local function findBrainrotValue(parentModel, rarityParent)
+    local highestValue = 0
+    local valueSource = "N/A"
+    local perSecondValue = 0
+    local perSecondSource = "N/A"
+    
+    -- Buscar em TODOS os descendentes do parentModel
+    for _, descendant in pairs(parentModel:GetDescendants()) do
+        if descendant:IsA("IntValue") or descendant:IsA("NumberValue") or descendant:IsA("StringValue") then
+            local propValue = tonumber(descendant.Value) or 0
+            if propValue > highestValue then
+                highestValue = propValue
+                valueSource = descendant.Name .. " (parentModel)"
+            end
+        elseif descendant:IsA("TextLabel") then
+            local text = descendant.Text
+            local extractedValue = extractValueFromText(text)
+            if extractedValue > 0 then
+                -- Verificar se é valor por segundo (contém /s)
+                if text:find("/s") then
+                    if extractedValue > perSecondValue then
+                        perSecondValue = extractedValue
+                        perSecondSource = descendant.Name .. " (TextLabel - parentModel)"
+                    end
+                else
+                    -- Valor total
+                    if extractedValue > highestValue then
+                        highestValue = extractedValue
+                        valueSource = descendant.Name .. " (TextLabel - parentModel)"
+                    end
+                end
+            end
+        end
+    end
+    
+    -- Buscar em TODOS os descendentes do rarityParent
+    if rarityParent then
+        for _, descendant in pairs(rarityParent:GetDescendants()) do
+            if descendant:IsA("IntValue") or descendant:IsA("NumberValue") or descendant:IsA("StringValue") then
+                local propValue = tonumber(descendant.Value) or 0
+                if propValue > highestValue then
+                    highestValue = propValue
+                    valueSource = descendant.Name .. " (rarityParent)"
+                end
+            elseif descendant:IsA("TextLabel") then
+                local text = descendant.Text
+                local extractedValue = extractValueFromText(text)
+                if extractedValue > 0 then
+                    -- Verificar se é valor por segundo (contém /s)
+                    if text:find("/s") then
+                        if extractedValue > perSecondValue then
+                            perSecondValue = extractedValue
+                            perSecondSource = descendant.Name .. " (TextLabel - rarityParent)"
+                        end
+                    else
+                        -- Valor total
+                        if extractedValue > highestValue then
+                            highestValue = extractedValue
+                            valueSource = descendant.Name .. " (TextLabel - rarityParent)"
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    -- Buscar por propriedades específicas de valor
+    local valueProps = {"PerSecond", "Rate", "Value", "Money", "Price", "Worth", "BrainrotPerSecond", "BrainrotRate", "PerSecondValue", "MoneyPerSecond", "RateValue", "Brainrot", "BrainrotValue", "BrainrotWorth", "BrainrotMoney", "BrainrotPrice"}
+    
+    -- Buscar no parentModel
+    for _, propName in pairs(valueProps) do
+        for _, descendant in pairs(parentModel:GetDescendants()) do
+            if descendant.Name == propName and (descendant:IsA("IntValue") or descendant:IsA("NumberValue") or descendant:IsA("StringValue")) then
+                local propValue = tonumber(descendant.Value) or 0
+                if propValue > highestValue then
+                    highestValue = propValue
+                    valueSource = propName .. " (parentModel)"
+                end
+            end
+        end
+    end
+    
+    -- Buscar no rarityParent
+    if rarityParent then
+        for _, propName in pairs(valueProps) do
+            for _, descendant in pairs(rarityParent:GetDescendants()) do
+                if descendant.Name == propName and (descendant:IsA("IntValue") or descendant:IsA("NumberValue") or descendant:IsA("StringValue")) then
+                    local propValue = tonumber(descendant.Value) or 0
+                    if propValue > highestValue then
+                        highestValue = propValue
+                        valueSource = propName .. " (rarityParent)"
+                    end
+                end
+            end
+        end
+    end
+    
+    -- Priorizar valor por segundo sobre valor total
+    local finalValue = perSecondValue > 0 and perSecondValue or highestValue
+    local finalSource = perSecondValue > 0 and perSecondSource or valueSource
+    
+    return finalValue, finalSource
+end
+
+-- Função para verificar se o brainrot está em estado de fusing
+local function isBrainrotFusing(parentModel, rarityParent)
+    -- Verificar se há indicadores de fusing no modelo
+    for _, descendant in pairs(parentModel:GetDescendants()) do
+        if descendant:IsA("TextLabel") then
+            local text = descendant.Text
+            if text then
+                text = text:lower()
+                if text:find("fusing") or text:find("fusion") or text:find("fus") or text:find("merging") or text:find("combining") or text:find("processing") then
+                    return true, text
+                end
+            end
+        end
+    end
+    
+    -- Verificar no rarityParent também
+    if rarityParent then
+        for _, descendant in pairs(rarityParent:GetDescendants()) do
+            if descendant:IsA("TextLabel") then
+                local text = descendant.Text
+                if text then
+                    text = text:lower()
+                    if text:find("fusing") or text:find("fusion") or text:find("fus") or text:find("merging") or text:find("combining") or text:find("processing") then
+                        return true, text
+                    end
+                end
+            end
+        end
+    end
+    
+    -- Verificar se há banners de fusing próximos
+    local workspace = game:GetService("Workspace")
+    local parentPosition = parentModel:FindFirstChild("HumanoidRootPart")
+    if parentPosition then
+        for _, obj in pairs(workspace:GetDescendants()) do
+            if obj:IsA("TextLabel") and obj.Text then
+                local text = obj.Text:lower()
+                if text:find("fusing") or text:find("fusion") then
+                    local objPosition = obj.Parent:FindFirstChild("HumanoidRootPart")
+                    if objPosition and obj.Parent:IsA("BasePart") then
+                        local distance = (parentPosition.Position - objPosition.Position).Magnitude
+                        if distance < 50 then
+                            return true, text
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    return false, nil
+end
+
+-- ==================== FUNÇÃO DE VERIFICAÇÃO DE BRAINROTS ====================
+
+-- Função para obter o dono real do plot usando Synchronizer
+local function getPlotOwner(plot)
+    if not plot then
+        return "Unknown"
+    end
+    
+    -- PRIMARY METHOD: Use Synchronizer to get owner (most reliable)
+    local ReplicatedStorage = game:GetService("ReplicatedStorage")
+    local Synchronizer = ReplicatedStorage:FindFirstChild("Synchronizer")
+    
+    if Synchronizer then
+        local success, channel = pcall(function()
+            return Synchronizer:Get(plot.Name)
+        end)
+        
+        if success and channel then
+            local success2, owner = pcall(function()
+                return channel:Get("Owner")
+            end)
+            
+            if success2 and owner then
+                -- Check different owner types
+                if typeof(owner) == "Instance" and owner:IsA("Player") then
+                    return owner.Name
+                elseif typeof(owner) == "table" and owner.Name then
+                    return owner.Name
+                elseif typeof(owner) == "table" and owner.UserId then
+                    -- Try to find player by UserId
+                    local Players = game:GetService("Players")
+                    local player = Players:GetPlayerByUserId(owner.UserId)
+                    if player then
+                        return player.Name
+                    end
+                end
+            end
+        end
+    end
+    
+    -- FALLBACK METHOD: Check PlotSign.YourBase (if it's the local player's base)
+    local sign = plot:FindFirstChild("PlotSign")
+    if sign then
+        local yourBase = sign:FindFirstChild("YourBase")
+        if yourBase and yourBase:IsA("BillboardGui") and yourBase.Enabled then
+            return LocalPlayer.Name
+        end
+    end
+    
+    return "Unknown"
+end
+
+-- Função para verificar brainrots no servidor atual (baseada no ESP)
+local function checkBrainrotsInServer()
+    local brainrotCount = 0
+    local valuableBrainrots = {}
+    local allBrainrots = {}
+    
+    -- Configurações de raridade (mesmo do ESP)
+    local RaritySettings = {
+        ["Legendary"] = true,
+        ["Mythic"] = true,
+        ["Brainrot God"] = true,
+        ["Secret"] = true
+    }
+    
+    -- Procurar em todos os plots (bases dos jogadores)
+    local plots = workspace:FindFirstChild("Plots")
+    if plots then
+        for _, plot in pairs(plots:GetChildren()) do
+            -- Obter o dono do plot uma vez por plot
+            local plotOwner = getPlotOwner(plot)
+            
+            for _, child in pairs(plot:GetDescendants()) do
+                if child.Name == "Rarity" and child:IsA("TextLabel") and RaritySettings[child.Text] then
+                    local parentModel = child.Parent.Parent
+                    local displayName = child.Parent.DisplayName.Text
+                    
+                    brainrotCount = brainrotCount + 1
+                    
+                    -- Ignorar Lucky Block
+                    if displayName:lower():find("lucky") or displayName:lower():find("block") then
+                        continue -- Pular Lucky Block
+                    end
+                    
+                    -- Verificar se o brainrot está em estado de fusing
+                    local isFusing, fusingText = isBrainrotFusing(parentModel, child.Parent)
+                    if isFusing then
+                        continue -- Pular este brainrot
+                    end
+                    
+                    -- Encontrar valor do brainrot
+                    local value, valueSource = findBrainrotValue(parentModel, child.Parent)
+                    
+                    if value > 0 then
+                        -- Adicionar à lista de todos os brainrots
+                        table.insert(allBrainrots, {
+                            name = displayName,
+                            rarity = child.Text,
+                            value = value,
+                            source = valueSource,
+                            owner = plotOwner
+                        })
+                        
+                        -- Verificar se é valioso o suficiente (10M+)
+                        if value >= MIN_BRAINROT_VALUE then
+                            table.insert(valuableBrainrots, {
+                                name = displayName,
+                                rarity = child.Text,
+                                value = value,
+                                source = valueSource,
+                                owner = plotOwner
+                            })
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    -- Ordenar brainrots por valor (maior para menor)
+    table.sort(allBrainrots, function(a, b) return a.value > b.value end)
+    
+    print("🧠 === BRAINROTS RAROS ENCONTRADOS ===")
+    
+    if #allBrainrots > 0 then
+        for i, brainrot in ipairs(allBrainrots) do
+            local valueText
+            if brainrot.value >= 1000000000 then
+                valueText = string.format("%.1fB/s", brainrot.value / 1000000000)
+            elseif brainrot.value >= 1000000 then
+                valueText = string.format("%.1fM/s", brainrot.value / 1000000)
+            else
+                valueText = string.format("%.1fK/s", brainrot.value / 1000)
+            end
+            
+            print(string.format("🏆 #%d - %s (%s) - %s", 
+                i, brainrot.name, brainrot.rarity, valueText))
+        end
+    else
+        print("❌ Nenhum brainrot raro encontrado")
+    end
+    
+    print("=====================================")
+    
+    if #valuableBrainrots > 0 then
+        for _, br in ipairs(valuableBrainrots) do
+            local valueText
+            if br.value >= 1000000000 then
+                valueText = string.format("%.1fB/s", br.value / 1000000000)
+            elseif br.value >= 1000000 then
+                valueText = string.format("%.1fM/s", br.value / 1000000)
+            else
+                valueText = string.format("%.1fK/s", br.value / 1000)
+            end
+            print("✅ BRAINROT VALIOSO:", br.name, "-", valueText)
+        end
+        return valuableBrainrots
+    else
+        print("❌ Nenhum brainrot de 10M+ encontrado")
+        return nil
+    end
+end
+
+-- ==================== FUNÇÕES DE WEBSOCKET ====================
+
+-- Função para conectar ao WebSocket do servidor Python
+local function connectToWebSocket()
+    if isWebSocketConnected then
+        return true
+    end
+    
+    -- Verificar se WebSocket está disponível
+    if not WebSocket then
+        warn("❌ WebSocket não está disponível neste executor!")
+        warn("💡 Use um executor que suporte WebSocket (Synapse X, etc.)")
+        return false
+    end
+    
+    print("🔌 Conectando ao servidor WebSocket...")
+    
+    local success, ws = pcall(function()
+        return WebSocket.connect(WEBSOCKET_URL)
+    end)
+    
+    if not success or not ws then
+        warn("❌ Falha ao conectar ao WebSocket. Tentando novamente em 5 segundos...")
+        task.wait(5)
+        return false
+    end
+    
+    websocketConnection = ws
+    isWebSocketConnected = true
+    print("✅ Conectado ao servidor WebSocket!")
+    
+    -- Handler para receber mensagens
+    ws.OnMessage:Connect(function(message)
+        local success, data = pcall(function()
+            return HttpService:JSONDecode(message)
+        end)
+        
+        if success and data then
+            if data.type == "job_id" and data.job_id then
+                -- Job ID recebido - chamar callback se houver
+                if pendingJobIdRequest then
+                    pendingJobIdRequest(data.job_id)
+                    pendingJobIdRequest = nil
+                end
+            elseif data.type == "no_job_id" then
+                print("⚠️ Servidor não tem Job IDs disponíveis no momento")
+                if pendingJobIdRequest then
+                    pendingJobIdRequest(nil)
+                    pendingJobIdRequest = nil
+                end
+            end
+        end
+    end)
+    
+    -- Handler para desconexão
+    ws.OnClose:Connect(function()
+        print("⚠️ WebSocket desconectado. Tentando reconectar...")
+        isWebSocketConnected = false
+        websocketConnection = nil
+        
+        -- Tentar reconectar em thread separada para não bloquear
+        task.spawn(function()
+            task.wait(3)
+            connectToWebSocket()
+        end)
+    end)
+    
+    return true
+end
+
+-- Função para solicitar um Job ID do servidor Python
+local function requestJobId()
+    -- Verificar conexão e tentar reconectar se necessário
+    if not isWebSocketConnected or not websocketConnection then
+        warn("❌ WebSocket não conectado. Tentando reconectar...")
+        connectToWebSocket()
+        
+        -- Aguardar um pouco para reconexão
+        local reconnectAttempts = 0
+        while not isWebSocketConnected and reconnectAttempts < 10 do
+            reconnectAttempts = reconnectAttempts + 1
+            task.wait(0.5)
+        end
+        
+        if not isWebSocketConnected then
+            warn("❌ Não foi possível reconectar ao WebSocket")
+            return nil
+        end
+    end
+    
+    local jobIdReceived = nil
+    local requestCompleted = false
+    
+    -- Criar callback para receber o Job ID
+    pendingJobIdRequest = function(jobId)
+        jobIdReceived = jobId
+        requestCompleted = true
+    end
+    
+    -- Enviar requisição ao servidor
+    local requestMessage = HttpService:JSONEncode({
+        type = "request_job_id"
+    })
+    
+    local success = false
+    -- Tentar diferentes métodos de envio (compatibilidade com diferentes executores)
+    if websocketConnection and websocketConnection.Send then
+        success = pcall(function()
+            websocketConnection:Send(requestMessage)
+        end)
+    elseif websocketConnection and websocketConnection.send then
+        success = pcall(function()
+            websocketConnection:send(requestMessage)
+        end)
+    end
+    
+    if not success then
+        warn("❌ Falha ao enviar requisição de Job ID. Verificando conexão...")
+        isWebSocketConnected = false
+        websocketConnection = nil
+        pendingJobIdRequest = nil
+        return nil
+    end
+    
+    -- Aguardar resposta (máximo 10 segundos para dar mais tempo)
+    local waitAttempts = 0
+    local maxWaitAttempts = 100  -- 10 segundos (100 * 0.1s)
+    
+    while not requestCompleted and waitAttempts < maxWaitAttempts do
+        waitAttempts = waitAttempts + 1
+        task.wait(0.1)
+        
+        -- Verificar se conexão ainda está ativa
+        if not isWebSocketConnected then
+            warn("❌ Conexão perdida durante espera")
+            pendingJobIdRequest = nil
+            return nil
+        end
+        
+        if waitAttempts % 20 == 0 then  -- A cada 2 segundos
+            print(string.format("⏳ Aguardando Job ID do servidor... (Tentativa %d/%d)", waitAttempts, maxWaitAttempts))
+        end
+    end
+    
+    -- Limpar callback
+    pendingJobIdRequest = nil
+    
+    if not requestCompleted then
+        warn("❌ Timeout ao aguardar Job ID do servidor")
+        return nil
+    end
+    
+    return jobIdReceived
+end
+
+-- ==================== FUNÇÃO DE HOP (USANDO JOB IDS DO SERVIDOR) ====================
+
+-- Função para teleportar usando Job ID recebido do servidor Python
+local function hopToNewServer()
+    local attemptCount = 0
+    
+    -- Loop infinito tentando teleportar (sem verificações)
+    while true do
+        attemptCount = attemptCount + 1
+        
+        -- Solicitar Job ID do servidor
+        local targetJobId = requestJobId()
+        
+        if targetJobId then
+            print(string.format("[%s] Tentando teleportar para Job ID: %s... (Tentativa %d)", LocalPlayer.Name, targetJobId:sub(1, 20) .. "...", attemptCount))
+            
+            -- Tentar teleportar (sem verificar sucesso - quando funcionar, o Roblox reinicia)
+            pcall(function()
+                TeleportService:TeleportToPlaceInstance(PLACE_ID, targetJobId, LocalPlayer)
+            end)
+        else
+            print(string.format("⚠️ Não foi possível obter Job ID (Tentativa %d). Tentando novamente...", attemptCount))
+        end
+        
+        -- Aguardar 1 segundo antes da próxima tentativa
+        task.wait(1)
+    end
+end
+
+-- ==================== FUNÇÃO DE NOTIFICAÇÃO DISCORD ====================
+
+-- Função para determinar qual webhook usar baseado no valor máximo
+local function getWebhookForValue(maxValue)
+    if maxValue >= 400000000 then  -- 400M+
+        return WEBHOOK_400M_PLUS
+    elseif maxValue >= 100000000 then  -- 100M até 400M
+        return WEBHOOK_100M_400M
+    elseif maxValue >= 50000000 then  -- 50M até 100M
+        return WEBHOOK_50M_100M
+    else  -- 10M até 50M
+        return WEBHOOK_10M_50M
+    end
+end
+
+-- Função para verificar se algum brainrot está na lista de especiais
+local function isSpecialBrainrot(brainrots)
+    for _, br in ipairs(brainrots) do
+        local name = br.name or ""
+        for _, special in ipairs(SPECIAL_BRAINROTS) do
+            if name == special then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+-- Função para verificar se deve enviar para highlights
+local function shouldSendToHighlights(brainrots)
+    for _, br in ipairs(brainrots) do
+        local value = br.value or 0
+        -- Se está acima de 100M OU é especial
+        if value >= 100000000 then
+            return true
+        end
+    end
+    -- Verificar se é especial
+    return isSpecialBrainrot(brainrots)
+end
+
+-- Função para formatar valor completo com vírgulas
+local function formatValueFull(value)
+    if value >= 1000000000 then
+        return string.format("$%.0fB/s", value / 1000000000)
+    elseif value >= 1000000 then
+        -- Formatar com vírgulas para milhões
+        local millions = value / 1000000
+        return string.format("$%.0fM/s", millions)
+    elseif value >= 1000 then
+        return string.format("$%.0fK/s", value / 1000)
+    else
+        return string.format("$%.0f/s", value)
+    end
+end
+
+-- Função para formatar valor compacto
+local function formatValueCompact(value)
+    if value >= 1000000000 then
+        return string.format("$%.1fB/s", value / 1000000000)
+    elseif value >= 1000000 then
+        return string.format("$%.1fM/s", value / 1000000)
+    elseif value >= 1000 then
+        return string.format("$%.1fK/s", value / 1000)
+    else
+        return string.format("$%.0f/s", value)
+    end
+end
+
+-- Função para separar brainrots por faixa de valor
+local function separateBrainrotsByRange(brainrots)
+    local range10M_50M = {}  -- 10M até 50M (exclusivo)
+    local range50M_100M = {}  -- 50M até 100M (exclusivo)
+    local range100M_400M = {}  -- 100M até 400M (exclusivo)
+    local range400M_Plus = {}  -- 400M+
+    
+    for _, br in ipairs(brainrots) do
+        if br.value >= 400000000 then
+            table.insert(range400M_Plus, br)
+        elseif br.value >= 100000000 then
+            table.insert(range100M_400M, br)
+        elseif br.value >= 50000000 then
+            table.insert(range50M_100M, br)
+        else
+            table.insert(range10M_50M, br)
+        end
+    end
+    
+    return range10M_50M, range50M_100M, range100M_400M, range400M_Plus
+end
+
+-- Função para enviar notificação Discord via webhook
+local function sendDiscordNotification(brainrots, jobId, webhookUrl)
+    if not webhookUrl or webhookUrl == "" then
+        print("⚠️ Webhook não configurado, pulando notificação Discord")
+        return
+    end
+    
+    -- Obter o dono da base do primeiro brainrot (todos devem ser do mesmo plot)
+    local baseOwner = "Unknown"
+    if brainrots and #brainrots > 0 and brainrots[1].owner then
+        baseOwner = brainrots[1].owner
+    end
+    
+    local playerCount = #Players:GetPlayers()
+    local maxPlayers = Players.MaxPlayers or 8
+    
+    -- Ordenar brainrots por valor (maior para menor) para pegar o mais valioso no título
+    local sortedBrainrots = {}
+    for _, br in ipairs(brainrots) do
+        table.insert(sortedBrainrots, br)
+    end
+    table.sort(sortedBrainrots, function(a, b) return a.value > b.value end)
+    
+    -- Título com o brainrot mais valioso
+    local topBrainrot = sortedBrainrots[1]
+    local topValueCompact = formatValueCompact(topBrainrot.value)
+    local topValueFull = formatValueFull(topBrainrot.value)
+    local title = topBrainrot.name .. " (" .. topValueCompact .. ")"
+    
+    -- Criar lista de brainrots formatada como "1x Nome ($valor/s)"
+    local brainrotList = ""
+    for _, br in ipairs(sortedBrainrots) do
+        local valueText = formatValueFull(br.value)
+        brainrotList = brainrotList .. string.format("1x %s (%s)\n", br.name, valueText)
+    end
+    
+    local description = "🔥 **Brainrots**\n" .. brainrotList
+    
+    -- Verificar se deve enviar para highlights
+    local shouldHighlight = shouldSendToHighlights(sortedBrainrots)
+    local isSpecial = isSpecialBrainrot(sortedBrainrots)
+    local topValue = topBrainrot.value
+    
+    -- Se deve enviar highlights, enviar formato simplificado primeiro
+    if shouldHighlight then
+        -- Formato simplificado para highlights (sem Job ID, comando TP, etc.)
+        local function getTimeString()
+            local success, timeStr = pcall(function()
+                return os.date("%H:%M")
+            end)
+            if success and timeStr then
+                return timeStr
+            else
+                -- Fallback: usar tick() se os.date não estiver disponível
+                local tickTime = tick()
+                local hours = math.floor((tickTime % 86400) / 3600)
+                local minutes = math.floor((tickTime % 3600) / 60)
+                return string.format("%02d:%02d", hours, minutes)
+            end
+        end
+        local now = getTimeString()
+        local embedHighlights = {
+            title = title,
+            description = description,
+            color = 3447003,  -- Azul
+            thumbnail = {url = THUMBNAIL_IMAGE_URL},
+            footer = {text = "Orcaledon-Highlights 🔒 • Hoje às " .. now}
+        }
+        
+        local payloadHighlights = {embeds = {embedHighlights}}
+        
+        task.spawn(function()
+            local success, response = pcall(function()
+                return request({
+                    Url = WEBHOOK_HIGHLIGHTS,
+                    Method = "POST",
+                    Headers = {["Content-Type"] = "application/json"},
+                    Body = HttpService:JSONEncode(payloadHighlights)
+                })
+            end)
+            
+            if success and response and response.StatusCode == 204 then
+                print("✅ Notificação Highlights enviada!")
+            else
+                warn("⚠️ Falha ao enviar Highlights")
+            end
+        end)
+        
+        -- Se for 100M+ OU especial, também enviar formato completo para webhook normal
+        if topValue >= 100000000 or isSpecial then
+            -- Formato completo para webhook normal
+            local robloxLink = string.format("roblox://placeId=%d&gameInstanceId=%s", PLACE_ID, jobId)
+            local teleportCommand = string.format("game:GetService(\"TeleportService\"):TeleportToPlaceInstance(%d,\"%s\",game.Players.LocalPlayer)", PLACE_ID, jobId)
+            
+            local embedNormal = {
+                title = title,
+                description = description,
+                color = 3447003,  -- Azul
+                thumbnail = {url = THUMBNAIL_IMAGE_URL},
+                fields = {
+                    {
+                        name = "🆔 Server ID",
+                        value = "```" .. jobId .. "```",
+                        inline = false
+                    },
+                    {
+                        name = "👑 Dono da Base",
+                        value = baseOwner,
+                        inline = true
+                    },
+                    {
+                        name = "👥 Players no Servidor",
+                        value = string.format("%d/%d", playerCount, maxPlayers),
+                        inline = true
+                    },
+                    {
+                        name = "🔗 Link",
+                        value = "```" .. robloxLink .. "```",
+                        inline = false
+                    }
+                },
+                footer = {text = "Orcaledon • Notify"}
+            }
+            
+            local payloadNormal = {embeds = {embedNormal}}
+            
+            task.spawn(function()
+                local success, response = pcall(function()
+                    return request({
+                        Url = webhookUrl,
+                        Method = "POST",
+                        Headers = {["Content-Type"] = "application/json"},
+                        Body = HttpService:JSONEncode(payloadNormal)
+                    })
+                end)
+                
+                if success and response and response.StatusCode == 204 then
+                    print("✅ Notificação Discord (canal normal) enviada!")
+                else
+                    local errorMsg = response and response.StatusMessage or "Erro desconhecido"
+                    warn("⚠️ Falha ao enviar notificação Discord:", errorMsg)
+                end
+            end)
+        end
+    else
+        -- Formato completo (com Job ID, comando TP, etc.) - apenas para webhook normal
+        local robloxLink = string.format("roblox://placeId=%d&gameInstanceId=%s", PLACE_ID, jobId)
+        local teleportCommand = string.format("game:GetService(\"TeleportService\"):TeleportToPlaceInstance(%d,\"%s\",game.Players.LocalPlayer)", PLACE_ID, jobId)
+        
+        local embed = {
+            title = title,
+            description = description,
+            color = 3447003,  -- Azul
+            thumbnail = {url = THUMBNAIL_IMAGE_URL},
+            fields = {
+                {
+                    name = "🔥 Brainrots",
+                    value = brainrotList,
+                    inline = false
+                },
+                {
+                    name = "🆔 Server ID",
+                    value = "```" .. jobId .. "```",
+                    inline = false
+                },
+                {
+                    name = "👑 Dono da Base",
+                    value = baseOwner,
+                    inline = true
+                },
+                {
+                    name = "👥 Players no Servidor",
+                    value = string.format("%d/%d", playerCount, maxPlayers),
+                    inline = true
+                },
+                {
+                    name = "🔗 Link",
+                    value = "```" .. robloxLink .. "```",
+                    inline = false
+                },
+                {
+                    name = "⚡ Comando Teleporte",
+                    value = "```lua\n" .. teleportCommand .. "\n```",
+                    inline = false
+                }
+            },
+            footer = {text = "Orcaledon • Notify"}
+        }
+        
+        local payload = {embeds = {embed}}
+        
+        task.spawn(function()
+            local success, response = pcall(function()
+                return request({
+                    Url = webhookUrl,
+                    Method = "POST",
+                    Headers = {["Content-Type"] = "application/json"},
+                    Body = HttpService:JSONEncode(payload)
+                })
+            end)
+            
+            if success and response and response.StatusCode == 204 then
+                print("✅ Notificação Discord enviada com sucesso!")
+            else
+                local errorMsg = response and response.StatusMessage or "Erro desconhecido"
+                warn("⚠️ Falha ao enviar notificação Discord:", errorMsg)
+            end
+        end)
+    end
+end
+
+
+-- ==================== LOOP PRINCIPAL DE CAÇA ====================
+
+-- Função para fazer scan e verificar brainrots
+local function performScan(scanNumber)
+    local jobId = game.JobId
+    print("🔍 Verificando brainrots do servidor atual...")
+    
+    -- Aguardar carregamento mínimo
+    task.wait(0.2)
+    
+    -- Verificar brainrots no servidor atual
+    local valuableBrainrots = checkBrainrotsInServer()
+    
+    -- Se encontrar brainrots valiosos, enviar notificação de todos
+    if valuableBrainrots and #valuableBrainrots > 0 then
+        print(string.format("✅ %d BRAINROT(S) ENCONTRADO(S)! Separando por faixa de valor...", #valuableBrainrots))
+        
+        -- Separar brainrots por faixa de valor
+        local range10M_50M, range50M_100M, range100M_400M, range400M_Plus = separateBrainrotsByRange(valuableBrainrots)
+        
+        -- Enviar notificações para cada faixa
+        if #range10M_50M > 0 then
+            print(string.format("📤 Enviando %d brainrot(s) para canal 10M-50M...", #range10M_50M))
+            sendDiscordNotification(range10M_50M, jobId, WEBHOOK_10M_50M)
+        end
+        
+        if #range50M_100M > 0 then
+            print(string.format("📤 Enviando %d brainrot(s) para canal 50M-100M...", #range50M_100M))
+            sendDiscordNotification(range50M_100M, jobId, WEBHOOK_50M_100M)
+        end
+        
+        if #range100M_400M > 0 then
+            print(string.format("📤 Enviando %d brainrot(s) para canal 100M-400M...", #range100M_400M))
+            sendDiscordNotification(range100M_400M, jobId, WEBHOOK_100M_400M)
+        end
+        
+        if #range400M_Plus > 0 then
+            print(string.format("📤 Enviando %d brainrot(s) para canal 400M+...", #range400M_Plus))
+            sendDiscordNotification(range400M_Plus, jobId, WEBHOOK_400M_PLUS)
+        end
+        
+        print("✅ Todas as notificações enviadas!")
+    else
+        print("❌ Nenhum brainrot de 10M+ encontrado neste scan.")
+    end
+end
+
+-- Função principal de caça - faz apenas 1 scan e depois tenta teleportar
+local function huntCycle()
+    if isHunting then
+        return
+    end
+    
+    isHunting = true
+    
+    -- Fazer apenas 1 scan
+    performScan(1)
+    
+    print("🔄 Scan completo. Preparando para trocar de servidor...")
+    
+    isHunting = false
+end
+
+-- Loop principal autônomo
+local function mainLoop()
+    print("🚀 Iniciando loop principal de caça...")
+    print(string.format("✅ Brainrot Hunter ATIVADO → %s", LocalPlayer.Name))
+    
+    while true do
+        -- Executar ciclo de caça (faz apenas 1 scan)
+        huntCycle()
+        
+        -- Aguardar 5 segundos para dar tempo das notificações serem enviadas
+        print("⏳ Aguardando 5 segundos para garantir que notificações foram enviadas...")
+        task.wait(5)
+        
+        -- Fazer hop para novo servidor (loop infinito tentando teleportar)
+        print("🔄 Iniciando tentativas de teleporte rápido...")
+        hopToNewServer()
+        -- Nota: Esta linha nunca será executada pois hopToNewServer() fica em loop infinito
+        -- Quando o teleporte funcionar, o Roblox reinicia e o script é desenjetado
+    end
+end
+
+-- ==================== INICIALIZAÇÃO ====================
+
+print("🔍 Script injetado! Verificando compatibilidade...")
+
+-- Verificar se request() está disponível
+if not request then
+    print("❌ ERRO: Função request() não está disponível!")
+    print("💡 Este script requer um executor que suporte request() (Wave, Synapse X, etc.)")
+    return
+end
+
+print("✅ Função request() disponível!")
+
+-- Verificar se WebSocket está disponível
+if not WebSocket then
+    warn("❌ ERRO: WebSocket não está disponível neste executor!")
+    warn("💡 Este script requer um executor que suporte WebSocket (Synapse X, etc.)")
+    warn("❌ O script não pode funcionar sem WebSocket!")
+    return
+else
+    print("✅ WebSocket disponível!")
+end
+
+-- Verificar se estamos no jogo correto
+if game.PlaceId ~= PLACE_ID then
+    print("❌ ERRO: Você não está no jogo 'Steal a Brainrot'!")
+    print("🎮 PlaceId atual:", game.PlaceId)
+    print("🎯 PlaceId esperado:", PLACE_ID)
+    print("💡 Entre no jogo 'Steal a Brainrot' antes de executar este script!")
+    return
+end
+
+print("✅ Jogo correto detectado: Steal a Brainrot")
+print("🚀 Brainrot Hunter Autônomo carregado!")
+print("🔄 Método: Job IDs via WebSocket (servidor Python)")
+print("⏳ Aguardando 10 segundos para o jogo carregar completamente antes de iniciar...")
+
+-- Aguardar 10 segundos após injeção para dar tempo do jogo carregar
+task.wait(10)
+
+print("✅ Jogo carregado!")
+
+-- Conectar ao WebSocket se disponível
+if WebSocket then
+    print("🔌 Conectando ao servidor WebSocket...")
+    
+    -- Conectar ao WebSocket em thread separada
+    task.spawn(function()
+        while true do
+            if not isWebSocketConnected then
+                connectToWebSocket()
+            end
+            task.wait(5)  -- Verificar conexão a cada 5 segundos
+        end
+    end)
+    
+    -- Aguardar conexão WebSocket
+    local connectionAttempts = 0
+    while not isWebSocketConnected and connectionAttempts < 10 do
+        connectionAttempts = connectionAttempts + 1
+        task.wait(1)
+    end
+    
+    if isWebSocketConnected then
+        print("✅ WebSocket conectado! Iniciando caça...")
+    else
+        warn("❌ Não foi possível conectar ao WebSocket após 10 tentativas.")
+        warn("💡 Certifique-se de que o servidor Python (notifyGG.py) está rodando!")
+        warn("❌ O script não pode funcionar sem conexão WebSocket!")
+        return
+    end
+else
+    warn("❌ WebSocket não disponível. O script não pode funcionar!")
+    return
+end
+
+print("🚀 Iniciando caça...")
+mainLoop()
