@@ -765,6 +765,7 @@ local function shareBrainrotsToLua(brainrots, jobId)
     shared.BrainrotHunter = sharedData
     
     print(string.format("📤 %d brainrot(s) compartilhado(s) com outros scripts Lua!", #brainrots))
+    print(string.format("📊 Dados compartilhados - JobId: %s, lastUpdate: %.2f", sharedData.jobId, sharedData.lastUpdate))
 end
 
 -- Função para separar brainrots por faixa de valor
